@@ -193,7 +193,8 @@
    ],
    "tip": "Laisser mariner le poulet plusieurs heures au réfrigérateur pour un goût plus intense.",
    "title": "Poulet tikka avec légumes rôtis",
-   "rev": 1
+   "rev": 1,
+   "min": 45
   },
   "kofte-boulgour": {
    "addedOn": "2026-10-18",
@@ -389,7 +390,8 @@
    ],
    "tip": "Humidifier légèrement les mains pour former les köfte plus facilement.",
    "title": "Köfte turques, boulgour et légumes",
-   "rev": 1
+   "rev": 1,
+   "min": 40
   },
   "tiramisu-proteine": {
    "addedOn": "2026-10-18",
@@ -578,7 +580,8 @@
    ],
    "tip": "Chaque ramequin est une portion déjà prête : couvre-les et garde-les au frais jusqu’à 2 jours. Ajoute le cacao juste avant de servir pour qu’il reste bien poudreux. Temps total d’environ 3 h 30 à 4 h, dont 25 à 30 minutes de préparation active.",
    "title": "Tiramisu protéiné en ramequins",
-   "rev": 1
+   "rev": 1,
+   "min": 45
   },
   "boeuf-carottes-patates-ricotta": {
    "addedOn": "2026-10-18",
@@ -706,7 +709,8 @@
    ],
    "tip": "Quantités pour 4 personnes. Sel, poivre et épices à ton goût : paprika, cumin ou herbes de Provence vont très bien avec la ricotta. Se garde 3 jours au frigo, idéal en meal prep.",
    "title": "Bœuf, carottes et patates au four, ricotta",
-   "rev": 1
+   "rev": 1,
+   "min": 50
   },
   "chawarma-poulet": {
    "addedOn": "2026-10-18",
@@ -997,7 +1001,8 @@
    ],
    "tip": "Laisser mariner le poulet quelques heures au réfrigérateur pour que les épices parfument davantage la viande.",
    "title": "Chawarma au poulet, riz et sauce à l’ail",
-   "rev": 1
+   "rev": 1,
+   "min": 50
   },
   "gratin-courgettes-boeuf": {
    "addedOn": "2026-10-18",
@@ -1130,7 +1135,8 @@
    ],
    "tip": "Parfait en meal prep : il se garde 3 jours au frigo et se réchauffe très bien. Si les courgettes rendent beaucoup d’eau, égoutte-les avant le montage.",
    "title": "Gratin de courgettes à la viande hachée",
-   "rev": 1
+   "rev": 1,
+   "min": 50
   },
   "cheesecake-proteine-ramequins": {
    "addedOn": "2026-10-18",
@@ -1329,7 +1335,8 @@
    ],
    "tip": "Se garde 3 jours au frigo : 4 desserts prêts d’avance. Ne dépasse pas la cuisson, le centre finit de prendre en refroidissant.",
    "title": "Cheesecake protéiné en ramequins",
-   "rev": 1
+   "rev": 1,
+   "min": 60
   },
   "chili-poulet": {
    "addedOn": "2026-10-18",
@@ -1502,7 +1509,8 @@
    ],
    "tip": "Laisser mijoter quelques minutes sans couvercle à la fin pour obtenir une sauce plus épaisse.",
    "title": "Chili au poulet, poivrons et haricots rouges",
-   "rev": 1
+   "rev": 1,
+   "min": 45
   },
   "gnocchis-gratines": {
    "addedOn": "2026-10-18",
@@ -1634,7 +1642,8 @@
    ],
    "tip": "Pour un gratin plus doré, passer 1 à 2 minutes sous le gril en surveillant.",
    "title": "Gnocchis gratinés à la tomate",
-   "rev": 1
+   "rev": 1,
+   "min": 25
   },
   "riz-saute-oeufs-legumes": {
    "addedOn": "2026-10-18",
@@ -1758,7 +1767,8 @@
    ],
    "tip": "Un riz froid de la veille donne un sauté plus ferme et moins collant. Le poulet est facultatif : les macros affichées sont calculées sans lui, ajoute-le comme ingrédient pour les mettre à jour.",
    "title": "Riz sauté aux œufs et légumes",
-   "rev": 1
+   "rev": 1,
+   "min": 25
   },
   "gateau-chocolat-pomme": {
    "addedOn": "2026-10-18",
@@ -1833,7 +1843,8 @@
    ],
    "tip": "Les fruits secs (amandes, noix ou noisettes) sont facultatifs : ajoute-les à la pâte avant la cuisson.",
    "title": "Gâteau au chocolat à la pomme",
-   "rev": 1
+   "rev": 1,
+   "min": 40
   },
   "flan-vanille-proteine": {
    "order": 12,
@@ -1939,7 +1950,8 @@
    "p": 10.5,
    "c": 12.4,
    "f": 2.9,
-   "rev": 1
+   "rev": 1,
+   "min": 50
   },
   "poulet-masala-riz": {
    "order": 13,
@@ -2130,7 +2142,8 @@
    "p": 37.5,
    "c": 59.8,
    "f": 6.6,
-   "rev": 1
+   "rev": 1,
+   "min": 45
   },
   "poulet-moutarde-poireaux": {
    "order": 14,
@@ -2287,7 +2300,8 @@
    "p": 37.0,
    "c": 42.1,
    "f": 6.3,
-   "rev": 1
+   "rev": 1,
+   "min": 55
   },
   "tajine-poulet-courge": {
    "order": 15,
@@ -2476,7 +2490,8 @@
    "p": 46.0,
    "c": 71.2,
    "f": 6.8,
-   "rev": 1
+   "rev": 1,
+   "min": 55
   },
   "pates-poulet-courgettes-epinards": {
    "order": 16,
@@ -2626,7 +2641,8 @@
    "p": 42.5,
    "c": 51.7,
    "f": 10.4,
-   "rev": 1
+   "rev": 1,
+   "min": 35
   },
   "wraps-galettes-riz-poulet": {
    "order": 17,
@@ -2786,7 +2802,8 @@
    "p": 35.3,
    "c": 57.3,
    "f": 11.1,
-   "rev": 1
+   "rev": 1,
+   "min": 50
   }
  },
  "plans": {
@@ -2847,5 +2864,126 @@
    },
    "week": "2026-10-19"
   }
- }
+ },
+ "patches": [
+  {
+   "key": "min-1:gnocchis-gratines",
+   "id": "gnocchis-gratines",
+   "set": {
+    "min": 25
+   }
+  },
+  {
+   "key": "min-1:poulet-tikka",
+   "id": "poulet-tikka",
+   "set": {
+    "min": 45
+   }
+  },
+  {
+   "key": "min-1:kofte-boulgour",
+   "id": "kofte-boulgour",
+   "set": {
+    "min": 40
+   }
+  },
+  {
+   "key": "min-1:chili-poulet",
+   "id": "chili-poulet",
+   "set": {
+    "min": 45
+   }
+  },
+  {
+   "key": "min-1:chawarma-poulet",
+   "id": "chawarma-poulet",
+   "set": {
+    "min": 50
+   }
+  },
+  {
+   "key": "min-1:gateau-chocolat-pomme",
+   "id": "gateau-chocolat-pomme",
+   "set": {
+    "min": 40
+   }
+  },
+  {
+   "key": "min-1:tiramisu-proteine",
+   "id": "tiramisu-proteine",
+   "set": {
+    "min": 45
+   }
+  },
+  {
+   "key": "min-1:boeuf-carottes-patates-ricotta",
+   "id": "boeuf-carottes-patates-ricotta",
+   "set": {
+    "min": 50
+   }
+  },
+  {
+   "key": "min-1:gratin-courgettes-boeuf",
+   "id": "gratin-courgettes-boeuf",
+   "set": {
+    "min": 50
+   }
+  },
+  {
+   "key": "min-1:riz-saute-oeufs-legumes",
+   "id": "riz-saute-oeufs-legumes",
+   "set": {
+    "min": 25
+   }
+  },
+  {
+   "key": "min-1:cheesecake-proteine-ramequins",
+   "id": "cheesecake-proteine-ramequins",
+   "set": {
+    "min": 60
+   }
+  },
+  {
+   "key": "min-1:flan-vanille-proteine",
+   "id": "flan-vanille-proteine",
+   "set": {
+    "min": 50
+   }
+  },
+  {
+   "key": "min-1:poulet-masala-riz",
+   "id": "poulet-masala-riz",
+   "set": {
+    "min": 45
+   }
+  },
+  {
+   "key": "min-1:poulet-moutarde-poireaux",
+   "id": "poulet-moutarde-poireaux",
+   "set": {
+    "min": 55
+   }
+  },
+  {
+   "key": "min-1:tajine-poulet-courge",
+   "id": "tajine-poulet-courge",
+   "set": {
+    "min": 55
+   }
+  },
+  {
+   "key": "min-1:pates-poulet-courgettes-epinards",
+   "id": "pates-poulet-courgettes-epinards",
+   "set": {
+    "min": 35
+   }
+  },
+  {
+   "key": "min-1:wraps-galettes-riz-poulet",
+   "id": "wraps-galettes-riz-poulet",
+   "set": {
+    "min": 50
+   }
+  }
+ ]
 }

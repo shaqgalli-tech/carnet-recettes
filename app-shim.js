@@ -45,10 +45,13 @@
     var data,revs={},first=false,ms=fs.doc("meta/sync"),mi=fs.doc("meta/import");
     try{var r=await fetch("recettes.json?"+Date.now(),{cache:"no-store"});if(!r.ok)return;data=await r.json()}catch(e){return}
     try{var s=await ms.get({source:"server"});if(s.exists)revs=(s.data()||{}).revs||{};var i=await mi.get({source:"server"});first=!i.exists}catch(e){return}
-    var batch=fs.batch(),n=0,rv=Object.assign({},revs);
+    var batch=fs.batch(),n=0,rv=Object.assign({},revs),changed=false;
     Object.keys(data.recipes||{}).forEach(function(id){var d=data.recipes[id],rev=d.rev||1;if(!(id in revs)||revs[id]<rev){batch.set(fs.doc("recipes/"+id),d);rv[id]=rev;n++}});
     if(first){Object.keys(data.plans||{}).forEach(function(id){batch.set(fs.doc("plans/"+id),data.plans[id]);n++});batch.set(mi,{at:Date.now()})}
-    if(n||first){batch.set(ms,{revs:rv,at:Date.now()});await batch.commit()}
+    if(n||first){await batch.commit();changed=true}
+    /* correctifs ponctuels : ajoute des champs à une recette déjà présente, une seule fois (sans toucher au reste) */
+    for(var pi=0;pi<(data.patches||[]).length;pi++){var pt=data.patches[pi];if(rv[pt.key])continue;try{await fs.doc("recipes/"+pt.id).update(pt.set);rv[pt.key]=1;changed=true}catch(e){}}
+    if(changed)await ms.set({revs:rv,at:Date.now()});
   }
   var dl={save:async function(req){
     var blob=req.data instanceof Blob?req.data:new Blob([req.data]);

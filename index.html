@@ -259,7 +259,7 @@ input[type="date"]{font:inherit;color:var(--ink);background:var(--surface);borde
 .empty h3{font-size:22px}
 .empty p{color:var(--muted);max-width:46ch}
 .skel{height:240px;border-radius:20px;background:var(--sand);opacity:.7}
-.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:12px;font-size:14px;font-weight:500;z-index:60;max-width:calc(100% - 32px)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:12px;font-size:14px;font-weight:500;z-index:80;max-width:calc(100% - 32px)}
 @media (prefers-reduced-motion:no-preference){.toast{animation:up .18s ease-out}@keyframes up{from{opacity:0;transform:translate(-50%,6px)}}}
 
 @media (max-width:820px){
@@ -299,6 +299,32 @@ input[type="date"]{font:inherit;color:var(--ink);background:var(--surface);borde
   .entry{grid-template-columns:1fr}
   .entry .art{justify-self:start}
 }
+.search{display:block;width:100%;min-height:48px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:0 16px;font:inherit;font-size:16px;margin-bottom:12px}
+.rwrap{position:relative;display:flex;flex-direction:column;min-width:0}.rwrap>.rcard{flex:1}
+.favbtn{position:absolute;top:10px;right:10px;width:44px;height:44px;border-radius:50%;border:0;background:color-mix(in srgb,var(--surface) 88%,transparent);font-size:24px;line-height:1;color:var(--muted);display:grid;place-items:center}
+.favbtn[aria-pressed="true"]{color:#E0A526}
+.ph{border-radius:50%;object-fit:cover;display:block;border:4px solid var(--plate);box-shadow:0 6px 16px rgba(0,0,0,.22)}
+.entry .art img.ph{border-radius:12px;border-width:2px;box-shadow:none}
+.photo-btn{display:inline-flex;align-items:center;cursor:pointer}
+.cook{position:fixed;inset:0;z-index:60;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.cook header{display:flex;align-items:center;gap:12px;padding:12px 16px}
+.cook .ct{flex:1;min-width:0}.cook .ct b{display:block;font-family:var(--font-display);font-size:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cprog{display:flex;gap:4px;padding:0 16px 8px}.cprog i{flex:1;height:5px;border-radius:3px;background:var(--line)}.cprog i.on{background:var(--sage)}
+.cbody{flex:1;overflow:auto;padding:12px 20px;display:flex;flex-direction:column;justify-content:center;gap:24px}
+.cbody.cing{justify-content:flex-start}.cing h2{font-family:var(--font-display);font-size:28px;margin:6px 0 8px}.cing .ing li{font-size:20px;padding:11px 0}
+.cstep{font-size:clamp(26px,6.4vw,42px);line-height:1.32;font-weight:600;margin:0}
+.csugg{display:flex;gap:10px;flex-wrap:wrap}.csugg button{min-height:56px;font-size:19px;padding:0 20px;border-radius:14px}
+.cook footer{display:flex;gap:12px;padding:12px 16px 18px}.cook footer button{flex:1;min-height:60px;font-size:19px;font-weight:700;border-radius:16px}
+.cook footer button:disabled{opacity:.4}
+body.cooking{overflow:hidden}
+#tbar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:70;display:flex;flex-direction:column;gap:8px;pointer-events:none;max-width:520px;margin:0 auto}
+body.cooking #tbar{bottom:calc(104px + env(safe-area-inset-bottom,0px))}
+#tbar .tm{pointer-events:auto;display:flex;align-items:center;gap:12px;background:var(--deep);color:var(--on-deep);border-radius:16px;padding:8px 10px 8px 16px;box-shadow:0 10px 28px rgba(0,0,0,.35)}
+#tbar .tl{flex:1;min-width:0;font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#tbar .tr{font-size:22px;font-variant-numeric:tabular-nums}
+#tbar .tm.done{background:var(--danger);color:#fff}
+@media (prefers-reduced-motion:no-preference){#tbar .tm.done{animation:tpulse 1s infinite}@keyframes tpulse{50%{filter:brightness(1.25)}}}
+body.tbar-on #app{padding-bottom:90px}
 </style>
 <style id="nohost">netlify-drawer,#netlify-drawer,[id^="netlify-drawer"],[class*="netlify-drawer"]{display:none!important}</style>
 </head><body>
@@ -350,7 +376,7 @@ const startWeek=iso(today.getDay()===0?addDays(mondayOf(today),7):mondayOf(today
 let tab="planning"; try{const t=localStorage.getItem("carnet-tab"); if(["planning","courses","etapes","recipes","macros","journal"].includes(t)) tab=t;}catch(e){}
 
 const S={recipes:[],cooked:[],plan:{slots:{},checked:{},whole:true},week:startWeek,loaded:{recipes:false,cooked:false,plan:false,meals:false},meals:[],confirmMeal:null,mx:{r:null,mode:"plat",vals:{},slot:(new Date().getHours()<15?"midi":"soir"),date:iso(new Date())},
-  dbOk:null,err:false,open:null,detailP:4,filter:"all",tag:"",done:{},confirm:null,copyText:null,picker:null,edit:null,dl:null};
+  dbOk:null,err:false,open:null,detailP:4,filter:"all",tag:"",q:"",tmax:0,cook:null,done:{},confirm:null,copyText:null,picker:null,edit:null,dl:null};
 let db=null, unsubPlan=null, stale=false;
 
 /* ---------- illustration: a plate seeded by the recipe ---------- */
@@ -539,7 +565,7 @@ function stepsList(r,id){
 function macNote(r0,r1){return r0&&r0.kcal?"Avant modification : "+Math.round(r0.kcal)+" kcal · P "+Math.round(r0.p)+" g · G "+Math.round(r0.c)+" g · L "+Math.round(r0.f)+" g":""}
 function article(r,f,o){
   const ed=!!o.edit;
-  return '<article class="rfull" style="--hue:'+hueOf(r)+'"><header class="rhead">'+plate(r,o.big?150:124)+
+  return '<article class="rfull" style="--hue:'+hueOf(r)+'"><header class="rhead">'+art(r,o.big?150:124)+
     '<div><span class="eyebrow">'+esc(r.origin||"")+'</span><h2>'+esc(r.title)+'</h2><div class="info num">'+(o.info||"")+'</div><div id="macwrap">'+macs(r,1,"light")+'</div><p class="note" id="macnote" style="margin-top:6px">'+(ed?esc(macNote(o.before,r)):"Par portion, valeurs approximatives")+'</p></div>'+
     '<div class="acts">'+(o.acts||"")+'</div></header>'+
     '<div class="rbody"><aside class="ings'+(ed?" editing":"")+'"><h4 class="sub-h">Ingrédients</h4>'+(ed?'<p class="editnote">Change les quantités : les macros par portion se recalculent tout de suite. Enregistre pour garder la nouvelle version.</p>':'')+(o.stepper||"")+ingList(r,f,ed)+'</aside>'+
@@ -575,7 +601,7 @@ function etapesView(){
   return head+list.map(x=>article(x.r,batches(x),{
     key:x.r.id,
     info:'<span><b>'+x.p+' portion'+(x.p>1?"s":"")+' prévue'+(x.p>1?"s":"")+'</b></span><span>'+x.slots.map(slotName).join(", ")+'</span>'+(S.plan.whole!==false?'<span>Quantités de '+batches(x)+' recette'+(batches(x)>1?"s":"")+' entière'+(batches(x)>1?"s":"")+'</span>':''),
-    acts:'<button class="solid" data-act="cook" data-id="'+esc(x.r.id)+'">Marquer comme cuisinée</button>'+(S.dl?'<button class="ghost" data-act="pdf" data-id="'+esc(x.r.id)+'" data-p="'+x.p+'">Télécharger en PDF</button>':'')
+    acts:'<button class="solid" data-act="cookmode" data-id="'+esc(x.r.id)+'" data-f="'+batches(x)+'">Mode cuisine</button><button class="ghost" data-act="cook" data-id="'+esc(x.r.id)+'">Marquer comme cuisinée</button>'+(S.dl?'<button class="ghost" data-act="pdf" data-id="'+esc(x.r.id)+'" data-p="'+x.p+'">Télécharger en PDF</button>':'')
   })).join("");
 }
 
@@ -613,28 +639,28 @@ function recipesView(){
       const log=cookedOf(r.id),ed=S.edit&&S.edit.id===r.id;
       const dr=ed?normalize(Object.assign({},r,{ingredients:S.edit.ing,servings:S.edit.servings})):r;
       const f=ed?1:S.detailP/(r.servings||4);
-      const info='<span>'+(log.length?"Cuisinée <b>"+log.length+" fois</b>, dernière fois le "+F(parse(log[0].d),{day:"numeric",month:"long"}):"Jamais cuisinée")+'</span>'+(r.addedOn?'<span>Ajoutée le '+F(parse(r.addedOn),{day:"numeric",month:"long"})+'</span>':'');
+      const info='<span>'+(log.length?"Cuisinée <b>"+log.length+" fois</b>, dernière fois le "+F(parse(log[0].d),{day:"numeric",month:"long"}):"Jamais cuisinée")+'</span>'+(r.addedOn?'<span>Ajoutée le '+F(parse(r.addedOn),{day:"numeric",month:"long"})+'</span>':'')+(r.min?'<span>⏱ '+fmtMin(r.min)+' de préparation et cuisson</span>':'');
       const tagEd='<div class="tagrow" style="--hue:'+hueOf(r)+'"><span class="lbl">Tags</span>'+TAGS.map(t=>'<button class="tg" data-act="tag" data-id="'+esc(r.id)+'" data-v="'+esc(t)+'" aria-pressed="'+tagsOf(r).includes(t)+'">'+esc(t)+'</button>').join("")+'</div>';
       return '<div style="margin-bottom:14px"><button class="ghost" data-act="back">‹ Toutes les recettes</button></div>'+tagEd+
         article(dr,f,{big:true,key:"d-"+r.id,edit:ed,before:r,info,
           acts:ed?'<button class="solid" data-act="editsave">Enregistrer</button><button class="ghost" data-act="editcancel">Annuler</button>'
-            :'<button class="solid" data-act="cook" data-id="'+esc(r.id)+'">Cuisinée aujourd\'hui</button><button class="ghost" data-act="editstart">Modifier les quantités</button>'+(S.dl?'<button class="ghost" data-act="pdf" data-id="'+esc(r.id)+'" data-p="'+S.detailP+'">Télécharger en PDF</button>':''),
+            :'<button class="solid" data-act="cookmode" data-id="'+esc(r.id)+'" data-f="'+f+'">Mode cuisine</button><button class="ghost" data-act="cook" data-id="'+esc(r.id)+'">Cuisinée aujourd\'hui</button><button class="ghost" data-act="fav" data-id="'+esc(r.id)+'">'+(r.fav?"★ Favori":"☆ Favori")+'</button><button class="ghost" data-act="editstart">Modifier les quantités</button>'+(S.dl?'<button class="ghost" data-act="pdf" data-id="'+esc(r.id)+'" data-p="'+S.detailP+'">Télécharger en PDF</button>':''),
           stepper:ed?'<div class="step" style="margin-bottom:12px"><span>Recette pour</span><button data-act="es" data-d="-1" aria-label="Moins de personnes">−</button><output class="num">'+S.edit.servings+'</output><button data-act="es" data-d="1" aria-label="Plus de personnes">+</button><span>personne'+(S.edit.servings>1?"s":"")+'</span></div>'
             :'<div class="step"><span>Pour</span><button data-act="dp" data-d="-1" aria-label="Moins de personnes">−</button><output class="num">'+S.detailP+'</output><button data-act="dp" data-d="1" aria-label="Plus de personnes">+</button><span>personne'+(S.detailP>1?"s":"")+'</span></div>'});
     }
   }
-  let list=S.recipes;
-  if(S.filter==="done")list=list.filter(r=>cookedOf(r.id).length);
-  if(S.filter==="new")list=list.filter(r=>!cookedOf(r.id).length);
-  if(S.tag)list=list.filter(r=>tagsOf(r).includes(S.tag));
+  if(S.tag&&!S.recipes.some(r=>tagsOf(r).includes(S.tag)))S.tag="";
+  const chip=(v,l)=>'<button class="chip" data-act="filter" data-v="'+v+'" aria-pressed="'+(S.filter===v)+'">'+l+'</button>';
   const used=TAGS.filter(t=>S.recipes.some(r=>tagsOf(r).includes(t)));
   const tchip=t=>'<button class="chip" data-act="ftag" data-v="'+esc(t)+'" aria-pressed="'+(S.tag===t)+'">'+esc(t)+'</button>';
-  const chip=(v,l)=>'<button class="chip" data-act="filter" data-v="'+v+'" aria-pressed="'+(S.filter===v)+'">'+l+'</button>';
+  const tm=(m,l)=>'<button class="chip" data-act="ftime" data-v="'+m+'" aria-pressed="'+(S.tmax===m)+'">'+l+'</button>';
   const n=S.recipes.length;
   return pageHead("Recettes","Mon carnet",n+" recette"+(n>1?"s":"")+", ajoutées au fil des semaines.",'<div class="tools"><button class="ghost" data-act="addrecipe">+ Ajouter une recette</button></div>')+
-    '<div class="chips">'+chip("all","Toutes")+chip("done","Déjà cuisinées")+chip("new","À essayer")+'</div>'+(used.length?'<div class="chips">'+used.map(tchip).join("")+'</div>':'')+
-    (list.length?'<div class="cards">'+list.map(r=>{const c=cookedOf(r.id);return '<button class="rcard" data-act="open" data-id="'+esc(r.id)+'" style="--hue:'+hueOf(r)+'"><div class="art">'+plate(r,128)+'</div><div class="body"><span class="eyebrow">'+esc(r.origin||"")+'</span><h3>'+esc(r.title)+'</h3>'+macs(r,1)+(tagsOf(r).length?'<div class="ctags">'+tagsOf(r).map(t=>'<span>'+esc(t)+'</span>').join("")+'</div>':'')+'<p class="meta">'+(c.length?"Cuisinée "+c.length+" fois · "+F(parse(c[0].d),{day:"numeric",month:"short"}).replace(".",""):"Jamais cuisinée")+'</p></div></button>'}).join("")+'</div>':
-    '<div class="empty"><h3>Rien dans cette liste</h3><p>Change de filtre pour voir les autres recettes.</p></div>');
+    '<input type="text" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" id="rsearch" class="search" data-search="1" placeholder="Rechercher une recette ou un ingrédient" aria-label="Rechercher une recette ou un ingrédient" value="'+esc(S.q)+'">'+
+    '<div class="chips">'+chip("all","Toutes")+chip("fav","★ Favoris")+chip("done","Déjà cuisinées")+chip("new","À essayer")+'</div>'+
+    (used.length?'<div class="chips">'+used.map(tchip).join("")+'</div>':'')+
+    '<div class="chips">'+tm(30,"≤ 30 min")+tm(45,"≤ 45 min")+tm(60,"≤ 1 h")+'</div>'+
+    '<div id="rlist">'+recipeCards()+'</div>';
 }
 
 
@@ -725,10 +751,10 @@ function journalView(){
   if(!S.cooked.length)return head+'<div class="empty">'+plate({id:"vide",hue:"#8FA68A"},96)+'<h3>Le journal est vide</h3><p>Quand tu as cuisiné une recette, touche « Cuisinée aujourd\'hui » sur sa fiche. Elle apparaît ici avec ta note.</p><button class="solid" data-act="goto" data-t="recipes">Voir les recettes</button></div>';
   return head+'<ul class="log">'+S.cooked.map(c=>{
     const r=recipeById(c.r),rt=c.rating||0;
-    return '<li class="entry" style="--hue:'+hueOf(r)+'"><div class="art">'+plate(r,64)+'</div><div class="col"><div class="l1"><button class="t" data-act="open" data-id="'+esc(c.r)+'">'+esc(r?r.title:"Recette supprimée")+'</button><span class="d num">'+esc(F(parse(c.d),{weekday:"long",day:"numeric",month:"long"}))+'</span></div>'+
+    return '<li class="entry" style="--hue:'+hueOf(r)+'"><div class="art">'+(c.photo?'<img class="ph" alt="Photo du plat" width="84" height="84" src="'+esc(c.photo)+'">':plate(r,64))+'</div><div class="col"><div class="l1"><button class="t" data-act="open" data-id="'+esc(c.r)+'">'+esc(r?r.title:"Recette supprimée")+'</button><span class="d num">'+esc(F(parse(c.d),{weekday:"long",day:"numeric",month:"long"}))+'</span></div>'+
       '<div class="stars" role="group" aria-label="Ma note">'+[1,2,3,4,5].map(n=>'<button data-act="star" data-id="'+c.id+'" data-n="'+n+'" class="'+(n<=rt?"on":"")+'" aria-label="'+n+' sur 5">★</button>').join("")+'</div>'+
       '<div class="l3"><input type="text" id="note-'+c.id+'" data-note="'+c.id+'" value="'+esc(c.note||"")+'" placeholder="Une remarque pour la prochaine fois" aria-label="Remarque">'+
-      (S.confirm===c.id?'<button class="ghost del-yes" data-act="del" data-id="'+c.id+'">Confirmer</button>':'<button class="ghost" data-act="askdel" data-id="'+c.id+'">Retirer</button>')+'</div></div></li>';
+      '<label class="ghost photo-btn">'+(c.photo?"Changer la photo":"📷 Photo")+'<input type="file" accept="image/*" hidden data-photo="'+c.id+'"></label>'+(S.confirm===c.id?'<button class="ghost del-yes" data-act="del" data-id="'+c.id+'">Confirmer</button>':'<button class="ghost" data-act="askdel" data-id="'+c.id+'">Retirer</button>')+'</div></div></li>';
   }).join("")+'</ul>';
 }
 
@@ -915,6 +941,132 @@ const act={
   askdel:d=>{S.confirm=d.id;render()},
   del:async d=>{S.confirm=null;try{await db.doc("cooked/"+d.id).delete();toast("Retiré du journal")}catch(e){toast("Suppression impossible.")}}
 };
+/* ---------- recherche, favoris, temps, photos ---------- */
+const stripAcc=s=>String(s==null?"":s).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const p2=n=>String(n).padStart(2,"0");
+function fmtMin(m){m=Math.round(m);return m>=60?Math.floor(m/60)+" h"+(m%60?" "+p2(m%60):""):m+" min"}
+function photoOf(r){const c=r&&S.cooked.find(x=>x.r===r.id&&x.photo);return c?c.photo:null}
+function art(r,size){const ph=photoOf(r);return ph?'<img class="ph" alt="Photo du plat" width="'+size+'" height="'+size+'" src="'+esc(ph)+'">':plate(r,size)}
+function matchRecipe(r){
+  if(S.filter==="done"&&!cookedOf(r.id).length)return false;
+  if(S.filter==="new"&&cookedOf(r.id).length)return false;
+  if(S.filter==="fav"&&!r.fav)return false;
+  if(S.tag&&!tagsOf(r).includes(S.tag))return false;
+  if(S.tmax&&!(r.min&&r.min<=S.tmax))return false;
+  const q=stripAcc(S.q).trim();
+  if(q){const h=stripAcc([r.title,r.origin,tagsOf(r).join(" "),(r.ingredients||[]).map(i=>i.n).join(" ")].join(" "));
+    if(!q.split(/\s+/).every(w=>h.includes(w)))return false}
+  return true;
+}
+function recipeCards(){
+  const list=S.recipes.filter(matchRecipe);
+  if(!list.length)return '<div class="empty"><h3>Rien dans cette liste</h3><p>Change de filtre ou de recherche pour voir les autres recettes.</p></div>';
+  return '<div class="cards">'+list.map(r=>{
+    const c=cookedOf(r.id);
+    return '<div class="rwrap"><button class="rcard" data-act="open" data-id="'+esc(r.id)+'" style="--hue:'+hueOf(r)+'"><div class="art">'+art(r,128)+'</div><div class="body"><span class="eyebrow">'+esc(r.origin||"")+'</span><h3>'+esc(r.title)+'</h3>'+macs(r,1)+
+      (tagsOf(r).length?'<div class="ctags" style="--hue:'+hueOf(r)+'">'+tagsOf(r).map(t=>'<span>'+esc(t)+'</span>').join("")+'</div>':'')+
+      '<p class="meta">'+(r.min?"⏱ "+fmtMin(r.min)+" · ":"")+(c.length?"Cuisinée "+c.length+" fois · "+F(parse(c[0].d),{day:"numeric",month:"short"}).replace(".",""):"Jamais cuisinée")+'</p></div></button>'+
+      '<button class="favbtn" data-act="fav" data-id="'+esc(r.id)+'" aria-pressed="'+!!r.fav+'" aria-label="Favori">'+(r.fav?"★":"☆")+'</button></div>';
+  }).join("")+'</div>';
+}
+async function setPhoto(id,file){
+  if(!file||!db)return;
+  try{
+    const url=URL.createObjectURL(file);
+    const img=await new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=url});
+    const k=Math.min(1,720/Math.max(img.naturalWidth,img.naturalHeight)),cv=document.createElement("canvas");
+    cv.width=Math.max(1,Math.round(img.naturalWidth*k));cv.height=Math.max(1,Math.round(img.naturalHeight*k));
+    cv.getContext("2d").drawImage(img,0,0,cv.width,cv.height);URL.revokeObjectURL(url);
+    let q=.72,data=cv.toDataURL("image/jpeg",q);
+    while(data.length>700000&&q>.35){q-=.1;data=cv.toDataURL("image/jpeg",q)}
+    await db.doc("cooked/"+id).update({photo:data});toast("Photo enregistrée");
+  }catch(e){toast("Photo non enregistrée.")}
+}
+
+/* ---------- minuteurs ---------- */
+const T={list:[],AC:null,iv:null};
+try{T.list=JSON.parse(localStorage.getItem("carnet-timers")||"[]").filter(t=>t&&t.end&&t.end>Date.now()-600000)}catch(e){T.list=[]}
+const saveT=()=>{try{localStorage.setItem("carnet-timers",JSON.stringify(T.list))}catch(e){}};
+function fmtClock(ms){const s=Math.max(0,Math.ceil(ms/1000)),h=Math.floor(s/3600),m=Math.floor(s%3600/60),r=s%60;return (h?h+":"+p2(m):m)+":"+p2(r)}
+function audio(){try{if(!T.AC){const A=window.AudioContext||window.webkitAudioContext;if(A)T.AC=new A()}if(T.AC&&T.AC.state==="suspended")T.AC.resume()}catch(e){}}
+function beep(){
+  try{audio();if(T.AC){const t0=T.AC.currentTime;[0,.35,.7].forEach(d=>{const o=T.AC.createOscillator(),g=T.AC.createGain();o.type="sine";o.frequency.value=880;g.gain.setValueAtTime(.0001,t0+d);g.gain.exponentialRampToValueAtTime(.5,t0+d+.02);g.gain.exponentialRampToValueAtTime(.0001,t0+d+.28);o.connect(g);g.connect(T.AC.destination);o.start(t0+d);o.stop(t0+d+.3)})}}catch(e){}
+  try{if(navigator.vibrate)navigator.vibrate([300,150,300,150,300])}catch(e){}
+}
+function tbarRender(){
+  let el=document.getElementById("tbar");
+  if(!el){el=document.createElement("div");el.id="tbar";el.setAttribute("aria-live","polite");document.body.appendChild(el)}
+  el.innerHTML=T.list.map(t=>'<div class="tm'+(t.done?" done":"")+'"><span class="tl">⏱ '+esc(t.label)+'</span><b class="tr num" data-tr="'+t.id+'">'+(t.done?"Terminé":fmtClock(t.end-Date.now()))+'</b><button class="ghost" data-act="tdel" data-id="'+t.id+'" aria-label="'+(t.done?"Fermer":"Arrêter")+' le minuteur">'+(t.done?"OK":"×")+'</button></div>').join("");
+  document.body.classList.toggle("tbar-on",T.list.length>0);
+}
+function tick(){
+  const now=Date.now();let changed=false,ring=false;
+  T.list.forEach(t=>{
+    if(!t.done&&now>=t.end){t.done=true;t.ringAt=0;changed=true}
+    if(t.done){if(now-(t.ringAt||0)>8000&&now-t.end<600000){t.ringAt=now;ring=true}}
+    else{const e=document.querySelector('[data-tr="'+t.id+'"]');if(e)e.textContent=fmtClock(t.end-now)}
+  });
+  if(changed){saveT();tbarRender()}
+  if(ring){beep();toast("⏰ Minuteur terminé")}
+  if(!T.list.length&&T.iv){clearInterval(T.iv);T.iv=null}
+}
+function startTimer(label,sec){
+  audio();T.list.push({id:String(Date.now())+Math.floor(Math.random()*1000),label,end:Date.now()+sec*1000,done:false});
+  saveT();tbarRender();if(!T.iv)T.iv=setInterval(tick,500);
+}
+function stepTimers(txt){
+  const out=[],seen={},re=/(\d+(?:[.,]\d+)?)(?:\s*(?:à|-|–)\s*(\d+(?:[.,]\d+)?))?\s*(heures?|h|minutes?|min|secondes?)(?![a-zà-ÿ])/gi;
+  let m;
+  while((m=re.exec(txt))){
+    const a=parseFloat(m[1].replace(",",".")),b=m[2]?parseFloat(m[2].replace(",",".")):a,u=m[3].toLowerCase()[0];
+    const mul=u==="h"?3600:u==="m"?60:1,sec=Math.round(b*mul);
+    if(sec<10||seen[sec])continue;seen[sec]=1;
+    out.push({sec,txt:(m[2]?a+" à "+b:a)+" "+(u==="h"?"h":u==="m"?"min":"s")});
+  }
+  return out;
+}
+
+/* ---------- mode cuisine ---------- */
+let wl=null;
+async function wake(on){try{if(on){if(navigator.wakeLock&&!wl){wl=await navigator.wakeLock.request("screen");wl.addEventListener("release",()=>{wl=null})}}else if(wl){const w=wl;wl=null;await w.release()}}catch(e){}}
+document.addEventListener("visibilitychange",()=>{if(S.cook&&document.visibilityState==="visible")wake(true)});
+function cookHTML(){
+  const c=S.cook,r=c&&recipeById(c.id);if(!r)return "";
+  const steps=r.steps||[],n=steps.length;if(!n)return "";
+  const i=Math.min(Math.max(c.i,0),n-1),txt=steps[i],tm=stepTimers(txt);
+  return '<header><button class="ghost icon" data-act="cookx" aria-label="Quitter le mode cuisine">×</button><div class="ct"><span class="eyebrow">Étape '+(i+1)+' sur '+n+'</span><b>'+esc(r.title)+'</b></div><button class="ghost" data-act="cing">'+(c.ing?"Étapes":"Ingrédients")+'</button></header>'+
+    '<div class="cprog">'+steps.map((_,k)=>'<i class="'+(k<=i?"on":"")+'"></i>').join("")+'</div>'+
+    (c.ing?'<div class="cbody cing"><h2>Ingrédients</h2>'+(c.f!==1?'<p class="note">Quantités pour '+trimNum(c.f)+' fois la recette de base ('+(r.servings||4)+' personnes).</p>':'')+ingList(r,c.f,false)+'</div>'
+         :'<div class="cbody"><p class="cstep">'+esc(txt)+'</p>'+(tm.length?'<div class="csugg">'+tm.map(t=>'<button class="solid" data-act="tstart" data-s="'+t.sec+'" data-l="Étape '+(i+1)+" · "+esc(t.txt)+'">⏱ Lancer '+esc(t.txt)+'</button>').join("")+'</div>':'')+'</div>')+
+    '<footer><button class="ghost" data-act="cprev"'+(i===0?" disabled":"")+'>‹ Précédent</button>'+(i<n-1?'<button class="solid" data-act="cnext">Suivant ›</button>':'<button class="solid" data-act="cookdone">Terminé ✓</button>')+'</footer>';
+}
+function renderCook(){const el=document.getElementById("cook");if(el)el.innerHTML=cookHTML()}
+function openCook(id,f){
+  const r=recipeById(id);if(!r||!(r.steps||[]).length)return;
+  S.cook={id,i:0,f:+f>0?+f:1,ing:false};
+  let el=document.getElementById("cook");
+  if(!el){el=document.createElement("div");el.id="cook";el.className="cook";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");el.setAttribute("aria-label","Mode cuisine");document.body.appendChild(el)}
+  document.body.classList.add("cooking");renderCook();wake(true);
+}
+function closeCook(){const el=document.getElementById("cook");if(el)el.remove();S.cook=null;document.body.classList.remove("cooking");wake(false)}
+function cookGo(d){const c=S.cook,r=c&&recipeById(c.id);if(!r)return;const n=(r.steps||[]).length;c.i=Math.min(n-1,Math.max(0,c.i+d));c.ing=false;renderCook();const b=document.querySelector("#cook .cbody");if(b)b.scrollTop=0}
+document.addEventListener("keydown",e=>{if(!S.cook)return;if(e.key==="ArrowRight")cookGo(1);else if(e.key==="ArrowLeft")cookGo(-1);else if(e.key==="Escape")closeCook()});
+let tx=null;
+document.addEventListener("touchstart",e=>{tx=S.cook&&e.touches.length===1&&e.target.closest&&e.target.closest("#cook .cbody")?e.touches[0].clientX:null},{passive:true});
+document.addEventListener("touchend",e=>{if(tx===null||!S.cook)return;const dx=e.changedTouches[0].clientX-tx;tx=null;if(Math.abs(dx)>70&&!S.cook.ing)cookGo(dx<0?1:-1)},{passive:true});
+Object.assign(act,{
+  cookmode:d=>openCook(d.id,d.f),
+  cookx:()=>closeCook(),
+  cprev:()=>cookGo(-1),
+  cnext:()=>cookGo(1),
+  cing:()=>{if(S.cook){S.cook.ing=!S.cook.ing;renderCook()}},
+  cookdone:()=>{const id=S.cook&&S.cook.id;closeCook();if(id){addCooked(id);go("journal")}},
+  tstart:d=>{startTimer(d.l,+d.s);toast("Minuteur lancé")},
+  tdel:d=>{T.list=T.list.filter(t=>t.id!==d.id);saveT();tbarRender()},
+  fav:async d=>{const r=recipeById(d.id);if(!r||!db)return;try{await db.doc("recipes/"+r.id).update({fav:!r.fav})}catch(e){toast("Favori non enregistré.")}},
+  ftime:d=>{const m=+d.v;S.tmax=S.tmax===m?0:m;render()}
+});
+if(T.list.length){tbarRender();T.iv=setInterval(tick,500)}
 document.addEventListener("click",e=>{const b=e.target.closest("[data-act]");if(b&&act[b.dataset.act])act[b.dataset.act](b.dataset)});
 $("#nav").addEventListener("click",e=>{const b=e.target.closest("[data-tab]");if(b){if(b.dataset.tab==="recipes")S.open=null;go(b.dataset.tab)}});
 function liveMacros(){
@@ -924,6 +1076,7 @@ function liveMacros(){
 }
 document.addEventListener("input",e=>{
   const t=e.target;
+  if(t&&t.dataset&&t.dataset.search!==undefined){S.q=t.value;const el=$("#rlist");if(el)el.innerHTML=recipeCards();return}
   if(t&&t.dataset&&t.dataset.mx!==undefined){S.mx.vals[t.dataset.mx]=t.value;const el=$("#mxres");if(el)el.innerHTML=mxResult();return}
   if(S.edit&&t&&t.dataset&&t.dataset.q!==undefined){const v=parseFloat(String(t.value).replace(",","."));S.edit.ing[+t.dataset.q].q=isFinite(v)&&v>=0?v:0;liveMacros()}
 });
@@ -934,6 +1087,7 @@ $("#app").addEventListener("change",async e=>{
   else if(t.id==="mx-date"){S.mx.date=t.value||iso(new Date());render()}
   else if(t.dataset.pw){const r=recipeById(S.mx.r);if(r&&db){try{await db.doc("recipes/"+r.id).update({prepWeight:numOf(t.value)});toast("Poids du plat enregistré")}catch(err){toast("Poids non enregistré.")}}}
   else if(t.dataset.chk){if(t.checked)S.plan.checked[t.dataset.chk]=true;else delete S.plan.checked[t.dataset.chk];savePlan();render()}
+  else if(t.dataset.photo){const f=t.files&&t.files[0];await setPhoto(t.dataset.photo,f);t.value=""}
   else if(t.dataset.note){try{await db.doc("cooked/"+t.dataset.note).update({note:t.value})}catch(err){toast("Remarque non enregistrée.")}}
 });
 $("#app").addEventListener("focusout",()=>{if(stale)setTimeout(render,300)});
