@@ -1,9 +1,0 @@
-CARNET DE SEMAINE - application installable
-
-Fichiers : index.html (l'appli), recettes.json (les recettes fournies), firebase-config.js (tes clés), firestore.rules, sw.js, manifest.webmanifest, icônes.
-
-Mise en ligne : glisse ce dossier sur app.netlify.com/drop, ou relie un dépôt GitHub à Netlify (voir la conversation).
-Dans Firebase > Authentication > Paramètres > Domaines autorisés, ajoute l'adresse .netlify.app du site.
-
-Nouvelles recettes : elles s'ajoutent dans recettes.json (par Claude via le dépôt GitHub) et arrivent dans l'appli au prochain lancement.
-Tu peux aussi les coller toi-même avec le bouton "+ Ajouter une recette" de l'onglet Recettes.
