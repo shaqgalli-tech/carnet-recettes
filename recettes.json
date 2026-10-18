@@ -8908,6 +8908,1440 @@
    "order": 64,
    "addedOn": "2026-10-18",
    "rev": 1
+  },
+  "poulet-grec-citron-feta": {
+   "title": "Poulet à la grecque, citron et feta",
+   "origin": "Plat · Grèce",
+   "servings": 4,
+   "hue": "#E0B84A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 650,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 40,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 3,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Olives noires",
+     "q": 40,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      0.8,
+      6,
+      11
+     ]
+    },
+    {
+     "n": "Feta",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      260,
+      14,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Origan, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 600,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Accompagnement",
+     "part": "side"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 200 °C. Mélange le poulet avec le citron, l'huile, l'ail et l'origan.",
+    "Coupe les tomates et l'oignon.",
+    "Dispose poulet, légumes et pommes de terre en quartiers dans un plat.",
+    "Enfourne 30 minutes.",
+    "Ajoute les olives et la feta émiettée.",
+    "Remets 8 minutes au four."
+   ],
+   "tip": "Un plat complet, tout au four.",
+   "kcal": 434,
+   "p": 45.1,
+   "c": 32.6,
+   "f": 13.1,
+   "order": 65,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "filet-mignon-porc-moutarde": {
+   "title": "Filet mignon de porc à la moutarde",
+   "origin": "Plat · France",
+   "servings": 4,
+   "hue": "#D0A060",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Filet mignon de porc",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      130,
+      22,
+      0,
+      4.5
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Échalotes",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      72,
+      2.5,
+      17,
+      0.1
+     ]
+    },
+    {
+     "n": "Crème fraîche légère 15 %",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      150,
+      3,
+      4,
+      14
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Champignons de Paris",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      22,
+      3,
+      2,
+      0.3
+     ]
+    },
+    {
+     "n": "Thym, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 600,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Accompagnement",
+     "part": "side"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 200 °C. Badigeonne le filet de moutarde et de thym.",
+    "Fais-le dorer 3 minutes de chaque côté.",
+    "Enfourne 18 à 20 minutes.",
+    "Fais revenir les échalotes et les champignons.",
+    "Ajoute la crème légère et le jus de cuisson du porc.",
+    "Tranche le filet, nappe de sauce et sers avec les pommes de terre."
+   ],
+   "tip": "Laisse reposer le porc 5 minutes avant de le trancher.",
+   "kcal": 398,
+   "p": 39.4,
+   "c": 31.6,
+   "f": 12.8,
+   "order": 66,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "mac-cheese-chou-fleur": {
+   "title": "Mac and cheese léger au chou-fleur",
+   "origin": "Plat · Réconfort",
+   "servings": 4,
+   "hue": "#E0B040",
+   "tags": [
+    "Plat"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Pâtes sèches",
+     "q": 280,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ],
+     "part": "side",
+     "mc": [
+      131,
+      5,
+      25,
+      1.1
+     ]
+    },
+    {
+     "n": "Chou-fleur",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      25,
+      2,
+      3,
+      0.3
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 250,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 20,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Muscade, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis les pâtes.",
+    "Cuis le chou-fleur 12 minutes dans l'eau et mixe-le avec le lait.",
+    "Chauffe la sauce avec la maïzena en remuant jusqu'à épaississement.",
+    "Ajoute l'emmental, la moutarde, la muscade.",
+    "Mélange avec les pâtes.",
+    "Passe 10 minutes au four à 200 °C pour gratiner."
+   ],
+   "tip": "Le chou-fleur donne du crémeux sans beurre ni crème.",
+   "kcal": 419,
+   "p": 20.5,
+   "c": 62.5,
+   "f": 8.8,
+   "order": 67,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "lasagnes-epinards-ricotta": {
+   "title": "Lasagnes épinards-ricotta",
+   "origin": "Plat · Italie",
+   "servings": 6,
+   "hue": "#7A9A4A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 65,
+   "ingredients": [
+    {
+     "n": "Feuilles de lasagnes",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Épinards",
+     "q": 600,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ]
+    },
+    {
+     "n": "Ricotta",
+     "q": 300,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      160,
+      11,
+      3,
+      12
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 500,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Mozzarella",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 30,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Muscade, basilic, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 190 °C. Fais tomber les épinards et égoutte-les bien.",
+    "Mélange avec la ricotta, l'œuf, la muscade, le sel et le poivre.",
+    "Mijote les tomates avec l'ail 10 minutes.",
+    "Alterne feuilles, farce et sauce dans un plat.",
+    "Termine par la mozzarella et le parmesan.",
+    "Enfourne 35 minutes."
+   ],
+   "tip": "Laisse reposer 10 minutes avant de couper.",
+   "kcal": 329,
+   "p": 20.3,
+   "c": 33.5,
+   "f": 13.3,
+   "order": 68,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "pizza-express-pate-yaourt": {
+   "title": "Pizza express à la pâte au yaourt",
+   "origin": "Plat · Italie",
+   "servings": 4,
+   "hue": "#D26A3A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 250,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ],
+     "g": "Pâte"
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 250,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ],
+     "g": "Pâte"
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ],
+     "g": "Pâte"
+    },
+    {
+     "n": "Sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût",
+     "g": "Pâte"
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Mozzarella",
+     "q": 150,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Jambon blanc",
+     "q": 100,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      20,
+      1,
+      3
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Champignons de Paris",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      22,
+      3,
+      2,
+      0.3
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Origan",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût",
+     "g": "Garniture"
+    },
+    {
+     "n": "Salade verte",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 220 °C.",
+    "Mélange farine, yaourt, levure et sel pour former une pâte. Pétris 2 minutes.",
+    "Étale en deux disques fins.",
+    "Nappe de tomates, ajoute jambon, champignons et mozzarella.",
+    "Enfourne 12 à 15 minutes.",
+    "Sers avec la salade."
+   ],
+   "tip": "Pas besoin de levure de boulanger ni de repos.",
+   "kcal": 405,
+   "p": 22.8,
+   "c": 53.2,
+   "f": 10.8,
+   "order": 69,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "clafoutis-sale-tomates-feta": {
+   "title": "Clafoutis salé tomates-feta",
+   "origin": "Plat · France",
+   "servings": 4,
+   "hue": "#D45A3A",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Tomates",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Feta",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      260,
+      14,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 4,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 60,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 250,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Basilic, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Salade verte",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Dispose les tomates cerises ou coupées dans un plat.",
+    "Fouette œufs, farine, lait, sel et poivre.",
+    "Verse sur les tomates et ajoute la feta émiettée.",
+    "Enfourne 30 minutes.",
+    "Sers tiède avec la salade."
+   ],
+   "tip": "Un plat léger qui se mange aussi froid.",
+   "kcal": 240,
+   "p": 15.1,
+   "c": 19.9,
+   "f": 11.1,
+   "order": 70,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "tian-legumes-gratine": {
+   "title": "Tian de légumes gratiné",
+   "origin": "Plat · Provence",
+   "servings": 4,
+   "hue": "#B8503A",
+   "tags": [
+    "Plat",
+    "Léger",
+    "Meal prep"
+   ],
+   "min": 70,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Aubergine",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      25,
+      1,
+      5,
+      0.2
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 30,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Thym, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Œufs",
+     "q": 4,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 190 °C. Coupe les légumes en rondelles fines.",
+    "Fais revenir l'oignon et l'ail, étale-les au fond d'un plat.",
+    "Dispose les légumes en rosace.",
+    "Arrose d'huile, ajoute le thym, le sel et le poivre.",
+    "Enfourne 45 minutes, ajoute le parmesan 10 minutes avant la fin.",
+    "Sers avec un œuf au plat."
+   ],
+   "tip": "Meilleur tiède le lendemain.",
+   "kcal": 202,
+   "p": 12.2,
+   "c": 12.8,
+   "f": 11.5,
+   "order": 71,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "potimarron-farci-poulet": {
+   "title": "Potimarron farci au poulet et aux champignons",
+   "origin": "Plat · Four",
+   "servings": 4,
+   "hue": "#E08A3A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 60,
+   "ingredients": [
+    {
+     "n": "Potiron ou butternut",
+     "q": 1000,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      45,
+      1,
+      10,
+      0.1
+     ]
+    },
+    {
+     "n": "Blanc de poulet",
+     "q": 450,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Champignons de Paris",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      22,
+      3,
+      2,
+      0.3
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 1,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Sauge, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 190 °C. Coupe le potimarron en deux et épépine-le.",
+    "Enfourne 25 minutes à plat.",
+    "Fais revenir l'oignon, les champignons et le poulet haché ou en dés 8 minutes.",
+    "Remplis les demi-potimarrons.",
+    "Parsème d'emmental.",
+    "Remets au four 15 minutes."
+   ],
+   "tip": "La peau du potimarron se mange.",
+   "kcal": 340,
+   "p": 34.8,
+   "c": 28.7,
+   "f": 9.0,
+   "order": 72,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "pdt-farcies-thon-fromage-blanc": {
+   "title": "Pommes de terre farcies au thon et fromage blanc",
+   "origin": "Plat · Four",
+   "servings": 4,
+   "hue": "#D9B070",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 60,
+   "ingredients": [
+    {
+     "n": "Pommes de terre",
+     "q": 1000,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Fromage blanc 0 %",
+     "q": 200,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 60,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 50,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Ciboulette, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Salade verte",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 200 °C. Enfourne les pommes de terre entières 45 minutes.",
+    "Coupe-les en deux et évide-les en gardant la peau.",
+    "Mélange la chair avec le thon, le fromage blanc, l'oignon et la ciboulette.",
+    "Remplis les pommes de terre.",
+    "Parsème d'emmental.",
+    "Remets 10 minutes au four. Sers avec la salade."
+   ],
+   "tip": "Un classique léger et rassasiant.",
+   "kcal": 343,
+   "p": 28.8,
+   "c": 46.6,
+   "f": 4.7,
+   "order": 73,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "flan-patissier-leger": {
+   "title": "Flan pâtissier léger",
+   "origin": "Dessert · Flan",
+   "servings": 8,
+   "hue": "#F0D890",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Lait écrémé",
+     "q": 750,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 70,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Fouette œufs, sucre et maïzena.",
+    "Chauffe le lait avec la vanille et verse sur le mélange en fouettant.",
+    "Verse dans un plat beurré.",
+    "Cuis 40 minutes jusqu'à ce que le dessus soit doré.",
+    "Laisse refroidir au moins 3 heures au frais."
+   ],
+   "tip": "Un flan sans pâte, très léger.",
+   "kcal": 117,
+   "p": 5.6,
+   "c": 19.0,
+   "f": 2.0,
+   "order": 74,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "verrines-fraises-skyr-crumble": {
+   "title": "Verrines fraises-skyr et crumble d'avoine",
+   "origin": "Dessert · Verrines",
+   "servings": 4,
+   "hue": "#D84A5A",
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Léger"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Skyr nature",
+     "q": 400,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Fruits rouges",
+     "q": 300,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      45,
+      1,
+      9,
+      0.3
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 60,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Beurre",
+     "q": 15,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      740,
+      0.7,
+      0.5,
+      82
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      247,
+      4,
+      81,
+      1.2
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange avoine, miel, beurre fondu et cannelle.",
+    "Étale sur une plaque et cuis 12 minutes en remuant.",
+    "Laisse refroidir.",
+    "Alterne skyr, fruits rouges et crumble dans 4 verrines.",
+    "Sers aussitôt."
+   ],
+   "tip": "Le crumble reste croustillant s'il est ajouté au dernier moment.",
+   "kcal": 202,
+   "p": 13.8,
+   "c": 26.2,
+   "f": 4.6,
+   "order": 75,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "cake-marbre-leger": {
+   "title": "Cake marbré léger",
+   "origin": "Dessert · Gâteau",
+   "servings": 8,
+   "hue": "#7A5A3A",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 80,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Cacao en poudre non sucré",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      330,
+      20,
+      15,
+      21
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 3,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange tous les ingrédients sauf le cacao.",
+    "Sépare la pâte en deux parts.",
+    "Ajoute le cacao à une part avec une cuillère de lait.",
+    "Alterne les pâtes dans un moule à cake et marbre avec un couteau.",
+    "Cuis 40 minutes."
+   ],
+   "tip": "Un classique du goûter.",
+   "kcal": 218,
+   "p": 6.0,
+   "c": 29.7,
+   "f": 8.2,
+   "order": 76,
+   "addedOn": "2026-10-18",
+   "rev": 1
   }
  },
  "plans": {
