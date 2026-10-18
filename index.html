@@ -126,6 +126,7 @@ button.tile.empty:hover{border-color:var(--sage);background:var(--sage-soft)}
 .pick small{color:var(--muted);font-size:12.5px}
 
 /* recipes */
+.fsel{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}.fs{display:grid;gap:4px}.fs span{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .chip{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:7px 15px;min-height:40px;font-weight:600;color:var(--muted)}
 .tagrow{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 14px;align-items:center}.tagrow .lbl{font-size:12px;color:var(--muted);margin-right:2px}.tg{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;min-height:36px;font-size:13px;font-weight:600;color:var(--muted)}.tg[aria-pressed="true"]{background:color-mix(in srgb,var(--hue,#6f8f4e) 22%,var(--surface));color:var(--ink);border-color:var(--hue,#6f8f4e)}.ctags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}.ctags span{font-size:11px;font-weight:600;padding:2px 8px;border-radius:99px;background:color-mix(in srgb,var(--hue) 16%,var(--surface));color:var(--ink)}
@@ -690,13 +691,15 @@ function recipesView(){
   const chip=(v,l)=>'<button class="chip" data-act="filter" data-v="'+v+'" aria-pressed="'+(S.filter===v)+'">'+l+'</button>';
   const used=TAGS.filter(t=>S.recipes.some(r=>tagsOf(r).includes(t)));
   const tchip=t=>'<button class="chip" data-act="ftag" data-v="'+esc(t)+'" aria-pressed="'+(S.tag===t)+'">'+esc(t)+'</button>';
+  const sel=(l,k,o,cur)=>'<label class="fs"><span>'+l+'</span><select data-fsel="'+k+'" aria-label="'+l+'">'+o.map(x=>'<option value="'+esc(x[0])+'"'+(x[0]===cur?' selected':'')+'>'+esc(x[1])+'</option>').join("")+'</select></label>';
   const tm=(m,l)=>'<button class="chip" data-act="ftime" data-v="'+m+'" aria-pressed="'+(S.tmax===m)+'">'+l+'</button>';
   const n=S.recipes.length;
   return pageHead("Recettes","Mon carnet",n+" recette"+(n>1?"s":"")+", ajoutées au fil des semaines.",'<div class="tools"><button class="ghost" data-act="addrecipe">+ Ajouter une recette</button></div>')+
     seasonBlock()+'<input type="text" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" id="rsearch" class="search" data-search="1" placeholder="Rechercher une recette ou un ingrédient" aria-label="Rechercher une recette ou un ingrédient" value="'+esc(S.q)+'">'+
-    '<div class="chips">'+chip("all","Toutes")+chip("fav","★ Favoris")+chip("done","Déjà cuisinées")+chip("new","À essayer")+'</div>'+
-    (used.length?'<div class="chips">'+used.map(tchip).join("")+'</div>':'')+
-    '<div class="chips">'+tm(30,"≤ 30 min")+tm(45,"≤ 45 min")+tm(60,"≤ 1 h")+'</div>'+
+    '<div class="fsel">'+
+      sel("Affichage","filter",[["all","Toutes"],["fav","★ Favoris"],["done","Déjà cuisinées"],["new","À essayer"]],S.filter)+
+      sel("Catégorie","tag",[["","Toutes les catégories"]].concat(used.map(t=>[t,t])),S.tag)+
+      sel("Temps","tmax",[["0","Tous les temps"],["30","≤ 30 min"],["45","≤ 45 min"],["60","≤ 1 h"]],String(S.tmax))+'</div>'+
     '<div id="rlist">'+recipeCards()+'</div>';
 }
 
@@ -1124,7 +1127,8 @@ document.addEventListener("input",e=>{
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&S.picker){S.picker=null;render()}});
 $("#app").addEventListener("change",async e=>{
   const t=e.target;
-  if(t.id==="mx-r"){S.mx.r=t.value;S.mx.vals={};render()}
+  if(t.dataset.fsel){const k=t.dataset.fsel;if(k==="filter")S.filter=t.value;else if(k==="tag")S.tag=t.value;else S.tmax=+t.value||0;render()}
+  else if(t.id==="mx-r"){S.mx.r=t.value;S.mx.vals={};render()}
   else if(t.id==="mx-date"){S.mx.date=t.value||iso(new Date());render()}
   else if(t.dataset.pw){const r=recipeById(S.mx.r);if(r&&db){try{await db.doc("recipes/"+r.id).update({prepWeight:numOf(t.value)});toast("Poids du plat enregistré")}catch(err){toast("Poids non enregistré.")}}}
   else if(t.dataset.chk){if(t.checked)S.plan.checked[t.dataset.chk]=true;else delete S.plan.checked[t.dataset.chk];savePlan();render()}
