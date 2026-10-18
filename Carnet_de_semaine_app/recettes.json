@@ -1,0 +1,1898 @@
+{
+ "recipes": {
+  "poulet-tikka": {
+   "addedOn": "2026-10-18",
+   "c": 67,
+   "f": 8,
+   "hue": "#D49A2A",
+   "ingredients": [
+    {
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "n": "Blanc de poulet cru",
+     "q": 600,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "mc": [
+      130,
+      2.7,
+      28,
+      0.3
+     ],
+     "n": "Riz basmati cru",
+     "part": "side",
+     "q": 280,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      52,
+      6,
+      4.5,
+      1.5
+     ],
+     "n": "Yaourt nature ou fromage blanc 0 %",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ],
+     "n": "Courgettes",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ],
+     "n": "Poivrons",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon rouge",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ],
+     "n": "Jus de citron",
+     "q": 20,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      8,
+      0.4,
+      1.4,
+      0.4
+     ],
+     "n": "Garam masala",
+     "q": 2,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      7,
+      0.3,
+      1.2,
+      0.3
+     ],
+     "n": "Paprika",
+     "q": 1,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      8,
+      0.4,
+      0.9,
+      0.5
+     ],
+     "n": "Cumin",
+     "q": 1,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Sel",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Poivre",
+     "q": null
+    },
+    {
+     "cat": "Légumes & herbes",
+     "n": "Coriandre fraîche",
+     "q": null
+    }
+   ],
+   "kcal": 523,
+   "order": 2,
+   "origin": "Inde",
+   "p": 44.9,
+   "servings": 4,
+   "steps": [
+    "Préchauffer le four à 210 °C. Couper le poulet en cubes et les légumes en morceaux.",
+    "Mélanger le yaourt, le jus de citron, l’ail pressé, le garam masala, le paprika, le cumin, le sel et le poivre.",
+    "Enrober le poulet de marinade. Laisser reposer 20 à 30 minutes au réfrigérateur si possible.",
+    "Répartir les légumes sur une plaque, ajouter environ la moitié de l’huile et mélanger. Déposer le poulet dans un plat adapté et ajouter le reste de l’huile.",
+    "Enfourner environ 20 à 25 minutes, en remuant les légumes à mi-cuisson. Vérifier que le poulet est bien cuit à cœur.",
+    "Faire cuire le riz selon les indications du paquet. Servir le poulet et les légumes avec le riz et de la coriandre."
+   ],
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "tip": "Laisser mariner le poulet plusieurs heures au réfrigérateur pour un goût plus intense.",
+   "title": "Poulet tikka avec légumes rôtis",
+   "rev": 1
+  },
+  "kofte-boulgour": {
+   "addedOn": "2026-10-18",
+   "c": 52.4,
+   "f": 12.1,
+   "hue": "#8A5A34",
+   "ingredients": [
+    {
+     "cat": "Viandes",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ],
+     "n": "Bœuf haché à 5 % de matière grasse",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      345,
+      12,
+      69,
+      1.5
+     ],
+     "mc": [
+      83,
+      3.1,
+      18.6,
+      0.2
+     ],
+     "n": "Boulgour cru",
+     "part": "side",
+     "q": 240,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ],
+     "n": "Courgettes",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ],
+     "n": "Tomates",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      36,
+      3,
+      6,
+      0.8
+     ],
+     "n": "Persil frais",
+     "q": 20,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      52,
+      6,
+      4.5,
+      1.5
+     ],
+     "n": "Yaourt nature ou fromage blanc 0 %",
+     "part": "side",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      8,
+      0.4,
+      0.9,
+      0.5
+     ],
+     "n": "Cumin",
+     "q": 1,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      7,
+      0.3,
+      1.2,
+      0.3
+     ],
+     "n": "Paprika",
+     "q": 1,
+     "u": "càc"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ],
+     "n": "Jus de citron",
+     "part": "side",
+     "q": 10,
+     "u": "g"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Origan",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Sel",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Poivre",
+     "q": null
+    }
+   ],
+   "kcal": 466,
+   "order": 3,
+   "origin": "Turquie",
+   "p": 38.1,
+   "servings": 4,
+   "steps": [
+    "Préchauffer le four à 210 °C. Couper les courgettes et les tomates en morceaux.",
+    "Mélanger le bœuf avec la moitié de l’oignon finement haché, le persil, le cumin, le paprika, le sel et le poivre. Former des boulettes allongées.",
+    "Disposer les légumes sur une plaque avec l’huile, l’ail et l’origan. Enfourner 20 à 25 minutes, en remuant à mi-cuisson.",
+    "Faire cuire les köfte à la poêle antiadhésive ou au four jusqu’à ce qu’elles soient bien cuites à cœur, environ 12 à 15 minutes selon leur taille.",
+    "Préparer le boulgour selon les indications du paquet.",
+    "Mélanger le yaourt avec le jus de citron, un peu d’ail, du sel et du poivre. Servir les köfte avec le boulgour, les légumes et la sauce."
+   ],
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "tip": "Humidifier légèrement les mains pour former les köfte plus facilement.",
+   "title": "Köfte turques, boulgour et légumes",
+   "rev": 1
+  },
+  "tiramisu-proteine": {
+   "addedOn": "2026-10-18",
+   "c": 18.1,
+   "f": 3.3,
+   "hue": "#B08968",
+   "ingredients": [
+    {
+     "cat": "Crèmerie",
+     "g": "Biscuits",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "n": "Œufs",
+     "q": 2,
+     "u": ""
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Biscuits",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ],
+     "n": "Sucre",
+     "q": 15,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "g": "Biscuits",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ],
+     "n": "Farine",
+     "q": 50,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Biscuits",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ],
+     "n": "Levure chimique",
+     "q": 0.5,
+     "u": "sachet"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Biscuits",
+     "m": [
+      2,
+      0.1,
+      0.3,
+      0
+     ],
+     "n": "Expresso refroidi",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Biscuits",
+     "m": [
+      7,
+      0.5,
+      0.7,
+      0.2
+     ],
+     "n": "Lait",
+     "note": "1 à 2 cuillères à soupe",
+     "q": 1.5,
+     "u": "càs"
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Crème protéinée",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ],
+     "n": "Fromage blanc 0 %",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Crème protéinée",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ],
+     "n": "Whey goût cookie",
+     "q": 25,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Crème protéinée",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "n": "Érythritol",
+     "q": 10,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Crème protéinée",
+     "n": "Arôme vanille",
+     "note": "un peu",
+     "q": null
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Crème protéinée",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ],
+     "n": "Fromage blanc 0 %",
+     "note": "à la place des 2 œufs de la crème (100 à 120 g)",
+     "q": 110,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Montage",
+     "n": "Café",
+     "note": "1 café refroidi",
+     "q": null
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Montage",
+     "n": "Cacao en poudre non sucré",
+     "note": "facultatif",
+     "q": null
+    }
+   ],
+   "kcal": 169,
+   "order": 7,
+   "origin": "Dessert · Italie",
+   "p": 17.6,
+   "servings": 4,
+   "steps": [
+    "Biscuits : préchauffer le four à 180 °C en chaleur traditionnelle.",
+    "Biscuits : battre 2 œufs avec 15 g de sucre pendant 2 à 3 minutes, jusqu’à ce que le mélange devienne mousseux.",
+    "Biscuits : ajouter 50 g de farine et ½ sachet de levure chimique, puis mélanger délicatement.",
+    "Biscuits : ajouter 1 expresso refroidi et 1 à 2 cuillères à soupe de lait. Mélanger jusqu’à obtenir une pâte homogène.",
+    "Biscuits : sur une plaque recouverte de papier cuisson, former 10 biscuits allongés à l’aide d’une cuillère, ou étaler la pâte en une couche fine.",
+    "Biscuits : enfourner 12 à 15 minutes, jusqu’à ce que les biscuits soient cuits et légèrement dorés. Les laisser refroidir 15 à 20 minutes avant de les utiliser.",
+    "Crème : mélanger 300 g de fromage blanc 0 %, 25 g de whey goût cookie, 10 g d’érythritol et un peu d’arôme vanille.",
+    "Crème : ajouter 110 g de fromage blanc 0 % supplémentaire à la place des 2 œufs (ou utiliser des œufs pasteurisés). Mélanger jusqu’à obtenir une crème homogène et la placer au frais.",
+    "Montage : préparer un café et le laisser refroidir complètement. Sortir 4 ramequins individuels.",
+    "Montage : casser les 10 biscuits en morceaux et les tremper rapidement dans le café, sans les détremper.",
+    "Montage : dans chaque ramequin, déposer une première couche de biscuits imbibés (environ 1 biscuit et demi), puis 2 cuillères à soupe de crème, soit environ la moitié de la part.",
+    "Montage : ajouter une deuxième couche de biscuits imbibés, puis recouvrir du reste de la crème (environ 100 g de crème par ramequin au total). Lisser le dessus.",
+    "Finition : saupoudrer de cacao non sucré si tu le souhaites.",
+    "Repos : filmer ou couvrir les ramequins et les placer au réfrigérateur au minimum 2 heures, idéalement 4 à 6 heures, à 4 °C maximum."
+   ],
+   "tags": [
+    "Dessert",
+    "Riche en protéines"
+   ],
+   "tip": "Chaque ramequin est une portion déjà prête : couvre-les et garde-les au frais jusqu’à 2 jours. Ajoute le cacao juste avant de servir pour qu’il reste bien poudreux. Temps total d’environ 3 h 30 à 4 h, dont 25 à 30 minutes de préparation active.",
+   "title": "Tiramisu protéiné en ramequins",
+   "rev": 1
+  },
+  "boeuf-carottes-patates-ricotta": {
+   "addedOn": "2026-10-18",
+   "c": 58,
+   "f": 10,
+   "hue": "#C9772E",
+   "ingredients": [
+    {
+     "cat": "Légumes & herbes",
+     "g": "Au four (accompagnement)",
+     "m": [
+      86,
+      1.6,
+      20,
+      0.1
+     ],
+     "n": "Patate douce",
+     "note": "épluchée",
+     "part": "side",
+     "q": 450,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Au four (accompagnement)",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "n": "Pommes de terre",
+     "note": "épluchées",
+     "part": "side",
+     "q": 450,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Au four (accompagnement)",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "part": "side",
+     "q": 5,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "À la poêle (préparation)",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ],
+     "n": "Carottes",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "À la poêle (préparation)",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon",
+     "note": "environ 1 gros oignon",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Viandes",
+     "g": "À la poêle (préparation)",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ],
+     "n": "Viande hachée 5 %",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "À la poêle (préparation)",
+     "m": [
+      160,
+      11,
+      3,
+      12
+     ],
+     "n": "Ricotta",
+     "q": 75,
+     "u": "g"
+    }
+   ],
+   "kcal": 447,
+   "order": 8,
+   "origin": "Plat complet · Maison",
+   "p": 34,
+   "servings": 4,
+   "steps": [
+    "Au four : préchauffer le four à 200 °C.",
+    "Au four : éplucher 450 g de patate douce et 450 g de pommes de terre, les couper en morceaux de taille égale.",
+    "Au four : les mélanger avec 5 g d’huile, les étaler sur une plaque recouverte de papier cuisson et enfourner jusqu’à ce qu’ils soient tendres et dorés (environ 30 à 40 minutes, en les retournant à mi-cuisson).",
+    "À la poêle : éplucher et couper 500 g de carottes en petits morceaux ou en rondelles fines, émincer l’oignon.",
+    "À la poêle : faire revenir l’oignon, puis ajouter les carottes et les cuire jusqu’à ce qu’elles soient tendres.",
+    "À la poêle : ajouter 500 g de viande hachée 5 % et la cuire en l’émiettant, jusqu’à ce qu’elle soit bien cuite.",
+    "À la poêle : hors du feu, incorporer 75 g de ricotta et mélanger.",
+    "Service : répartir en 4 portions, avec les patates douces et pommes de terre au four."
+   ],
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "tip": "Quantités pour 4 personnes. Sel, poivre et épices à ton goût : paprika, cumin ou herbes de Provence vont très bien avec la ricotta. Se garde 3 jours au frigo, idéal en meal prep.",
+   "title": "Bœuf, carottes et patates au four, ricotta",
+   "rev": 1
+  },
+  "chawarma-poulet": {
+   "addedOn": "2026-10-18",
+   "c": 54.9,
+   "f": 5.5,
+   "hue": "#6F8F4E",
+   "ingredients": [
+    {
+     "cat": "Viandes",
+     "g": "Poulet mariné",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "n": "Blanc de poulet cru",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Poulet mariné",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ],
+     "n": "Fromage blanc 0 %",
+     "q": 80,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Poulet mariné",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ],
+     "n": "Jus de citron",
+     "q": 20,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Poulet mariné",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Poulet mariné",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Poulet mariné",
+     "m": [
+      7,
+      0.3,
+      1.2,
+      0.3
+     ],
+     "n": "Paprika",
+     "q": 2,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Poulet mariné",
+     "m": [
+      8,
+      0.4,
+      0.9,
+      0.5
+     ],
+     "n": "Cumin",
+     "q": 1,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Poulet mariné",
+     "m": [
+      8,
+      0.3,
+      1.4,
+      0.2
+     ],
+     "n": "Curcuma",
+     "q": 0.5,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Poulet mariné",
+     "m": [
+      1,
+      0,
+      0.3,
+      0
+     ],
+     "n": "Cannelle",
+     "q": 1,
+     "u": "pincée"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Poulet mariné",
+     "n": "Sel",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Poulet mariné",
+     "n": "Poivre",
+     "q": null
+    },
+    {
+     "cat": "Féculents & conserves",
+     "g": "Accompagnement",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "mc": [
+      130,
+      2.7,
+      28,
+      0.3
+     ],
+     "n": "Riz basmati cru",
+     "part": "side",
+     "q": 240,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Accompagnement",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ],
+     "n": "Tomates",
+     "part": "side",
+     "q": 200,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Accompagnement",
+     "m": [
+      15,
+      0.7,
+      3,
+      0.1
+     ],
+     "n": "Concombre",
+     "part": "side",
+     "q": 200,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Accompagnement",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "n": "Salade verte",
+     "part": "side",
+     "q": 100,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Accompagnement",
+     "m": [
+      11,
+      0.7,
+      1.8,
+      0.2
+     ],
+     "n": "Cornichons ou navets marinés",
+     "part": "side",
+     "q": 80,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Sauce à l’ail",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ],
+     "n": "Fromage blanc 0 %",
+     "part": "side",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Sauce à l’ail",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "part": "side",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Sauce à l’ail",
+     "n": "Jus de citron",
+     "note": "un peu",
+     "part": "side",
+     "q": null
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Sauce à l’ail",
+     "n": "Persil frais",
+     "part": "side",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Sauce à l’ail",
+     "n": "Sel",
+     "part": "side",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "g": "Sauce à l’ail",
+     "n": "Poivre",
+     "part": "side",
+     "q": null
+    }
+   ],
+   "kcal": 430,
+   "order": 5,
+   "origin": "Liban / Moyen-Orient",
+   "p": 39.9,
+   "servings": 4,
+   "steps": [
+    "Couper le poulet en fines lamelles. Mélanger les 80 g de fromage blanc, le citron, l’huile, une partie de l’ail et les épices. Ajouter le poulet et laisser mariner 20 à 30 minutes au réfrigérateur si possible.",
+    "Faire cuire le riz selon les indications du paquet.",
+    "Faire chauffer une grande poêle et cuire le poulet avec sa marinade pendant environ 8 à 12 minutes, en remuant, jusqu’à ce qu’il soit bien cuit à cœur.",
+    "Pour la sauce, mélanger les 150 g de fromage blanc avec le reste de l’ail pressé, un peu de citron, du persil, du sel et du poivre.",
+    "Couper les tomates et le concombre, puis préparer la salade et les cornichons ou navets marinés.",
+    "Répartir le riz, le poulet, les crudités et la sauce entre les 4 assiettes. Servir immédiatement."
+   ],
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "tip": "Laisser mariner le poulet quelques heures au réfrigérateur pour que les épices parfument davantage la viande.",
+   "title": "Chawarma au poulet, riz et sauce à l’ail",
+   "rev": 1
+  },
+  "gratin-courgettes-boeuf": {
+   "addedOn": "2026-10-18",
+   "c": 13.3,
+   "f": 17.5,
+   "hue": "#7E9A52",
+   "ingredients": [
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ],
+     "n": "Courgettes",
+     "q": 800,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 5,
+     "u": "g"
+    },
+    {
+     "cat": "Viandes",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ],
+     "n": "Viande hachée 5 %",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ],
+     "n": "Pulpe de tomate",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      160,
+      11,
+      3,
+      12
+     ],
+     "n": "Ricotta",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ],
+     "n": "Mozzarella",
+     "q": 100,
+     "u": "g"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Origan, sel et poivre",
+     "note": "au goût",
+     "q": null
+    }
+   ],
+   "kcal": 360,
+   "order": 9,
+   "origin": "Plat · Gratin maison",
+   "p": 38.8,
+   "servings": 4,
+   "steps": [
+    "Préchauffer le four à 200 °C.",
+    "Laver les courgettes et les couper en rondelles fines. Les faire revenir à sec ou avec 5 g d’huile dans une poêle 5 à 8 minutes, puis les réserver.",
+    "Dans la même poêle, faire revenir l’oignon émincé et l’ail jusqu’à ce qu’ils soient tendres.",
+    "Ajouter 500 g de viande hachée 5 % et la cuire en l’émiettant, puis verser la pulpe de tomate. Assaisonner avec l’origan, le sel et le poivre et laisser mijoter 10 minutes.",
+    "Dans un plat à gratin, alterner une couche de courgettes et une couche de viande à la tomate, en terminant par les courgettes.",
+    "Répartir la ricotta par petites cuillerées sur le dessus, puis ajouter la mozzarella.",
+    "Enfourner 25 à 30 minutes, jusqu’à ce que le dessus soit bien doré.",
+    "Laisser reposer 5 minutes avant de découper en 4 portions."
+   ],
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "tip": "Parfait en meal prep : il se garde 3 jours au frigo et se réchauffe très bien. Si les courgettes rendent beaucoup d’eau, égoutte-les avant le montage.",
+   "title": "Gratin de courgettes à la viande hachée",
+   "rev": 1
+  },
+  "cheesecake-proteine-ramequins": {
+   "addedOn": "2026-10-18",
+   "c": 23,
+   "f": 6,
+   "hue": "#CC8F94",
+   "ingredients": [
+    {
+     "cat": "Crèmerie",
+     "g": "Base biscuits",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "n": "Œufs",
+     "q": 2,
+     "u": ""
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Base biscuits",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ],
+     "n": "Sucre",
+     "q": 15,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "g": "Base biscuits",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ],
+     "n": "Farine",
+     "q": 50,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Base biscuits",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ],
+     "n": "Levure chimique",
+     "q": 0.5,
+     "u": "sachet"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Base biscuits",
+     "m": [
+      2,
+      0.1,
+      0.3,
+      0
+     ],
+     "n": "Expresso refroidi",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Base biscuits",
+     "m": [
+      7,
+      0.5,
+      0.7,
+      0.2
+     ],
+     "n": "Lait",
+     "note": "1 à 2 cuillères à soupe",
+     "q": 1.5,
+     "u": "càs"
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Crème cheesecake",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ],
+     "n": "Fromage blanc 0 %",
+     "q": 400,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "g": "Crème cheesecake",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "n": "Œufs",
+     "q": 2,
+     "u": ""
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Crème cheesecake",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ],
+     "n": "Whey vanille",
+     "q": 30,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "g": "Crème cheesecake",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "n": "Érythritol",
+     "q": 15,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "g": "Crème cheesecake",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ],
+     "n": "Fécule de maïs",
+     "q": 15,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "g": "Crème cheesecake",
+     "n": "Citron (jus et zeste)",
+     "note": "un peu",
+     "q": null
+    },
+    {
+     "cat": "Fruits & fruits secs",
+     "g": "Dessus",
+     "m": [
+      45,
+      1.2,
+      5,
+      0.5
+     ],
+     "n": "Framboises",
+     "note": "fraîches ou surgelées",
+     "q": 120,
+     "u": "g"
+    }
+   ],
+   "kcal": 235,
+   "order": 11,
+   "origin": "Dessert · Inspiration américaine",
+   "p": 21.9,
+   "servings": 4,
+   "steps": [
+    "Base : préchauffer le four à 180 °C en chaleur traditionnelle.",
+    "Base : battre 2 œufs avec 15 g de sucre pendant 2 à 3 minutes, jusqu’à ce que le mélange soit mousseux.",
+    "Base : ajouter 50 g de farine et ½ sachet de levure, puis mélanger délicatement. Ajouter l’expresso refroidi et 1 à 2 cuillères à soupe de lait.",
+    "Base : étaler la pâte en couche fine sur une plaque recouverte de papier cuisson et enfourner 12 à 15 minutes. Laisser refroidir 15 à 20 minutes.",
+    "Base : émietter les biscuits et répartir les miettes au fond de 4 ramequins en les tassant légèrement.",
+    "Crème : baisser le four à 160 °C.",
+    "Crème : mélanger 400 g de fromage blanc 0 %, 2 œufs, 30 g de whey vanille, 15 g d’érythritol, 15 g de fécule et un peu de jus et de zeste de citron, jusqu’à obtenir une crème lisse.",
+    "Crème : verser la crème sur les bases, en répartissant bien dans les 4 ramequins.",
+    "Cuisson : enfourner 20 à 25 minutes, jusqu’à ce que les bords soient pris et le centre encore légèrement tremblant.",
+    "Repos : laisser refroidir à température ambiante, puis placer au réfrigérateur au minimum 4 heures.",
+    "Finition : ajouter les framboises sur le dessus juste avant de servir."
+   ],
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "tip": "Se garde 3 jours au frigo : 4 desserts prêts d’avance. Ne dépasse pas la cuisson, le centre finit de prendre en refroidissant.",
+   "title": "Cheesecake protéiné en ramequins",
+   "rev": 1
+  },
+  "chili-poulet": {
+   "addedOn": "2026-10-18",
+   "c": 71.8,
+   "f": 5.9,
+   "hue": "#B03A2E",
+   "ingredients": [
+    {
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "n": "Blanc de poulet cru",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      8,
+      17,
+      0.5
+     ],
+     "n": "Haricots rouges cuits et égouttés",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ],
+     "n": "Pulpe de tomate",
+     "q": 400,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ],
+     "n": "Poivrons",
+     "note": "rouges et jaunes",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "mc": [
+      130,
+      2.7,
+      28,
+      0.3
+     ],
+     "n": "Riz basmati cru",
+     "part": "side",
+     "q": 250,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      7,
+      0.3,
+      1.2,
+      0.3
+     ],
+     "n": "Paprika",
+     "q": 2,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "m": [
+      8,
+      0.4,
+      0.9,
+      0.5
+     ],
+     "n": "Cumin",
+     "q": 1,
+     "u": "càc"
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Piment doux ou fort",
+     "note": "selon les goûts",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Sel",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Poivre",
+     "q": null
+    }
+   ],
+   "kcal": 523,
+   "order": 4,
+   "origin": "Tex-Mex (Mexique / États-Unis)",
+   "p": 42.2,
+   "servings": 4,
+   "steps": [
+    "Couper le poulet en petits morceaux. Émincer l’oignon, l’ail et les poivrons.",
+    "Faire chauffer l’huile dans une grande sauteuse. Faire dorer le poulet quelques minutes avec le paprika, le cumin et le poivre. Si la poêle est petite, réserver temporairement le poulet.",
+    "Faire revenir l’oignon, l’ail et les poivrons pendant 5 à 7 minutes.",
+    "Ajouter la pulpe de tomate et un petit verre d’eau si nécessaire. Remettre le poulet dans la sauteuse et ajouter les haricots rouges égouttés.",
+    "Laisser mijoter 15 à 20 minutes à feu doux, jusqu’à ce que le poulet soit bien cuit à cœur. Ajuster les épices et l’assaisonnement.",
+    "Faire cuire le riz selon les indications du paquet. Répartir le chili et le riz entre les 4 personnes."
+   ],
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "tip": "Laisser mijoter quelques minutes sans couvercle à la fin pour obtenir une sauce plus épaisse.",
+   "title": "Chili au poulet, poivrons et haricots rouges",
+   "rev": 1
+  },
+  "gnocchis-gratines": {
+   "addedOn": "2026-10-18",
+   "c": 76.2,
+   "f": 14.1,
+   "hue": "#C65D3B",
+   "ingredients": [
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      160,
+      3.5,
+      33,
+      0.8
+     ],
+     "n": "Gnocchis frais ou sous vide",
+     "q": 800,
+     "u": "g"
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ],
+     "n": "Pulpe de tomate",
+     "q": 500,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ],
+     "n": "Mozzarella",
+     "q": 200,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ],
+     "n": "Épinards frais ou surgelés",
+     "q": 200,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon",
+     "q": 100,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "n": "Basilic frais",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Origan",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Sel",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Poivre",
+     "q": null
+    }
+   ],
+   "kcal": 522,
+   "order": 1,
+   "origin": "Italie",
+   "p": 19.4,
+   "servings": 4,
+   "steps": [
+    "Préchauffer le four à 200 °C.",
+    "Émincer l’oignon et l’ail, puis les faire revenir avec l’huile pendant 3 à 4 minutes.",
+    "Ajouter la pulpe de tomate, l’origan, le sel et le poivre. Laisser mijoter 8 minutes.",
+    "Ajouter les épinards et les laisser fondre. Préparer les gnocchis selon les indications du paquet.",
+    "Mélanger les gnocchis avec la sauce dans un plat à gratin. Répartir la mozzarella en morceaux sur le dessus.",
+    "Enfourner 12 à 15 minutes, jusqu’à ce que le fromage soit fondu et légèrement doré. Ajouter du basilic avant de servir."
+   ],
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "tip": "Pour un gratin plus doré, passer 1 à 2 minutes sous le gril en surveillant.",
+   "title": "Gnocchis gratinés à la tomate",
+   "rev": 1
+  },
+  "riz-saute-oeufs-legumes": {
+   "addedOn": "2026-10-18",
+   "c": 56.4,
+   "f": 8.4,
+   "hue": "#D6A33E",
+   "ingredients": [
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "n": "Riz basmati",
+     "q": 240,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "n": "Œufs",
+     "q": 4,
+     "u": ""
+    },
+    {
+     "cat": "Féculents & conserves",
+     "m": [
+      55,
+      3.5,
+      9,
+      0.5
+     ],
+     "n": "Légumes surgelés (petits pois, carottes)",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "n": "Oignon",
+     "q": 100,
+     "u": "g"
+    },
+    {
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      60,
+      8,
+      5,
+      0.1
+     ],
+     "n": "Sauce soja",
+     "q": 30,
+     "u": "ml"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g"
+    },
+    {
+     "cat": "Viandes",
+     "n": "Blanc de poulet",
+     "note": "option : 300 g, à ajouter avec les légumes",
+     "q": null
+    },
+    {
+     "cat": "Épices & assaisonnements",
+     "n": "Poivre",
+     "note": "au goût",
+     "q": null
+    }
+   ],
+   "kcal": 362,
+   "order": 10,
+   "origin": "Plat · Inspiration asiatique",
+   "p": 14.7,
+   "servings": 4,
+   "steps": [
+    "Cuire 240 g de riz basmati à l’eau, l’égoutter et le laisser refroidir (idéalement préparé la veille).",
+    "Si tu ajoutes du poulet : le couper en petits dés et le faire dorer à la poêle avec un peu d’huile, puis le réserver.",
+    "Faire chauffer l’huile dans une grande poêle ou un wok. Faire revenir l’oignon émincé et l’ail 2 minutes.",
+    "Ajouter les légumes surgelés et les cuire 5 à 7 minutes à feu vif.",
+    "Pousser les légumes sur le côté, casser les 4 œufs dans la poêle et les brouiller 1 à 2 minutes.",
+    "Ajouter le riz, la sauce soja et le poivre. Faire sauter 3 à 4 minutes en mélangeant bien, puis servir en 4 portions."
+   ],
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "tip": "Un riz froid de la veille donne un sauté plus ferme et moins collant. Le poulet est facultatif : les macros affichées sont calculées sans lui, ajoute-le comme ingrédient pour les mettre à jour.",
+   "title": "Riz sauté aux œufs et légumes",
+   "rev": 1
+  },
+  "gateau-chocolat-pomme": {
+   "addedOn": "2026-10-18",
+   "c": 10.3,
+   "f": 4.7,
+   "hue": "#5B3A29",
+   "ingredients": [
+    {
+     "cat": "Fruits & fruits secs",
+     "m": [
+      52,
+      0.3,
+      13.8,
+      0.2
+     ],
+     "n": "Pomme",
+     "q": 250,
+     "u": "g"
+    },
+    {
+     "cat": "Épicerie",
+     "m": [
+      330,
+      20,
+      15,
+      21
+     ],
+     "n": "Cacao en poudre non sucré",
+     "q": 40,
+     "u": "g"
+    },
+    {
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "n": "Œufs",
+     "q": 2,
+     "u": ""
+    },
+    {
+     "cat": "Épicerie",
+     "n": "Sucrant Sugarly",
+     "note": "au goût",
+     "q": null
+    },
+    {
+     "cat": "Fruits & fruits secs",
+     "n": "Fruits secs (amandes, noix ou noisettes)",
+     "note": "facultatif",
+     "q": null
+    }
+   ],
+   "kcal": 102,
+   "order": 6,
+   "origin": "Dessert · France",
+   "p": 5.3,
+   "servings": 4,
+   "steps": [
+    "Préchauffer le four à 180 °C.",
+    "Mixer les 250 g de pomme jusqu’à obtenir une purée lisse.",
+    "Ajouter les 40 g de cacao en poudre sans sucre, le sucrant Sugarly et les 2 œufs. Mélanger jusqu’à obtenir une pâte homogène.",
+    "Ajouter des fruits secs si tu le souhaites : amandes, noix ou noisettes.",
+    "Verser la pâte dans un moule et enfourner 30 à 33 minutes à 180 °C."
+   ],
+   "tags": [
+    "Dessert",
+    "Léger"
+   ],
+   "tip": "Les fruits secs (amandes, noix ou noisettes) sont facultatifs : ajoute-les à la pâte avant la cuisson.",
+   "title": "Gâteau au chocolat à la pomme",
+   "rev": 1
+  }
+ },
+ "plans": {
+  "2026-10-19": {
+   "checked": {
+    "c100ash9": true,
+    "c10u1xyl": true,
+    "c12vah2s": true,
+    "c18z60tl": true,
+    "c1ajpnpo": true,
+    "c1lakwer": true,
+    "c1loh9l5": true,
+    "c1nizvfl": true,
+    "c1q0jhfz": true,
+    "c1q9gke9": true,
+    "c1tt5dua": true,
+    "c1u3hlnf": true,
+    "c1uantwy": true,
+    "c1usstf1": true,
+    "c5n45z2": true,
+    "c5v0am9": true,
+    "c5vyr6x": true,
+    "c7fy3th": true,
+    "c7t0t4n": true,
+    "c7x7zbq": true,
+    "c9kr78e": true,
+    "ccaee9v": true,
+    "cfjbrt9": true,
+    "cgn5qdi": true,
+    "cladwxx": true,
+    "cog0ftb": true,
+    "cqoc1ag": true,
+    "crs4rr4": true,
+    "cuvp1yg": true,
+    "cyk2qkl": true
+   },
+   "slots": {
+    "0-s": {
+     "p": 1,
+     "r": "poulet-tikka"
+    },
+    "1-s": {
+     "p": 1,
+     "r": "chili-poulet"
+    },
+    "2-s": {
+     "p": 1,
+     "r": "gnocchis-gratines"
+    },
+    "3-s": {
+     "p": 1,
+     "r": "chawarma-poulet"
+    },
+    "4-s": {
+     "p": 1,
+     "r": "kofte-boulgour"
+    }
+   },
+   "week": "2026-10-19"
+  }
+ }
+}
