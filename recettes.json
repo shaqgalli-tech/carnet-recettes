@@ -5454,6 +5454,1425 @@
    "order": 37,
    "addedOn": "2026-10-18",
    "rev": 1
+  },
+  "poulet-tandoori-four": {
+   "title": "Poulet tandoori au four et riz",
+   "origin": "Plat · Inde",
+   "servings": 4,
+   "hue": "#D0502A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 700,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 200,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 30,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 3,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Gingembre frais",
+     "q": 12,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      80,
+      1.8,
+      18,
+      0.8
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 8,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Curcuma",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      312,
+      10,
+      67,
+      3
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Riz basmati",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "g": "Accompagnement",
+     "part": "side",
+     "mc": [
+      130,
+      2.7,
+      28,
+      0.3
+     ]
+    },
+    {
+     "n": "Concombre",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      0.7,
+      3,
+      0.1
+     ],
+     "g": "Accompagnement"
+    },
+    {
+     "n": "Coriandre, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange le yaourt, le citron, l'ail et le gingembre râpés et les épices.",
+    "Coupe le poulet en gros morceaux, incise-les et enrobe de marinade. Laisse mariner 1 heure ou toute la nuit.",
+    "Préchauffe le four à 220 °C.",
+    "Dispose le poulet sur une plaque et enfourne 25 minutes en retournant à mi-cuisson.",
+    "Passe 3 minutes sous le gril pour colorer.",
+    "Sers avec le riz et le concombre."
+   ],
+   "tip": "Plus la marinade repose, plus le poulet est tendre. Il se congèle mariné.",
+   "kcal": 459,
+   "p": 48.2,
+   "c": 54.0,
+   "f": 5.2,
+   "order": 38,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "tacos-poulet-maison": {
+   "title": "Tacos de poulet maison",
+   "origin": "Plat · Mexique",
+   "servings": 4,
+   "hue": "#CE6B2E",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Rapide"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 550,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 5,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Tortillas de blé",
+     "q": 8,
+     "cat": "Féculents & conserves",
+     "m": [
+      130,
+      3.5,
+      22,
+      3
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Salade verte",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 60,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Avocat",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      160,
+      2,
+      2,
+      15
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 120,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 20,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Coriandre, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Coupe le poulet en petites lanières et assaisonne avec le paprika, le cumin, le sel et le poivre.",
+    "Cuis le poulet 8 minutes dans l'huile bien chaude.",
+    "Coupe les tomates en dés, émince l'oignon et la salade, écrase l'avocat.",
+    "Mélange le yaourt avec le citron et la coriandre.",
+    "Réchauffe les tortillas.",
+    "Garnis chaque tortilla et replie."
+   ],
+   "tip": "Compte 2 tortillas par personne. Tout peut être préparé la veille.",
+   "kcal": 521,
+   "p": 41.8,
+   "c": 51.5,
+   "f": 15.8,
+   "order": 39,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "steak-hache-grenailles-haricots": {
+   "title": "Steak haché maison, pommes de terre grenailles et haricots",
+   "origin": "Plat · Bistrot",
+   "servings": 4,
+   "hue": "#A8532E",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Viande hachée 5 %",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Persil, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 700,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Accompagnement",
+     "part": "side"
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "g": "Accompagnement"
+    },
+    {
+     "n": "Haricots verts",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      31,
+      1.8,
+      4,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 210 °C. Coupe les pommes de terre en deux, mélange avec la moitié de l'huile, du sel et enfourne 25 minutes.",
+    "Mélange le bœuf avec l'oignon haché, la moutarde, l'œuf, le persil, le sel et le poivre.",
+    "Forme 4 steaks.",
+    "Cuis-les 3 à 4 minutes de chaque côté dans une poêle chaude avec le reste d'huile.",
+    "Cuis les haricots verts à l'eau 8 minutes.",
+    "Sers ensemble."
+   ],
+   "tip": "Du bœuf à 5 % de matière grasse donne des steaks tendres et légers.",
+   "kcal": 383,
+   "p": 33.4,
+   "c": 35.8,
+   "f": 11.7,
+   "order": 40,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "gratin-pates-thon-brocoli": {
+   "title": "Gratin de pâtes au thon et brocolis",
+   "origin": "Plat · Four",
+   "servings": 4,
+   "hue": "#D6A24A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Pâtes sèches",
+     "q": 280,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ],
+     "part": "side",
+     "mc": [
+      131,
+      5,
+      25,
+      1.1
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 300,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Brocoli",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      35,
+      2.8,
+      4,
+      0.4
+     ]
+    },
+    {
+     "n": "Fromage blanc 0 %",
+     "q": 250,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Muscade, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 200 °C. Cuis les pâtes 2 minutes de moins que le temps indiqué.",
+    "Cuis les brocolis 5 minutes à l'eau.",
+    "Mélange le fromage blanc, les œufs, la moutarde, la muscade, le sel et le poivre.",
+    "Mélange pâtes, brocolis, thon émietté et sauce dans un plat.",
+    "Parsème d'emmental.",
+    "Enfourne 20 minutes jusqu'à ce que le gratin soit doré."
+   ],
+   "tip": "Version sans béchamel : le fromage blanc donne du crémeux avec peu de matières grasses.",
+   "kcal": 492,
+   "p": 42.8,
+   "c": 57.9,
+   "f": 9.3,
+   "order": 41,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "gratin-pdt-lardons-skyr": {
+   "title": "Gratin de pommes de terre aux lardons et au skyr",
+   "origin": "Plat · Montagne",
+   "servings": 4,
+   "hue": "#D8B576",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 60,
+   "ingredients": [
+    {
+     "n": "Pommes de terre",
+     "q": 900,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ]
+    },
+    {
+     "n": "Lardons fumés",
+     "q": 100,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      190,
+      17,
+      0.5,
+      13
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Skyr nature",
+     "q": 250,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 100,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 1,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Muscade, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Salade verte",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 190 °C. Coupe les pommes de terre en fines rondelles.",
+    "Fais revenir les lardons et l'oignon 5 minutes.",
+    "Mélange le skyr, le lait, l'ail écrasé, la muscade, le sel et le poivre.",
+    "Dans un plat, alterne pommes de terre, lardons-oignons et sauce.",
+    "Parsème d'emmental.",
+    "Cuis 45 minutes sous aluminium puis 10 minutes sans pour dorer. Sers avec la salade."
+   ],
+   "tip": "Un gratin réconfortant avec deux fois moins de matières grasses qu'un gratin à la crème.",
+   "kcal": 346,
+   "p": 21.7,
+   "c": 46.5,
+   "f": 8.1,
+   "order": 42,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "poulet-kebab-yaourt": {
+   "title": "Poulet façon kebab, pita et crudités",
+   "origin": "Plat · Turquie",
+   "servings": 4,
+   "hue": "#C0623A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 150,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 6,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 20,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Pains pita",
+     "q": 4,
+     "cat": "Féculents & conserves",
+     "m": [
+      160,
+      5,
+      32,
+      1
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Salade verte",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 60,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Yaourt (sauce blanche)",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Persil, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange le premier yaourt avec l'ail, les épices et le citron. Ajoute le poulet en lamelles et laisse mariner 20 minutes.",
+    "Cuis le poulet 8 à 10 minutes à la poêle avec l'huile.",
+    "Prépare la sauce blanche avec le second yaourt, du persil, sel et poivre.",
+    "Coupe tomates, salade et oignon.",
+    "Réchauffe les pitas.",
+    "Garnis de poulet, de crudités et de sauce."
+   ],
+   "tip": "Un kebab maison beaucoup plus léger que celui du commerce.",
+   "kcal": 417,
+   "p": 43.6,
+   "c": 41.2,
+   "f": 8.2,
+   "order": 43,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "courgettes-farcies-boeuf": {
+   "title": "Courgettes farcies au bœuf",
+   "origin": "Plat · Four",
+   "servings": 4,
+   "hue": "#7DA25E",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Léger"
+   ],
+   "min": 50,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 1000,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Viande hachée 5 %",
+     "q": 450,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Mozzarella",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 5,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Origan, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Riz basmati",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "g": "Accompagnement",
+     "part": "side",
+     "mc": [
+      130,
+      2.7,
+      28,
+      0.3
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 200 °C. Coupe les courgettes en deux dans la longueur et évide-les.",
+    "Hache la chair des courgettes et fais-la revenir avec l'oignon et l'ail 5 minutes.",
+    "Ajoute le bœuf et cuis, puis les tomates et l'origan. Mijote 8 minutes.",
+    "Remplis les courgettes de farce.",
+    "Parsème de mozzarella et enfourne 25 minutes.",
+    "Cuis le riz et sers avec."
+   ],
+   "tip": "Les courgettes farcies se préparent la veille et se réchauffent bien.",
+   "kcal": 463,
+   "p": 36.5,
+   "c": 50.9,
+   "f": 13.0,
+   "order": 44,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "galettes-pdt-thon": {
+   "title": "Galettes de pommes de terre au thon",
+   "origin": "Plat · Rapide",
+   "servings": 4,
+   "hue": "#D8B55E",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Rapide"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Pommes de terre",
+     "q": 700,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 60,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 30,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Persil, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Salade verte",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    },
+    {
+     "n": "Yaourt nature (sauce)",
+     "q": 120,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Râpe les pommes de terre et presse-les dans un torchon.",
+    "Mélange avec le thon émietté, les œufs, l'oignon haché, la farine, le persil, le sel et le poivre.",
+    "Forme 8 galettes.",
+    "Fais chauffer l'huile dans une poêle antiadhésive.",
+    "Cuis les galettes 4 à 5 minutes de chaque côté.",
+    "Sers avec la salade et une sauce au yaourt."
+   ],
+   "tip": "Presse bien les pommes de terre pour des galettes bien croustillantes.",
+   "kcal": 329,
+   "p": 24.9,
+   "c": 39.0,
+   "f": 8.1,
+   "order": 45,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "nuggets-poulet-four": {
+   "title": "Nuggets de poulet maison au four",
+   "origin": "Plat · Enfance",
+   "servings": 4,
+   "hue": "#D9A24A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 20,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 30,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 700,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Accompagnement",
+     "part": "side"
+    },
+    {
+     "n": "Haricots verts",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      31,
+      1.8,
+      4,
+      0.2
+     ],
+     "g": "Accompagnement"
+    },
+    {
+     "n": "Sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 210 °C. Coupe le poulet en morceaux.",
+    "Mixe l'avoine avec le parmesan, le paprika, le sel et le poivre.",
+    "Passe les morceaux dans la farine, l'œuf, puis l'avoine.",
+    "Dispose sur une plaque huilée avec les pommes de terre en quartiers.",
+    "Enfourne 20 minutes en retournant à mi-cuisson.",
+    "Cuis les haricots verts et sers."
+   ],
+   "tip": "Les nuggets se congèlent crus : cuisson directe à 210 °C.",
+   "kcal": 477,
+   "p": 46.8,
+   "c": 46.5,
+   "f": 10.1,
+   "order": 46,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "panna-cotta-skyr-vanille": {
+   "title": "Panna cotta au skyr et coulis de fruits rouges",
+   "origin": "Dessert · Italie",
+   "servings": 4,
+   "hue": "#E8D0C8",
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Léger"
+   ],
+   "min": 20,
+   "ingredients": [
+    {
+     "n": "Skyr nature",
+     "q": 400,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 200,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Gélatine (3 feuilles)",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Fruits rouges",
+     "q": 200,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      45,
+      1,
+      9,
+      0.3
+     ],
+     "g": "Coulis"
+    },
+    {
+     "n": "Miel",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ],
+     "g": "Coulis"
+    }
+   ],
+   "steps": [
+    "Fais tremper la gélatine dans l'eau froide.",
+    "Chauffe le lait avec le miel et la vanille sans bouillir.",
+    "Ajoute la gélatine essorée hors du feu.",
+    "Laisse tiédir, puis incorpore le skyr.",
+    "Verse dans 4 verrines et place 4 heures au frais.",
+    "Mixe les fruits rouges avec le miel pour faire le coulis."
+   ],
+   "tip": "Le skyr donne une panna cotta très riche en protéines.",
+   "kcal": 132,
+   "p": 13.3,
+   "c": 19.0,
+   "f": 0.4,
+   "order": 47,
+   "addedOn": "2026-10-18",
+   "rev": 1
   }
  },
  "plans": {
