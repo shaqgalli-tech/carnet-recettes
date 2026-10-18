@@ -2627,6 +2627,166 @@
    "c": 51.7,
    "f": 10.4,
    "rev": 1
+  },
+  "wraps-galettes-riz-poulet": {
+   "order": 17,
+   "title": "Wraps croustillants de galettes de riz au poulet",
+   "origin": "Plat · Wraps maison",
+   "servings": 2,
+   "hue": "#C97B4A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "g": "Farce"
+    },
+    {
+     "n": "Poivron",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ],
+     "g": "Farce"
+    },
+    {
+     "n": "Carotte",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ],
+     "g": "Farce"
+    },
+    {
+     "n": "Fromage frais nature",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      150,
+      6,
+      4,
+      12
+     ],
+     "g": "Farce"
+    },
+    {
+     "n": "Ail",
+     "q": 1,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "g": "Farce"
+    },
+    {
+     "n": "Paprika",
+     "q": 1,
+     "u": "càc",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      7,
+      0.3,
+      1.2,
+      0.3
+     ],
+     "g": "Farce"
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "g": "Farce",
+     "note": "5 g pour les pommes de terre, 5 g pour la farce"
+    },
+    {
+     "n": "Sel, poivre et herbes de Provence",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "g": "Farce",
+     "note": "au goût"
+    },
+    {
+     "n": "Galettes de riz",
+     "q": 6,
+     "u": "",
+     "cat": "Féculents & conserves",
+     "m": [
+      30,
+      0.1,
+      6.8,
+      0
+     ],
+     "g": "Wraps"
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Pommes de terre rôties",
+     "part": "side"
+    }
+   ],
+   "steps": [
+    "Pommes de terre : préchauffe le four à 200 °C.",
+    "Pommes de terre : coupe-les en petits quartiers et mélange-les avec environ 5 g d’huile d’olive, du sel, du poivre et des herbes de Provence.",
+    "Pommes de terre : enfourne pendant 25 à 35 minutes, en les retournant à mi-cuisson.",
+    "Farce : coupe le poulet et le poivron en petits dés. Râpe la carotte et hache l’ail.",
+    "Farce : fais chauffer les 5 g d’huile restants dans une poêle. Fais cuire le poulet avec le paprika et l’ail pendant environ 6 à 8 minutes.",
+    "Farce : ajoute le poivron et la carotte, puis poursuis la cuisson pendant 5 à 7 minutes, jusqu’à ce que le poulet soit bien cuit.",
+    "Farce : coupe le feu et incorpore le fromage frais. Mélange pour obtenir une farce crémeuse et laisse tiédir quelques minutes.",
+    "Wraps : trempe une galette de riz dans de l’eau tiède quelques secondes, juste assez pour qu’elle s’assouplisse, puis pose-la sur une planche légèrement humide.",
+    "Wraps : dépose une portion de farce au centre, en laissant de la place sur les côtés. Rabats les côtés vers le centre, puis roule pour former un wrap bien fermé.",
+    "Wraps : pour éviter qu’il se déchire, enveloppe-le dans une deuxième galette de riz humidifiée. Répète pour les autres wraps.",
+    "Dorure : fais chauffer une poêle antiadhésive à feu moyen avec un peu d’huile si nécessaire. Dépose les wraps sans qu’ils se touchent.",
+    "Dorure : fais-les dorer environ 3 à 4 minutes de chaque côté, en les retournant délicatement, jusqu’à ce qu’ils soient croustillants. Sers immédiatement avec les pommes de terre rôties."
+   ],
+   "tip": "Évite de trop humidifier les galettes et ne surcharge pas les wraps. Si elles collent, espace-les dans la poêle et fais-les cuire en plusieurs fournées. Préparation 20 min, cuisson 30 min. Les valeurs dépendent surtout du poids de tes galettes de riz et du fromage frais.",
+   "addedOn": "2026-10-18",
+   "kcal": 480,
+   "p": 35.3,
+   "c": 57.3,
+   "f": 11.1,
+   "rev": 1
   }
  },
  "plans": {
