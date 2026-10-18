@@ -1834,6 +1834,799 @@
    "tip": "Les fruits secs (amandes, noix ou noisettes) sont facultatifs : ajoute-les à la pâte avant la cuisson.",
    "title": "Gâteau au chocolat à la pomme",
    "rev": 1
+  },
+  "flan-vanille-proteine": {
+   "order": 12,
+   "title": "Flan vanille hyperprotéiné",
+   "origin": "Dessert · Collation",
+   "servings": 4,
+   "hue": "#D9B66B",
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Léger"
+   ],
+   "ingredients": [
+    {
+     "n": "Lait écrémé",
+     "q": 400,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "u": "",
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ],
+     "note": "100 g sans coquille"
+    },
+    {
+     "n": "Whey vanille",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 20,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 160 °C.",
+    "Verse le lait dans une casserole et fais-le chauffer doucement, sans le faire bouillir.",
+    "Dans un saladier, bats les œufs avec le sucre, la whey et la maïzena.",
+    "Verse progressivement le lait chaud sur le mélange en fouettant constamment.",
+    "Reverse le tout dans la casserole et remue à feu doux pendant 2 à 3 minutes, jusqu’à ce que la préparation épaississe légèrement.",
+    "Ajoute l’arôme vanille.",
+    "Répartis dans quatre ramequins ou verse dans un petit plat adapté au four.",
+    "Place les ramequins dans un plat rempli d’eau chaude à mi-hauteur.",
+    "Enfourne pendant 35 à 40 minutes environ. Le centre doit être pris, sans rester liquide.",
+    "Laisse refroidir, puis place au réfrigérateur pendant au moins 4 heures avant de déguster."
+   ],
+   "tip": "Une collation fraîche et fondante. Préparation 10 min, cuisson 35 à 40 min, repos 4 h : prépare-le la veille, il se garde 3 jours au frigo.",
+   "addedOn": "2026-10-18",
+   "kcal": 118,
+   "p": 10.5,
+   "c": 12.4,
+   "f": 2.9,
+   "rev": 1
+  },
+  "poulet-masala-riz": {
+   "order": 13,
+   "title": "Poulet masala tomate-yaourt",
+   "origin": "Plat · Inspiration indienne",
+   "servings": 4,
+   "hue": "#C8552E",
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 150,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ],
+     "g": "Plat",
+     "note": "75 g pour la marinade, 75 g à la fin"
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Oignon",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Gingembre frais",
+     "q": 10,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      80,
+      1.8,
+      18,
+      0.8
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Paprika",
+     "q": 5,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Cumin",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Curcuma",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      312,
+      10,
+      67,
+      3
+     ],
+     "g": "Plat"
+    },
+    {
+     "n": "Coriandre fraîche, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "g": "Plat",
+     "note": "au goût"
+    },
+    {
+     "n": "Riz basmati",
+     "q": 250,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ],
+     "g": "Accompagnement",
+     "note": "200 g si tu veux moins de riz",
+     "part": "side",
+     "mc": [
+      130,
+      2.7,
+      28,
+      0.3
+     ]
+    }
+   ],
+   "steps": [
+    "Coupe le poulet en cubes. Mélange-le avec 75 g de yaourt, la moitié du paprika, du cumin et du curcuma. Laisse mariner 15 minutes au réfrigérateur.",
+    "Fais cuire le riz basmati selon les indications du paquet.",
+    "Émince l’oignon et hache l’ail et le gingembre.",
+    "Fais chauffer l’huile dans une sauteuse et fais revenir l’oignon pendant 4 à 5 minutes.",
+    "Ajoute l’ail, le gingembre et le reste des épices. Mélange pendant 30 secondes.",
+    "Ajoute les tomates concassées et 100 ml d’eau. Laisse mijoter 5 minutes.",
+    "Ajoute le poulet mariné et laisse cuire 12 à 15 minutes à feu moyen-doux, jusqu’à ce qu’il soit bien cuit à cœur.",
+    "Hors du feu, incorpore les 75 g de yaourt restants. Évite de faire bouillir la sauce après cet ajout.",
+    "Ajoute la coriandre, rectifie le sel et le poivre, puis sers avec le riz."
+   ],
+   "tip": "Pour remplacer le garam masala : une pincée de poivre noir, de coriandre moulue et éventuellement un peu de piment doux (facultatif). Avec 200 g de riz cru au lieu de 250 g, compte environ 445 kcal par personne. Les valeurs varient selon le yaourt utilisé.",
+   "addedOn": "2026-10-18",
+   "kcal": 453,
+   "p": 37.5,
+   "c": 59.8,
+   "f": 6.6,
+   "rev": 1
+  },
+  "poulet-moutarde-poireaux": {
+   "order": 14,
+   "title": "Poulet moutarde, poireaux et pommes de terre rôties",
+   "origin": "Plat · Cuisine française",
+   "servings": 4,
+   "hue": "#B58A2A",
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Poireaux",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      31,
+      1.5,
+      6,
+      0.3
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Carottes",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Fromage blanc nature",
+     "q": 150,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      75,
+      7,
+      4,
+      3
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 100,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Moutarde",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Ail",
+     "q": 5,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      130,
+      6,
+      28,
+      0.5
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "g": "Sauce",
+     "note": "la moitié pour les pommes de terre"
+    },
+    {
+     "n": "Thym, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "g": "Sauce",
+     "note": "au goût"
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 650,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Pommes de terre rôties",
+     "part": "side"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 200 °C. Coupe les pommes de terre en quartiers, mélange-les avec la moitié de l’huile, du sel, du poivre et du thym. Enfourne pendant 30 à 35 minutes en les retournant à mi-cuisson.",
+    "Coupe le poulet en morceaux. Émince les poireaux et coupe les carottes en fines rondelles.",
+    "Fais chauffer le reste de l’huile dans une sauteuse. Fais dorer le poulet pendant 4 à 5 minutes, puis réserve-le.",
+    "Dans la même sauteuse, ajoute les poireaux, les carottes et l’ail. Fais revenir 5 minutes.",
+    "Verse le bouillon, couvre et laisse cuire 10 à 12 minutes, jusqu’à ce que les légumes commencent à devenir tendres.",
+    "Remets le poulet dans la sauteuse et poursuis la cuisson 8 à 10 minutes, jusqu’à ce qu’il soit bien cuit à cœur.",
+    "Baisse le feu. Ajoute la moutarde et le fromage blanc, puis mélange sans faire bouillir la sauce.",
+    "Sers avec les pommes de terre rôties."
+   ],
+   "tip": "Une sauce onctueuse à la moutarde, avec des poireaux fondants et des carottes. Les macros sont recalculées avec 650 g de pommes de terre.",
+   "addedOn": "2026-10-18",
+   "kcal": 375,
+   "p": 37.0,
+   "c": 42.1,
+   "f": 6.3,
+   "rev": 1
+  },
+  "tajine-poulet-courge": {
+   "order": 15,
+   "title": "Tajine de poulet, courge et carottes",
+   "origin": "Plat · Maghreb",
+   "servings": 4,
+   "hue": "#D2702E",
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Riche en protéines"
+   ],
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Courge butternut épluchée",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      45,
+      1,
+      10,
+      0.1
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Carottes",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Oignon",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Bouillon",
+     "q": 450,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ],
+     "g": "Tajine",
+     "note": "400 à 500 ml"
+    },
+    {
+     "n": "Cumin",
+     "q": 5,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Paprika",
+     "q": 5,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Curcuma",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      312,
+      10,
+      67,
+      3
+     ],
+     "g": "Tajine"
+    },
+    {
+     "n": "Coriandre fraîche, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "g": "Tajine",
+     "note": "coriandre facultative"
+    },
+    {
+     "n": "Semoule de couscous sèche",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ],
+     "g": "Accompagnement",
+     "part": "side",
+     "mc": [
+      112,
+      3.8,
+      23,
+      0.2
+     ]
+    }
+   ],
+   "steps": [
+    "Prépare les légumes : épluche la courge et les carottes. Coupe la courge en cubes d’environ 2 à 3 cm, les carottes en rondelles et l’oignon en fines lamelles. Coupe le poulet en morceaux.",
+    "Fais revenir l’oignon : dans une cocotte, chauffe les 10 g d’huile d’olive. Ajoute l’oignon et fais-le revenir pendant 4 à 5 minutes.",
+    "Fais dorer le poulet : ajoute les morceaux de poulet et fais-les revenir 4 à 5 minutes en remuant.",
+    "Ajoute les épices : incorpore le cumin, le paprika, le curcuma, le sel et le poivre. Mélange pendant environ 30 secondes pour libérer les arômes.",
+    "Lance la cuisson : ajoute les tomates concassées, les carottes, la courge et 400 ml de bouillon. Mélange, couvre et laisse mijoter à feu doux pendant 20 minutes en remuant de temps en temps.",
+    "Vérifie la cuisson : prolonge de 10 à 15 minutes si nécessaire, jusqu’à ce que la courge et les carottes soient tendres et le poulet bien cuit à cœur. Ajoute un peu de bouillon si la sauce réduit trop.",
+    "Prépare la semoule : verse les 240 g de semoule dans un saladier. Ajoute la quantité d’eau bouillante indiquée sur le paquet, couvre 5 minutes, puis égrène avec une fourchette.",
+    "Sers : répartis la semoule dans quatre assiettes, ajoute le tajine et sa sauce, et termine avec un peu de coriandre fraîche si tu aimes."
+   ],
+   "tip": "Un tajine parfumé au cumin, au paprika et au curcuma. Valeurs calculées sans pois chiches ; elles varient selon la semoule, le bouillon et les produits utilisés.",
+   "addedOn": "2026-10-18",
+   "kcal": 535,
+   "p": 46.0,
+   "c": 71.2,
+   "f": 6.8,
+   "rev": 1
+  },
+  "pates-poulet-courgettes-epinards": {
+   "order": 16,
+   "title": "Pâtes crémeuses poulet, courgettes et épinards",
+   "origin": "Plat · Pâtes",
+   "servings": 4,
+   "hue": "#7FA05A",
+   "tags": [
+    "Plat",
+    "Rapide",
+    "Riche en protéines"
+   ],
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Courgettes",
+     "q": 600,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Épinards frais ou surgelés",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Crème de soja",
+     "q": 100,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      175,
+      1.5,
+      3,
+      17
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 20,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 5,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ],
+     "g": "Sauce"
+    },
+    {
+     "n": "Ail",
+     "q": 10,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      130,
+      6,
+      28,
+      0.5
+     ],
+     "g": "Sauce",
+     "note": "environ 2 gousses"
+    },
+    {
+     "n": "Sel, poivre et herbes de Provence",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "g": "Sauce",
+     "note": "au goût"
+    },
+    {
+     "n": "Pâtes sèches",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ],
+     "g": "Accompagnement",
+     "part": "side",
+     "mc": [
+      131,
+      5,
+      25,
+      1.1
+     ]
+    }
+   ],
+   "steps": [
+    "Fais cuire les pâtes : porte une grande casserole d’eau salée à ébullition et cuis les pâtes selon les indications du paquet. Avant de les égoutter, réserve 150 ml d’eau de cuisson.",
+    "Prépare les ingrédients : coupe le poulet en petits morceaux, les courgettes en demi-rondelles et hache l’ail.",
+    "Fais cuire le poulet : dans une grande sauteuse, chauffe les 5 g d’huile d’olive. Ajoute le poulet et fais-le dorer pendant 6 à 8 minutes en remuant régulièrement.",
+    "Ajoute les courgettes : incorpore les courgettes et l’ail. Assaisonne avec du poivre et des herbes de Provence, puis laisse cuire 6 à 8 minutes.",
+    "Incorpore les épinards : ajoute les épinards et poursuis la cuisson quelques minutes, jusqu’à ce qu’ils soient tendres et chauds. Si tu utilises des épinards surgelés, laisse l’eau excédentaire s’évaporer.",
+    "Prépare la sauce : baisse le feu, verse les 100 ml de crème de soja et ajoute le parmesan. Mélange doucement.",
+    "Rends la sauce onctueuse : ajoute progressivement 100 à 150 ml d’eau de cuisson des pâtes, jusqu’à obtenir la consistance souhaitée. Laisse chauffer 2 à 3 minutes sans faire bouillir fortement.",
+    "Mélange et sers : ajoute les pâtes égouttées dans la sauteuse, mélange bien pour les enrober de sauce, goûte et rectifie l’assaisonnement."
+   ],
+   "tip": "La crème de soja apporte du goût, et l’eau de cuisson donne une sauce onctueuse. L’eau de cuisson ne change pratiquement pas les calories du plat.",
+   "addedOn": "2026-10-18",
+   "kcal": 474,
+   "p": 42.5,
+   "c": 51.7,
+   "f": 10.4,
+   "rev": 1
   }
  },
  "plans": {
