@@ -13840,6 +13840,6487 @@
    "order": 1033,
    "addedOn": "2026-10-18",
    "rev": 1
+  },
+  "cuisses-poulet-airfryer": {
+   "title": "Cuisses de poulet croustillantes à l'airfryer",
+   "origin": "Airfryer · Poulet",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Cuisses de poulet sans peau",
+     "q": 800,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 5,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 120,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 15,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Sel, poivre, herbes",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange paprika, ail écrasé, huile, sel et poivre.",
+    "Enrobe les cuisses.",
+    "Place-les dans le panier de l'airfryer.",
+    "Cuis 22 minutes à 190 °C en retournant à mi-cuisson (ou 35 minutes au four à 210 °C).",
+    "Mélange yaourt, citron et herbes.",
+    "Sers avec la sauce."
+   ],
+   "tip": "Laisse reposer 3 minutes avant de couper pour garder le jus.",
+   "kcal": 262,
+   "p": 47.5,
+   "c": 2.9,
+   "f": 6.1,
+   "order": 1100,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "frites-patate-douce-airfryer": {
+   "title": "Frites de patate douce à l'airfryer",
+   "origin": "Airfryer · Accompagnement",
+   "servings": 2,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Patate douce",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      86,
+      1.6,
+      20,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 10,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Coupe la patate douce en bâtonnets.",
+    "Rince et sèche-les.",
+    "Enrobe de maïzena, huile et paprika.",
+    "Cuis 18 minutes à 200 °C en secouant.",
+    "Mélange le yaourt avec du sel et du poivre.",
+    "Sers aussitôt."
+   ],
+   "tip": "La maïzena rend les frites plus croustillantes.",
+   "kcal": 301,
+   "p": 6.1,
+   "c": 57.4,
+   "f": 5.9,
+   "order": 1101,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "plaque-poulet-haricots-tomates": {
+   "title": "Poulet, haricots verts et tomates cerises sur plaque",
+   "origin": "Four · Plaque",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Haricots verts",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      31,
+      1.8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Thym, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 210 °C.",
+    "Mélange huile, moutarde, ail et thym.",
+    "Enrobe le poulet en lamelles.",
+    "Dispose sur une plaque avec haricots et tomates.",
+    "Enfourne 22 minutes.",
+    "Mélange et sers."
+   ],
+   "tip": "Une seule plaque, zéro vaisselle.",
+   "kcal": 249,
+   "p": 37.3,
+   "c": 7.4,
+   "f": 6.5,
+   "order": 1102,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "plaque-saucisses-pdt-poivrons": {
+   "title": "Saucisses de volaille, pommes de terre et poivrons sur plaque",
+   "origin": "Four · Plaque",
+   "servings": 4,
+   "hue": "#6FA06A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Saucisses de volaille",
+     "q": 400,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      180,
+      16,
+      2,
+      12
+     ]
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 600,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 12,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Thym, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 210 °C.",
+    "Coupe les pommes de terre en dés, poivrons et oignons en lanières.",
+    "Enrobe d'huile et d'épices.",
+    "Dispose avec les saucisses sur une plaque.",
+    "Enfourne 30 minutes en retournant.",
+    "Sers chaud."
+   ],
+   "tip": "Les saucisses de volaille réduisent les graisses.",
+   "kcal": 358,
+   "p": 20.2,
+   "c": 34.7,
+   "f": 15.5,
+   "order": 1103,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "boeuf-carottes-mijoteuse": {
+   "title": "Bœuf aux carottes à la mijoteuse",
+   "origin": "Mijoteuse · Bœuf",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 480,
+   "ingredients": [
+    {
+     "n": "Bœuf (rumsteck ou bavette)",
+     "q": 650,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      130,
+      22,
+      0,
+      5
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 200,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Thym, laurier, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Coupe le bœuf en gros cubes.",
+    "Dispose-le avec carottes, oignon et ail dans la mijoteuse.",
+    "Ajoute tomates, bouillon et herbes.",
+    "Cuis 8 heures à basse température (ou 2 h 30 en cocotte à feu doux).",
+    "Rectifie l'assaisonnement.",
+    "Sers avec des pommes de terre."
+   ],
+   "tip": "Parfait à lancer avant de partir travailler.",
+   "kcal": 294,
+   "p": 38.2,
+   "c": 18.7,
+   "f": 8.6,
+   "order": 1104,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "poulet-citron-herbes-mijoteuse": {
+   "title": "Poulet citron-herbes à la mijoteuse",
+   "origin": "Mijoteuse · Poulet",
+   "servings": 4,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 300,
+   "ingredients": [
+    {
+     "n": "Cuisses de poulet sans peau",
+     "q": 800,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 40,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 4,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 150,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Thym, romarin, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Place l'oignon et l'ail au fond.",
+    "Dépose le poulet assaisonné.",
+    "Ajoute citron, herbes et bouillon.",
+    "Cuis 5 heures à basse température (ou 45 minutes en cocotte).",
+    "Effiloche.",
+    "Mélange avec le jus."
+   ],
+   "tip": "La viande se détache toute seule.",
+   "kcal": 240,
+   "p": 46.7,
+   "c": 4.5,
+   "f": 3.1,
+   "order": 1105,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-pates-tomate-basilic": {
+   "title": "One-pot pasta tomate-basilic",
+   "origin": "One-pot · Pâtes",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Pâtes sèches",
+     "q": 320,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 30,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Basilic, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mets les pâtes, tomates, oignon, ail et huile dans une grande casserole.",
+    "Ajoute 600 ml d'eau et du sel.",
+    "Porte à ébullition puis cuis 12 minutes en remuant.",
+    "L'eau doit être presque absorbée.",
+    "Ajoute le basilic.",
+    "Parsème de parmesan."
+   ],
+   "tip": "Remue souvent pour éviter que les pâtes collent.",
+   "kcal": 378,
+   "p": 14.4,
+   "c": 65.3,
+   "f": 6.0,
+   "order": 1106,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-pates-courgettes-citron": {
+   "title": "One-pot pâtes aux courgettes et au citron",
+   "origin": "One-pot · Pâtes",
+   "servings": 4,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Pâtes sèches",
+     "q": 320,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Courgettes",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 40,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 40,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Basilic, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir courgettes et ail dans l'huile.",
+    "Ajoute les pâtes et 600 ml d'eau chaude.",
+    "Cuis 11 minutes.",
+    "Ajoute zeste et jus de citron.",
+    "Hors du feu, ajoute le parmesan.",
+    "Parsème de basilic."
+   ],
+   "tip": "Le parmesan fond avec l'amidon des pâtes pour une sauce crémeuse.",
+   "kcal": 372,
+   "p": 14.9,
+   "c": 62.1,
+   "f": 6.8,
+   "order": 1107,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-gnocchis-epinards-tomates": {
+   "title": "One-pot gnocchis, épinards et tomates",
+   "origin": "One-pot · Gnocchis",
+   "servings": 2,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 20,
+   "ingredients": [
+    {
+     "n": "Gnocchis",
+     "q": 350,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      150,
+      3.5,
+      32,
+      0.5
+     ]
+    },
+    {
+     "n": "Épinards",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Mozzarella",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Basilic, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir l'ail dans l'huile.",
+    "Ajoute tomates et gnocchis.",
+    "Cuis 8 minutes en remuant.",
+    "Ajoute les épinards.",
+    "Parsème de mozzarella.",
+    "Couvre 2 minutes."
+   ],
+   "tip": "Les gnocchis du frigo se cuisent directement dans la sauce.",
+   "kcal": 432,
+   "p": 15.8,
+   "c": 66.2,
+   "f": 11.2,
+   "order": 1108,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-boulgour-merguez": {
+   "title": "One-pot boulgour aux merguez de dinde",
+   "origin": "One-pot · Céréales",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Boulgour",
+     "q": 260,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      345,
+      12,
+      69,
+      1.5
+     ]
+    },
+    {
+     "n": "Merguez de dinde",
+     "q": 300,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      200,
+      17,
+      2,
+      14
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Pois chiches cuits",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      120,
+      8,
+      17,
+      2.5
+     ]
+    },
+    {
+     "n": "Harissa",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      80,
+      3,
+      10,
+      4
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 500,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Coriandre, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Dore les merguez, coupe-les en tronçons.",
+    "Fais revenir oignon et poivron.",
+    "Ajoute boulgour, tomates, pois chiches, harissa et bouillon.",
+    "Couvre et cuis 15 minutes.",
+    "Laisse gonfler 5 minutes.",
+    "Parsème de coriandre."
+   ],
+   "tip": "Dose la harissa selon ton goût.",
+   "kcal": 485,
+   "p": 26.7,
+   "c": 63.8,
+   "f": 13.4,
+   "order": 1109,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-riz-mexicaine": {
+   "title": "One-pot riz à la mexicaine",
+   "origin": "One-pot · Mexique",
+   "servings": 4,
+   "hue": "#6FA06A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Riz basmati",
+     "q": 260,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ]
+    },
+    {
+     "n": "Haricots noirs cuits",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      8,
+      17,
+      0.5
+     ]
+    },
+    {
+     "n": "Maïs en conserve",
+     "q": 150,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      90,
+      3,
+      17,
+      1.5
+     ]
+    },
+    {
+     "n": "Salsa",
+     "q": 200,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      30,
+      1.3,
+      6,
+      0.2
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 400,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Avocat",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      160,
+      2,
+      2,
+      15
+     ]
+    },
+    {
+     "n": "Cumin, coriandre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir oignon et poivron.",
+    "Ajoute le riz, le cumin, la salsa et le bouillon.",
+    "Couvre et cuis 15 minutes.",
+    "Ajoute haricots et maïs.",
+    "Cuis 5 minutes.",
+    "Sers avec l'avocat."
+   ],
+   "tip": "Parfait pour garnir des tortillas le lendemain.",
+   "kcal": 403,
+   "p": 13.1,
+   "c": 74.8,
+   "f": 4.8,
+   "order": 1110,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-dal-riz": {
+   "title": "One-pot dal de lentilles et riz",
+   "origin": "One-pot · Inde",
+   "servings": 4,
+   "hue": "#C9503A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Lentilles corail",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      24,
+      50,
+      2
+     ]
+    },
+    {
+     "n": "Riz basmati",
+     "q": 160,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Curry en poudre",
+     "q": 6,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      325,
+      14,
+      58,
+      14
+     ]
+    },
+    {
+     "n": "Gingembre frais",
+     "q": 10,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      80,
+      1.8,
+      18,
+      0.8
+     ]
+    },
+    {
+     "n": "Épinards",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ]
+    },
+    {
+     "n": "Coriandre, curcuma, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir oignon et gingembre.",
+    "Ajoute épices, lentilles, riz et tomates.",
+    "Verse 800 ml d'eau.",
+    "Cuis 22 minutes en remuant.",
+    "Ajoute les épinards.",
+    "Assaisonne et sers."
+   ],
+   "tip": "Ajoute de l'eau si la consistance épaissit trop.",
+   "kcal": 356,
+   "p": 17.4,
+   "c": 63.4,
+   "f": 1.8,
+   "order": 1111,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-couscous-legumes-ete": {
+   "title": "One-pot couscous aux légumes d'été",
+   "origin": "One-pot · Céréales",
+   "servings": 4,
+   "hue": "#9A6AA0",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 20,
+   "ingredients": [
+    {
+     "n": "Semoule de couscous",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Courgettes",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Pois chiches cuits",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      120,
+      8,
+      17,
+      2.5
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 400,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Menthe, cumin, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais sauter les légumes en dés dans l'huile 6 minutes.",
+    "Ajoute les pois chiches et le cumin.",
+    "Verse le bouillon chaud.",
+    "Hors du feu, ajoute la semoule.",
+    "Couvre 5 minutes.",
+    "Égrène à la fourchette et ajoute la menthe."
+   ],
+   "tip": "Un repas en 15 minutes.",
+   "kcal": 351,
+   "p": 14.4,
+   "c": 60.9,
+   "f": 5.6,
+   "order": 1112,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "poulet-pdt-moutarde-cocotte": {
+   "title": "Poulet-pommes de terre à la moutarde en cocotte",
+   "origin": "One-pot · Cocotte",
+   "servings": 4,
+   "hue": "#4F9A8A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 700,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 700,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 200,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Crème fraîche légère 15 %",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      150,
+      3,
+      4,
+      14
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Thym, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Dore le poulet dans la cocotte.",
+    "Ajoute l'oignon et les pommes de terre.",
+    "Mélange moutarde et bouillon, verse.",
+    "Couvre et cuis 35 minutes.",
+    "Ajoute la crème.",
+    "Cuis 5 minutes."
+   ],
+   "tip": "Les pommes de terre absorbent le jus de cuisson.",
+   "kcal": 387,
+   "p": 45.0,
+   "c": 33.8,
+   "f": 7.3,
+   "order": 1113,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-riz-thon-tomates": {
+   "title": "One-pot riz au thon et aux tomates",
+   "origin": "One-pot · Riz",
+   "servings": 4,
+   "hue": "#C97A8A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Rapide"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Riz basmati",
+     "q": 260,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Olives noires",
+     "q": 40,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      0.8,
+      6,
+      11
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 400,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Origan, persil",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir l'oignon.",
+    "Ajoute le riz, les tomates et le bouillon.",
+    "Couvre et cuis 15 minutes.",
+    "Ajoute thon émietté et olives.",
+    "Cuis 3 minutes.",
+    "Parsème d'origan."
+   ],
+   "tip": "Un plat de placard économique.",
+   "kcal": 348,
+   "p": 22.8,
+   "c": 57.6,
+   "f": 2.7,
+   "order": 1114,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "pasta-e-fagioli": {
+   "title": "Pasta e fagioli",
+   "origin": "One-pot · Italie",
+   "servings": 4,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Haricots blancs cuits",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      100,
+      7,
+      15,
+      0.5
+     ]
+    },
+    {
+     "n": "Pâtes sèches",
+     "q": 150,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Céleri branche",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      16,
+      0.7,
+      3,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 700,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Romarin, parmesan, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir oignon, carotte, céleri et ail.",
+    "Ajoute tomates et bouillon.",
+    "Ajoute les haricots.",
+    "Cuis 15 minutes.",
+    "Ajoute les pâtes, cuis 10 minutes.",
+    "Sers avec du parmesan."
+   ],
+   "tip": "Écrase quelques haricots pour épaissir.",
+   "kcal": 310,
+   "p": 13.9,
+   "c": 52.2,
+   "f": 4.2,
+   "order": 1115,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "onepot-chili-lentilles": {
+   "title": "One-pot chili de lentilles",
+   "origin": "One-pot · Mexique",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Lentilles corail",
+     "q": 220,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      24,
+      50,
+      2
+     ]
+    },
+    {
+     "n": "Haricots noirs cuits",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      8,
+      17,
+      0.5
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 400,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Piment, coriandre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir oignon et poivron.",
+    "Ajoute les épices.",
+    "Verse lentilles, haricots, tomates et bouillon.",
+    "Cuis 25 minutes en remuant.",
+    "Rectifie l'assaisonnement.",
+    "Sers avec du yaourt."
+   ],
+   "tip": "Se congèle très bien.",
+   "kcal": 323,
+   "p": 20.7,
+   "c": 48.7,
+   "f": 2.3,
+   "order": 1116,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "banh-mi-poulet": {
+   "title": "Bánh mì au poulet",
+   "origin": "Asie · Vietnam",
+   "servings": 2,
+   "hue": "#6FA06A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Pain complet",
+     "q": 140,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      250,
+      9,
+      45,
+      3
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Concombre",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      0.7,
+      3,
+      0.1
+     ]
+    },
+    {
+     "n": "Mayonnaise allégée",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      300,
+      0.5,
+      6,
+      30
+     ]
+    },
+    {
+     "n": "Sauce soja",
+     "q": 15,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      60,
+      8,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Sauce de poisson",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      40,
+      5,
+      4,
+      0
+     ]
+    },
+    {
+     "n": "Coriandre, piment, citron vert",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Marine le poulet avec soja, miel et sauce de poisson 15 minutes.",
+    "Poêle-le 8 minutes.",
+    "Râpe la carotte, coupe le concombre.",
+    "Ouvre le pain, tartine de mayonnaise allégée.",
+    "Garnis de poulet et de légumes.",
+    "Ajoute la coriandre et le piment."
+   ],
+   "tip": "Le pain doit être léger et croustillant.",
+   "kcal": 389,
+   "p": 36.6,
+   "c": 42.3,
+   "f": 7.1,
+   "order": 1117,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "pisto-manchego": {
+   "title": "Pisto manchego (ratatouille espagnole)",
+   "origin": "Méditerranée · Espagne",
+   "servings": 4,
+   "hue": "#9A6AA0",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 4,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Sel, poivre, paprika",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Coupe tous les légumes en dés.",
+    "Fais revenir l'oignon dans l'huile.",
+    "Ajoute poivron, courgette.",
+    "Verse les tomates, cuis 25 minutes.",
+    "Fais pocher ou cuire les œufs dessus.",
+    "Assaisonne."
+   ],
+   "tip": "Le pisto se sert chaud ou froid.",
+   "kcal": 180,
+   "p": 9.7,
+   "c": 14.0,
+   "f": 9.4,
+   "order": 1118,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "tacos-pastor-poulet": {
+   "title": "Tacos al pastor de poulet",
+   "origin": "Mexique · Rue",
+   "servings": 4,
+   "hue": "#6FA06A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Ananas",
+     "q": 150,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      50,
+      0.5,
+      13,
+      0.1
+     ]
+    },
+    {
+     "n": "Tortillas de blé",
+     "q": 8,
+     "cat": "Féculents & conserves",
+     "m": [
+      130,
+      3.5,
+      22,
+      3
+     ]
+    },
+    {
+     "n": "Oignon rouge",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Vinaigre balsamique",
+     "q": 15,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      90,
+      0.5,
+      17,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 15,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Coriandre, ail, cumin",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange paprika, ail, cumin, vinaigre, un peu de jus d'ananas.",
+    "Marine le poulet en lamelles.",
+    "Fais-le dorer 8 minutes.",
+    "Réchauffe les tortillas.",
+    "Garnis de poulet, ananas, oignon.",
+    "Ajoute coriandre et citron."
+   ],
+   "tip": "Le sucré de l'ananas équilibre le piquant.",
+   "kcal": 449,
+   "p": 36.3,
+   "c": 52.1,
+   "f": 10.1,
+   "order": 1119,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "tajine-boulettes-oeufs": {
+   "title": "Tajine de boulettes et œufs",
+   "origin": "Afrique · Maroc",
+   "servings": 4,
+   "hue": "#C97A8A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Viande hachée 5 %",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 500,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 4,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Pains pita",
+     "q": 2,
+     "cat": "Féculents & conserves",
+     "m": [
+      160,
+      5,
+      32,
+      1
+     ]
+    },
+    {
+     "n": "Coriandre, persil, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange viande, oignon haché, persil, cumin.",
+    "Forme des boulettes.",
+    "Fais mijoter les tomates avec les épices 10 minutes.",
+    "Plonge les boulettes, cuis 15 minutes.",
+    "Casse les œufs dessus.",
+    "Couvre 5 minutes."
+   ],
+   "tip": "Se mange avec du pain pour saucer.",
+   "kcal": 374,
+   "p": 37.2,
+   "c": 25.1,
+   "f": 14.3,
+   "order": 1120,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "lentilles-coco-epinards": {
+   "title": "Lentilles vertes, coco et épinards",
+   "origin": "Végétarien · Plat",
+   "servings": 4,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Lentilles vertes cuites",
+     "q": 500,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      9,
+      16,
+      0.5
+     ]
+    },
+    {
+     "n": "Lait de coco allégé",
+     "q": 200,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      75,
+      0.8,
+      2,
+      7.5
+     ]
+    },
+    {
+     "n": "Épinards",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Curry en poudre",
+     "q": 6,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      325,
+      14,
+      58,
+      14
+     ]
+    },
+    {
+     "n": "Gingembre frais",
+     "q": 8,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      80,
+      1.8,
+      18,
+      0.8
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Coriandre, citron, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir oignon et gingembre.",
+    "Ajoute le curry.",
+    "Verse lentilles et lait de coco.",
+    "Mijote 12 minutes.",
+    "Ajoute les épinards.",
+    "Termine avec du citron."
+   ],
+   "tip": "Se sert seul ou avec du riz.",
+   "kcal": 229,
+   "p": 13.7,
+   "c": 26.7,
+   "f": 6.8,
+   "order": 1121,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "burger-lentilles-betterave": {
+   "title": "Burgers lentilles-betterave",
+   "origin": "Végétarien · Burger",
+   "servings": 4,
+   "hue": "#9A6AA0",
+   "tags": [
+    "Plat"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Lentilles vertes cuites",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      9,
+      16,
+      0.5
+     ]
+    },
+    {
+     "n": "Betterave cuite",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      45,
+      1.7,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Pains à burger",
+     "q": 4,
+     "cat": "Féculents & conserves",
+     "m": [
+      160,
+      5.5,
+      29,
+      2.5
+     ]
+    },
+    {
+     "n": "Salade verte",
+     "q": 60,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Persil, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mixe lentilles, betterave, oignon, avoine, œuf, cumin.",
+    "Forme 4 steaks.",
+    "Cuis 20 minutes à 200 °C.",
+    "Toaste les pains.",
+    "Garnis de salade et de yaourt.",
+    "Ajoute les steaks."
+   ],
+   "tip": "La betterave donne une belle couleur rouge.",
+   "kcal": 352,
+   "p": 17.4,
+   "c": 55.7,
+   "f": 5.8,
+   "order": 1122,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "tian-aubergine-tomate": {
+   "title": "Tian d'aubergines et tomates",
+   "origin": "Végétarien · Four",
+   "servings": 4,
+   "hue": "#4F9A8A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Aubergine",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      25,
+      1,
+      5,
+      0.2
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Mozzarella",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Thym, basilic, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir l'oignon.",
+    "Étale-le dans un plat.",
+    "Dispose en rosace aubergines et tomates en rondelles.",
+    "Arrose d'huile, ail et thym.",
+    "Cuis 40 minutes à 180 °C.",
+    "Ajoute la mozzarella 8 minutes avant la fin."
+   ],
+   "tip": "La rosace se prépare à l'avance.",
+   "kcal": 160,
+   "p": 7.1,
+   "c": 13.1,
+   "f": 9.0,
+   "order": 1123,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "lasagnes-legumes-grilles": {
+   "title": "Lasagnes de légumes grillés",
+   "origin": "Végétarien · Four",
+   "servings": 6,
+   "hue": "#C97A8A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 70,
+   "ingredients": [
+    {
+     "n": "Feuilles de lasagne",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Courgettes",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Aubergine",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      25,
+      1,
+      5,
+      0.2
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 500,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Ricotta",
+     "q": 250,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      160,
+      11,
+      3,
+      12
+     ]
+    },
+    {
+     "n": "Mozzarella",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      250,
+      18,
+      1,
+      19
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Basilic, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Grille courgettes, aubergines, poivrons.",
+    "Fais une sauce tomate à l'oignon.",
+    "Alterne feuilles, légumes, sauce, ricotta.",
+    "Termine par la mozzarella.",
+    "Cuis 35 minutes à 190 °C.",
+    "Laisse reposer 10 minutes."
+   ],
+   "tip": "Une lasagne légère mais généreuse.",
+   "kcal": 291,
+   "p": 14.7,
+   "c": 37.2,
+   "f": 9.3,
+   "order": 1124,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "gratin-pates-brocoli-chevre": {
+   "title": "Gratin de pâtes, brocoli et chèvre",
+   "origin": "Végétarien · Gratin",
+   "servings": 4,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Plat"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Pâtes sèches",
+     "q": 280,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Brocoli",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      35,
+      2.8,
+      4,
+      0.4
+     ]
+    },
+    {
+     "n": "Bûche de chèvre",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      270,
+      17,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 300,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 25,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 40,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Muscade, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis pâtes et brocoli.",
+    "Prépare une béchamel avec lait et maïzena.",
+    "Ajoute le chèvre en dés.",
+    "Mélange avec pâtes et brocoli.",
+    "Parsème d'emmental.",
+    "Gratine 20 minutes à 200 °C."
+   ],
+   "tip": "Le chèvre apporte du caractère sans trop de calories.",
+   "kcal": 441,
+   "p": 21.2,
+   "c": 64.5,
+   "f": 9.9,
+   "order": 1125,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "poivrons-farcis-quinoa-feta": {
+   "title": "Poivrons farcis au quinoa et à la feta",
+   "origin": "Végétarien · Four",
+   "servings": 4,
+   "hue": "#6FA06A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Poivrons",
+     "q": 800,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Quinoa cuit",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      120,
+      4.4,
+      21,
+      1.9
+     ]
+    },
+    {
+     "n": "Feta",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      260,
+      14,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Menthe, persil, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Coupe les poivrons en deux et évide-les.",
+    "Mélange quinoa cuit, tomate, oignon, feta, herbes.",
+    "Remplis les poivrons.",
+    "Arrose d'huile.",
+    "Cuis 35 minutes à 190 °C.",
+    "Sers chaud."
+   ],
+   "tip": "Utilise du quinoa déjà cuit pour gagner du temps.",
+   "kcal": 246,
+   "p": 9.5,
+   "c": 30.6,
+   "f": 9.6,
+   "order": 1126,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "galettes-lentilles-corail": {
+   "title": "Galettes de lentilles corail",
+   "origin": "Végétarien · Poêle",
+   "servings": 4,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Lentilles corail",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      24,
+      50,
+      2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 30,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Curry en poudre",
+     "q": 4,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      325,
+      14,
+      58,
+      14
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 120,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Coriandre, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis les lentilles 10 minutes et égoutte.",
+    "Mélange avec oignon, carotte râpée, œuf, farine, curry.",
+    "Forme des galettes.",
+    "Dore-les 4 minutes par face.",
+    "Sers avec le yaourt.",
+    "Parsème de coriandre."
+   ],
+   "tip": "Laisse reposer la préparation 10 minutes.",
+   "kcal": 281,
+   "p": 16.1,
+   "c": 37.0,
+   "f": 6.0,
+   "order": 1127,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "galette-pois-chiches-courgette-chevre": {
+   "title": "Galette courgette-chèvre sur pâte de pois chiches",
+   "origin": "Végétarien · Poêle",
+   "servings": 2,
+   "hue": "#D0A060",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Pois chiches cuits",
+     "q": 250,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      120,
+      8,
+      17,
+      2.5
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Bûche de chèvre",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      270,
+      17,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Courgettes",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Thym, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mixe pois chiches égouttés, œufs, thym et sel.",
+    "Verse dans une poêle huilée.",
+    "Cuis 5 minutes.",
+    "Ajoute courgettes en rubans et chèvre.",
+    "Termine au grill 5 minutes.",
+    "Coupe en parts."
+   ],
+   "tip": "La base de pois chiches remplace la pâte.",
+   "kcal": 356,
+   "p": 22.6,
+   "c": 24.4,
+   "f": 19.0,
+   "order": 1128,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "salade-riz-thon-mais": {
+   "title": "Salade de riz au thon, maïs et poivron",
+   "origin": "Salade · Meal prep",
+   "servings": 4,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Riz basmati",
+     "q": 260,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Maïs en conserve",
+     "q": 150,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      90,
+      3,
+      17,
+      1.5
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 30,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Persil, moutarde, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis le riz et refroidis-le.",
+    "Coupe poivron et tomate.",
+    "Émiette le thon.",
+    "Mélange avec le maïs.",
+    "Prépare la vinaigrette huile-citron-moutarde.",
+    "Assemble."
+   ],
+   "tip": "Rince le riz à l'eau froide pour qu'il reste détaché.",
+   "kcal": 389,
+   "p": 22.9,
+   "c": 61.5,
+   "f": 5.7,
+   "order": 1129,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "salade-lentilles-chevre": {
+   "title": "Salade de lentilles, chèvre et noix",
+   "origin": "Salade · Repas",
+   "servings": 2,
+   "hue": "#9A6AA0",
+   "tags": [
+    "Plat"
+   ],
+   "min": 15,
+   "ingredients": [
+    {
+     "n": "Lentilles vertes cuites",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      9,
+      16,
+      0.5
+     ]
+    },
+    {
+     "n": "Bûche de chèvre",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      270,
+      17,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Noix",
+     "q": 20,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      650,
+      15,
+      14,
+      65
+     ]
+    },
+    {
+     "n": "Mâche",
+     "q": 60,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      20,
+      2,
+      2,
+      0.4
+     ]
+    },
+    {
+     "n": "Oignon rouge",
+     "q": 40,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Vinaigre balsamique",
+     "q": 15,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      90,
+      0.5,
+      17,
+      0
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Persil",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Égoutte les lentilles.",
+    "Fais une vinaigrette moutarde-huile-vinaigre.",
+    "Mélange avec lentilles et oignon.",
+    "Ajoute la mâche.",
+    "Dispose le chèvre en tranches et les noix.",
+    "Réchauffe 2 minutes au four."
+   ],
+   "tip": "Réchauffe le chèvre avant de servir.",
+   "kcal": 415,
+   "p": 22.9,
+   "c": 29.8,
+   "f": 21.4,
+   "order": 1130,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "salade-poulet-avocat-mais": {
+   "title": "Salade poulet-avocat-maïs",
+   "origin": "Salade · Repas",
+   "servings": 2,
+   "hue": "#4F9A8A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 20,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Avocat",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      160,
+      2,
+      2,
+      15
+     ]
+    },
+    {
+     "n": "Maïs en conserve",
+     "q": 100,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      90,
+      3,
+      17,
+      1.5
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Salade verte",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 20,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Coriandre, cumin, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis le poulet et coupe-le en lamelles.",
+    "Coupe avocat et tomates.",
+    "Mélange avec la salade et le maïs.",
+    "Prépare la sauce yaourt-citron-cumin.",
+    "Dresse.",
+    "Nappe de sauce."
+   ],
+   "tip": "Le citron évite que l'avocat noircisse.",
+   "kcal": 314,
+   "p": 34.5,
+   "c": 16.7,
+   "f": 11.6,
+   "order": 1131,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "salade-poulet-teriyaki-chou": {
+   "title": "Salade croquante poulet teriyaki",
+   "origin": "Salade · Asie",
+   "servings": 2,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Plat",
+    "Riche en protéines"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Chou blanc ou rouge",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      25,
+      1.3,
+      5.8,
+      0.1
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Concombre",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      0.7,
+      3,
+      0.1
+     ]
+    },
+    {
+     "n": "Sauce teriyaki",
+     "q": 25,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      90,
+      2,
+      19,
+      0
+     ]
+    },
+    {
+     "n": "Huile de sésame",
+     "q": 3,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Beurre de cacahuète",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      600,
+      25,
+      12,
+      50
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 15,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Coriandre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Saisis le poulet en dés.",
+    "Ajoute le teriyaki, laisse caraméliser.",
+    "Émince chou, carotte, concombre.",
+    "Mélange avec citron.",
+    "Ajoute le poulet.",
+    "Parsème de sésame et de cacahuètes."
+   ],
+   "tip": "Servie tiède, elle est très gourmande.",
+   "kcal": 268,
+   "p": 33.3,
+   "c": 17.5,
+   "f": 7.4,
+   "order": 1132,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-poulet-riz-brocoli": {
+   "title": "Meal prep poulet, riz et brocoli",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Riz basmati",
+     "q": 280,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ]
+    },
+    {
+     "n": "Brocoli",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      35,
+      2.8,
+      4,
+      0.4
+     ]
+    },
+    {
+     "n": "Sauce soja",
+     "q": 30,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      60,
+      8,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Sésame, gingembre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis le riz.",
+    "Dore le poulet en dés dans l'huile avec ail et gingembre.",
+    "Ajoute le soja.",
+    "Cuis le brocoli à la vapeur.",
+    "Répartis dans 4 boîtes.",
+    "Garde au frais 4 jours."
+   ],
+   "tip": "Un classique de sportif.",
+   "kcal": 483,
+   "p": 44.3,
+   "c": 59.7,
+   "f": 5.8,
+   "order": 1133,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-dinde-patate-douce": {
+   "title": "Meal prep dinde, patate douce et haricots verts",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#B5A04A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Escalope de dinde",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      105,
+      24,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Patate douce",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      86,
+      1.6,
+      20,
+      0.1
+     ]
+    },
+    {
+     "n": "Haricots verts",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      31,
+      1.8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 12,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Thym, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Rôtis la patate douce en dés 25 minutes.",
+    "Dore la dinde avec les épices.",
+    "Cuis les haricots verts.",
+    "Répartis dans 4 boîtes.",
+    "Ajoute un filet d'huile.",
+    "Garde 4 jours au frais."
+   ],
+   "tip": "Réchauffe 2 minutes au micro-ondes.",
+   "kcal": 325,
+   "p": 39.9,
+   "c": 29.4,
+   "f": 4.9,
+   "order": 1134,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-boeuf-quinoa-poivrons": {
+   "title": "Meal prep bœuf, quinoa et poivrons",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#9A6AA0",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Viande hachée 5 %",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      125,
+      21,
+      0,
+      5
+     ]
+    },
+    {
+     "n": "Quinoa sec",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      14,
+      64,
+      6
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Paprika",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      282,
+      14,
+      54,
+      13
+     ]
+    },
+    {
+     "n": "Cumin",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      375,
+      18,
+      44,
+      22
+     ]
+    },
+    {
+     "n": "Sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis le quinoa.",
+    "Fais revenir oignon et poivrons.",
+    "Ajoute le bœuf haché et les épices.",
+    "Ajoute les tomates, cuis 12 minutes.",
+    "Mélange avec le quinoa.",
+    "Répartis en boîtes."
+   ],
+   "tip": "Ajoute de l'avocat frais le jour même.",
+   "kcal": 390,
+   "p": 35.4,
+   "c": 42.1,
+   "f": 9.9,
+   "order": 1135,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-lentilles-saucisses": {
+   "title": "Meal prep lentilles, saucisses et carottes",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#4F9A8A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Lentilles vertes cuites",
+     "q": 600,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      9,
+      16,
+      0.5
+     ]
+    },
+    {
+     "n": "Saucisses de volaille",
+     "q": 300,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      180,
+      16,
+      2,
+      12
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 120,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Thym, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis les saucisses et coupe-les.",
+    "Fais revenir oignon et carottes.",
+    "Ajoute les lentilles.",
+    "Mélange avec la moutarde.",
+    "Répartis en boîtes.",
+    "Garde 4 jours."
+   ],
+   "tip": "Les lentilles se réchauffent sans perdre en texture.",
+   "kcal": 354,
+   "p": 26.7,
+   "c": 36.0,
+   "f": 10.1,
+   "order": 1136,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-thon-pates-courgettes": {
+   "title": "Meal prep pâtes, thon et courgettes",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#C97A8A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Pâtes sèches",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 250,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Courgettes",
+     "q": 400,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Olives noires",
+     "q": 40,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      0.8,
+      6,
+      11
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Basilic, ail",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis les pâtes.",
+    "Fais sauter les courgettes à l'ail.",
+    "Ajoute les tomates.",
+    "Mélange avec thon, olives et pâtes.",
+    "Répartis en boîtes.",
+    "Garde au frais."
+   ],
+   "tip": "Se mange chaud ou froid.",
+   "kcal": 408,
+   "p": 27.3,
+   "c": 61.0,
+   "f": 5.8,
+   "order": 1137,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-poulet-curry-riz": {
+   "title": "Meal prep poulet curry-coco et riz",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Blanc de poulet",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ]
+    },
+    {
+     "n": "Lait de coco allégé",
+     "q": 200,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      75,
+      0.8,
+      2,
+      7.5
+     ]
+    },
+    {
+     "n": "Riz basmati",
+     "q": 260,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      8,
+      77,
+      0.8
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Petits pois",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      80,
+      5,
+      12,
+      0.4
+     ]
+    },
+    {
+     "n": "Curry en poudre",
+     "q": 8,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      325,
+      14,
+      58,
+      14
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Coriandre, sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir oignon et poivron.",
+    "Ajoute le poulet en dés et le curry.",
+    "Verse le lait de coco.",
+    "Cuis 15 minutes avec les petits pois.",
+    "Cuis le riz.",
+    "Répartis en boîtes."
+   ],
+   "tip": "Un curry qui se bonifie en boîte.",
+   "kcal": 494,
+   "p": 43.2,
+   "c": 62.4,
+   "f": 7.2,
+   "order": 1138,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "box-omelette-legumes": {
+   "title": "Meal prep omelettes aux légumes",
+   "origin": "Meal prep · Box",
+   "servings": 4,
+   "hue": "#6FA06A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Œufs",
+     "q": 8,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Poivrons",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      28,
+      1,
+      5.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Épinards",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ]
+    },
+    {
+     "n": "Champignons de Paris",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      22,
+      3,
+      2,
+      0.3
+     ]
+    },
+    {
+     "n": "Feta",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      260,
+      14,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir les légumes.",
+    "Bats les œufs.",
+    "Répartis légumes et feta dans un moule.",
+    "Verse les œufs.",
+    "Cuis 20 minutes à 180 °C.",
+    "Coupe en parts."
+   ],
+   "tip": "Se mange chaud ou froid.",
+   "kcal": 224,
+   "p": 17.8,
+   "c": 5.4,
+   "f": 14.8,
+   "order": 1139,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "bouchees-courgette-feta": {
+   "title": "Bouchées courgette-feta au four",
+   "origin": "Apéro · Mini",
+   "servings": 6,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Léger"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 300,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Feta",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      260,
+      14,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Menthe, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Râpe les courgettes et presse-les.",
+    "Mélange avec feta, œufs, farine.",
+    "Répartis dans un moule à mini-muffins.",
+    "Cuis 20 minutes à 190 °C.",
+    "Laisse tiédir.",
+    "Sers tiède."
+   ],
+   "tip": "Elles se congèlent bien.",
+   "kcal": 105,
+   "p": 5.9,
+   "c": 7.6,
+   "f": 5.6,
+   "order": 1140,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "roules-dinde-fromage-frais": {
+   "title": "Roulés de dinde au fromage frais",
+   "origin": "Collation · Protéines",
+   "servings": 2,
+   "hue": "#D9884A",
+   "tags": [
+    "Riche en protéines",
+    "Rapide"
+   ],
+   "min": 10,
+   "ingredients": [
+    {
+     "n": "Blanc de dinde en tranches",
+     "q": 150,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      105,
+      24,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Fromage blanc 0 %",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Concombre",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      0.7,
+      3,
+      0.1
+     ]
+    },
+    {
+     "n": "Ciboulette, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange fromage blanc et ciboulette.",
+    "Étale sur les tranches de dinde.",
+    "Ajoute un bâtonnet de concombre.",
+    "Roule.",
+    "Coupe en tronçons.",
+    "Garde au frais."
+   ],
+   "tip": "Une collation riche en protéines.",
+   "kcal": 104,
+   "p": 21.6,
+   "c": 3.1,
+   "f": 0.9,
+   "order": 1141,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "crackers-graines-maison": {
+   "title": "Crackers maison aux graines",
+   "origin": "Apéro · Salé",
+   "servings": 8,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Meal prep"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 100,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Graines de tournesol et courge",
+     "q": 40,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      580,
+      22,
+      16,
+      48
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Sel, romarin, eau",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mélange farine, graines, huile, sel.",
+    "Ajoute de l'eau jusqu'à former une pâte.",
+    "Étale très finement.",
+    "Découpe des carrés.",
+    "Cuis 15 minutes à 180 °C.",
+    "Laisse refroidir."
+   ],
+   "tip": "Se conservent 2 semaines dans une boîte.",
+   "kcal": 95,
+   "p": 2.4,
+   "c": 9.9,
+   "f": 5.1,
+   "order": 1142,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "pesto-vert-leger": {
+   "title": "Pesto vert léger",
+   "origin": "Base · Sauce",
+   "servings": 6,
+   "hue": "#C97A8A",
+   "tags": [
+    "Rapide"
+   ],
+   "min": 10,
+   "ingredients": [
+    {
+     "n": "Épinards",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ]
+    },
+    {
+     "n": "Amandes",
+     "q": 25,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      600,
+      21,
+      6,
+      53
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 25,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 25,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 1,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Basilic, citron",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Mixe épinards, basilic, amandes, parmesan, ail.",
+    "Ajoute l'huile et le citron.",
+    "Ajoute un peu d'eau.",
+    "Goûte.",
+    "Verse dans un bocal.",
+    "Garde 5 jours au frais."
+   ],
+   "tip": "Les épinards remplacent une partie du basilic.",
+   "kcal": 84,
+   "p": 2.9,
+   "c": 1.0,
+   "f": 7.6,
+   "order": 1143,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "tarte-fine-pommes-filo": {
+   "title": "Tarte fine aux pommes sur filo",
+   "origin": "Dessert · Tarte",
+   "servings": 6,
+   "hue": "#B5A04A",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Feuilles de brick ou filo",
+     "q": 80,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      290,
+      8,
+      58,
+      2
+     ]
+    },
+    {
+     "n": "Pommes",
+     "q": 600,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      52,
+      0.3,
+      13.8,
+      0.2
+     ]
+    },
+    {
+     "n": "Beurre",
+     "q": 20,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      740,
+      0.7,
+      0.5,
+      82
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 25,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      247,
+      4,
+      81,
+      1.2
+     ]
+    },
+    {
+     "n": "Amandes",
+     "q": 20,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      600,
+      21,
+      6,
+      53
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 190 °C.",
+    "Superpose 4 feuilles de filo beurrées.",
+    "Tranche finement les pommes.",
+    "Dispose-les en rosace.",
+    "Nappe de miel et de cannelle.",
+    "Cuis 25 minutes, parsème d'amandes."
+   ],
+   "tip": "Aussi fine et croustillante qu'une tarte tatin.",
+   "kcal": 149,
+   "p": 2.1,
+   "c": 25.4,
+   "f": 5.0,
+   "order": 1144,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "tarte-fraises-creme-skyr": {
+   "title": "Tarte aux fraises à la crème de skyr",
+   "origin": "Dessert · Tarte",
+   "servings": 6,
+   "hue": "#9A6AA0",
+   "tags": [
+    "Dessert",
+    "Riche en protéines"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 120,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Beurre",
+     "q": 40,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      740,
+      0.7,
+      0.5,
+      82
+     ]
+    },
+    {
+     "n": "Érythritol",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Skyr nature",
+     "q": 250,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Fraises",
+     "q": 400,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      32,
+      0.7,
+      7.7,
+      0.3
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Sable farine, beurre, érythritol, œuf et un peu d'eau.",
+    "Étale et cuis à blanc 15 minutes à 180 °C.",
+    "Fouette skyr et miel.",
+    "Étale sur le fond refroidi.",
+    "Dispose les fraises.",
+    "Place au frais."
+   ],
+   "tip": "La crème de skyr remplace la crème pâtissière.",
+   "kcal": 188,
+   "p": 8.2,
+   "c": 24.2,
+   "f": 6.8,
+   "order": 1145,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "far-breton-allege": {
+   "title": "Far breton allégé",
+   "origin": "Dessert · Bretagne",
+   "servings": 8,
+   "hue": "#C97A8A",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 60,
+   "ingredients": [
+    {
+     "n": "Lait écrémé",
+     "q": 500,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 100,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 50,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Érythritol",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Prunes",
+     "q": 150,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      46,
+      0.7,
+      11,
+      0.3
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange farine, œufs, sucres.",
+    "Ajoute le lait petit à petit.",
+    "Verse dans un plat avec les prunes.",
+    "Cuis 45 minutes.",
+    "Sers tiède ou froid."
+   ],
+   "tip": "Des pruneaux réhydratés sont aussi très bons.",
+   "kcal": 126,
+   "p": 5.9,
+   "c": 20.7,
+   "f": 2.1,
+   "order": 1146,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "cake-citron-pavot": {
+   "title": "Cake citron-pavot",
+   "origin": "Dessert · Cake",
+   "servings": 8,
+   "hue": "#D9884A",
+   "tags": [
+    "Dessert",
+    "Meal prep"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 180,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 60,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 50,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Graines de pavot, zeste de citron",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange œufs, sucre, yaourt, huile.",
+    "Ajoute jus et zeste de citron.",
+    "Incorpore farine, levure et pavot.",
+    "Verse dans un moule.",
+    "Cuis 40 minutes."
+   ],
+   "tip": "Il se bonifie le lendemain.",
+   "kcal": 172,
+   "p": 4.5,
+   "c": 25.4,
+   "f": 5.8,
+   "order": 1147,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "fondant-poires": {
+   "title": "Fondant aux poires",
+   "origin": "Dessert · Gâteau",
+   "servings": 6,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Poires",
+     "q": 400,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      57,
+      0.4,
+      15,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 80,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Coupe les poires en dés.",
+    "Mélange œufs, sucre, yaourt, huile.",
+    "Ajoute farine, levure et poires.",
+    "Verse dans un moule.",
+    "Cuis 30 minutes."
+   ],
+   "tip": "Se déguste tiède avec du yaourt.",
+   "kcal": 179,
+   "p": 4.5,
+   "c": 27.7,
+   "f": 5.9,
+   "order": 1148,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "crumble-abricots-amandes": {
+   "title": "Crumble abricots-amandes",
+   "origin": "Dessert · Fruits",
+   "servings": 4,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Abricots",
+     "q": 500,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      48,
+      1.4,
+      11,
+      0.4
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 60,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Poudre d'amandes",
+     "q": 30,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      610,
+      21,
+      6,
+      53
+     ]
+    },
+    {
+     "n": "Beurre",
+     "q": 30,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      740,
+      0.7,
+      0.5,
+      82
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 25,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": 1,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      247,
+      4,
+      81,
+      1.2
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Dispose les abricots coupés dans un plat.",
+    "Mélange avoine, poudre d'amandes, beurre, miel.",
+    "Émiette sur les fruits.",
+    "Cuis 30 minutes.",
+    "Sers tiède."
+   ],
+   "tip": "Moins sucré qu'un crumble classique.",
+   "kcal": 237,
+   "p": 5.4,
+   "c": 28.4,
+   "f": 11.7,
+   "order": 1149,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "crumble-banane-chocolat": {
+   "title": "Crumble banane-chocolat",
+   "origin": "Dessert · Fruits",
+   "servings": 4,
+   "hue": "#D9884A",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Bananes mûres",
+     "q": 400,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      90,
+      1,
+      20,
+      0.3
+     ]
+    },
+    {
+     "n": "Chocolat noir 70 %",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      560,
+      8,
+      35,
+      40
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 60,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Beurre",
+     "q": 25,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      740,
+      0.7,
+      0.5,
+      82
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": 1,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      247,
+      4,
+      81,
+      1.2
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Coupe les bananes en rondelles.",
+    "Ajoute le chocolat haché.",
+    "Mélange avoine, beurre, miel.",
+    "Émiette dessus.",
+    "Cuis 25 minutes."
+   ],
+   "tip": "Un dessert réconfortant.",
+   "kcal": 264,
+   "p": 3.8,
+   "c": 36.7,
+   "f": 10.5,
+   "order": 1150,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "tiramisu-fruits-rouges": {
+   "title": "Tiramisu aux fruits rouges",
+   "origin": "Dessert · Italie",
+   "servings": 4,
+   "hue": "#6FA06A",
+   "tags": [
+    "Dessert",
+    "Riche en protéines"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Mascarpone",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      4.5,
+      4,
+      41
+     ]
+    },
+    {
+     "n": "Skyr nature",
+     "q": 200,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Fruits rouges",
+     "q": 250,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      45,
+      1,
+      9,
+      0.3
+     ]
+    },
+    {
+     "n": "Biscuits secs",
+     "q": 60,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      430,
+      7,
+      70,
+      14
+     ]
+    },
+    {
+     "n": "Érythritol",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Vanille",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fouette mascarpone, skyr, jaune d'œuf et érythritol.",
+    "Monte le blanc en neige et incorpore.",
+    "Écrase la moitié des fruits en coulis.",
+    "Alterne biscuits trempés dans le coulis et crème.",
+    "Garnis de fruits.",
+    "Place 4 heures au frais."
+   ],
+   "tip": "Moins calorique qu'un tiramisu classique.",
+   "kcal": 241,
+   "p": 9.9,
+   "c": 19.2,
+   "f": 13.9,
+   "order": 1151,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "creme-patissiere-legere": {
+   "title": "Crème pâtissière légère",
+   "origin": "Base · Dessert",
+   "servings": 6,
+   "hue": "#D0A060",
+   "tags": [
+    "Dessert",
+    "Meal prep"
+   ],
+   "min": 20,
+   "ingredients": [
+    {
+     "n": "Lait écrémé",
+     "q": 500,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Jaunes d'œufs",
+     "q": 3,
+     "cat": "Viandes",
+     "m": [
+      55,
+      2.7,
+      0.3,
+      4.5
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 35,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Chauffe le lait.",
+    "Fouette jaunes, sucre, maïzena.",
+    "Verse le lait chaud en fouettant.",
+    "Remets sur le feu 2 minutes.",
+    "Laisse refroidir couverte.",
+    "Utilise sur tartes ou fruits."
+   ],
+   "tip": "Elle se garde 3 jours au frais.",
+   "kcal": 104,
+   "p": 4.3,
+   "c": 16.1,
+   "f": 2.3,
+   "order": 1152,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "cookies-coco-citron": {
+   "title": "Cookies noix de coco-citron",
+   "origin": "Dessert · Cookies",
+   "servings": 10,
+   "hue": "#5B8FB0",
+   "tags": [
+    "Dessert",
+    "Meal prep"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Flocons d'avoine",
+     "q": 100,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Noix de coco râpée",
+     "q": 40,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      650,
+      6,
+      7,
+      65
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 20,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange tous les ingrédients.",
+    "Forme des boules aplaties.",
+    "Dépose sur une plaque.",
+    "Cuis 12 minutes.",
+    "Laisse refroidir."
+   ],
+   "tip": "Zeste de citron pour plus de parfum.",
+   "kcal": 102,
+   "p": 2.2,
+   "c": 9.8,
+   "f": 5.8,
+   "order": 1153,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "muffins-protein-pepites": {
+   "title": "Muffins protéinés aux pépites",
+   "origin": "Dessert · Goûter",
+   "servings": 8,
+   "hue": "#6FA06A",
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Whey vanille",
+     "q": 50,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 80,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Chocolat noir 70 %",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      560,
+      8,
+      35,
+      40
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Bananes mûres",
+     "q": 100,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      90,
+      1,
+      20,
+      0.3
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mixe whey, avoine, œufs, yaourt, banane, levure.",
+    "Ajoute le chocolat haché.",
+    "Remplis 8 moules.",
+    "Cuis 20 minutes.",
+    "Laisse refroidir."
+   ],
+   "tip": "Une collation riche en protéines.",
+   "kcal": 128,
+   "p": 8.8,
+   "c": 11.7,
+   "f": 4.8,
+   "order": 1154,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "flan-nature-oeufs": {
+   "title": "Flan aux œufs nature",
+   "origin": "Dessert · Classique",
+   "servings": 6,
+   "hue": "#C97A8A",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Lait écrémé",
+     "q": 600,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 50,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 160 °C.",
+    "Fouette œufs et sucre.",
+    "Ajoute le lait tiède et la vanille.",
+    "Verse dans un plat.",
+    "Cuis 35 minutes au bain-marie.",
+    "Laisse refroidir."
+   ],
+   "tip": "Un dessert de grand-mère très léger.",
+   "kcal": 104,
+   "p": 6.6,
+   "c": 13.5,
+   "f": 2.6,
+   "order": 1155,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "cheesecake-basque-leger": {
+   "title": "Cheesecake basque léger",
+   "origin": "Dessert · Espagne",
+   "servings": 8,
+   "hue": "#C97A8A",
+   "tags": [
+    "Dessert",
+    "Riche en protéines"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Fromage blanc 0 %",
+     "q": 400,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Skyr nature",
+     "q": 200,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Érythritol",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Maïzena",
+     "q": 20,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      0,
+      87,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 220 °C.",
+    "Mélange fromage blanc, skyr, œufs, sucres, maïzena.",
+    "Ajoute la vanille.",
+    "Verse dans un moule chemisé.",
+    "Cuis 30 minutes jusqu'à ce que le dessus brunisse.",
+    "Laisse refroidir."
+   ],
+   "tip": "Le dessus doit rester tremblotant au centre.",
+   "kcal": 93,
+   "p": 9.1,
+   "c": 10.3,
+   "f": 2.0,
+   "order": 1156,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "gateau-ricotta-citron": {
+   "title": "Gâteau à la ricotta et au citron",
+   "origin": "Dessert · Italie",
+   "servings": 8,
+   "hue": "#8A9A4A",
+   "tags": [
+    "Dessert",
+    "Meal prep"
+   ],
+   "min": 50,
+   "ingredients": [
+    {
+     "n": "Ricotta",
+     "q": 250,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      160,
+      11,
+      3,
+      12
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 60,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 80,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Jus de citron",
+     "q": 40,
+     "u": "ml",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      25,
+      0.4,
+      7,
+      0.2
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Zeste de citron",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange ricotta, œufs, sucre, citron.",
+    "Ajoute farine et levure.",
+    "Verse dans un moule.",
+    "Cuis 35 minutes.",
+    "Laisse tiédir."
+   ],
+   "tip": "Très moelleux et peu sucré.",
+   "kcal": 144,
+   "p": 6.8,
+   "c": 16.4,
+   "f": 5.8,
+   "order": 1157,
+   "addedOn": "2026-10-19",
+   "rev": 1
+  },
+  "mini-cheesecakes-fruits-rouges": {
+   "title": "Mini-cheesecakes aux fruits rouges",
+   "origin": "Dessert · Frais",
+   "servings": 6,
+   "hue": "#D9884A",
+   "tags": [
+    "Dessert",
+    "Riche en protéines"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Fromage blanc 0 %",
+     "q": 300,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      45,
+      8,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Skyr nature",
+     "q": 150,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Biscuits secs",
+     "q": 60,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      430,
+      7,
+      70,
+      14
+     ]
+    },
+    {
+     "n": "Fruits rouges",
+     "q": 150,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      45,
+      1,
+      9,
+      0.3
+     ]
+    },
+    {
+     "n": "Gélatine",
+     "q": 4,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      340,
+      85,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 25,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Écrase les biscuits et tasse-les dans des verrines.",
+    "Fais fondre la gélatine.",
+    "Mélange fromage blanc, skyr, miel, gélatine.",
+    "Verse sur les biscuits.",
+    "Place 3 heures au frais.",
+    "Garnis de fruits rouges."
+   ],
+   "tip": "Se prépare la veille.",
+   "kcal": 107,
+   "p": 8.3,
+   "c": 15.6,
+   "f": 1.6,
+   "order": 1158,
+   "addedOn": "2026-10-19",
+   "rev": 1
   }
  },
  "plans": {
