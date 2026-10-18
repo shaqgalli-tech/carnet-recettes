@@ -1122,6 +1122,18 @@ const lsGet=(k,d)=>{try{const v=JSON.parse(localStorage.getItem(k));return v==nu
 const lsSet=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
 const PANTRY0=["huile","sel","poivre","ail","oignon","farine","sucre","miel","moutarde","sauce soja","épices","bouillon","riz","pâtes"];
 S.frigo=lsGet("carnet-frigo",[]);S.pantry=lsGet("carnet-placard",PANTRY0);S.subs={};S.subOpen=null;S.lb=null;
+function saveFrigo(){
+  lsSet("carnet-frigo",S.frigo);lsSet("carnet-placard",S.pantry);
+  if(db)db.doc("meta/frigo").set({frigo:S.frigo,pantry:S.pantry,at:Date.now()}).catch(()=>toast("Frigo non synchronisé."));
+}
+function subscribeFrigo(){
+  if(!db)return;
+  db.doc("meta/frigo").onSnapshot(snap=>{
+    if(snap.exists){const d=snap.data()||{};S.frigo=Array.isArray(d.frigo)?d.frigo:[];S.pantry=Array.isArray(d.pantry)?d.pantry:PANTRY0}
+    else saveFrigo();
+    lsSet("carnet-frigo",S.frigo);lsSet("carnet-placard",S.pantry);render();
+  },()=>{});
+}
 const stem=w=>w.replace(/(s|x)$/,"");
 const words=s=>norm(s).split(/[^a-z0-9]+/).filter(w=>w.length>1).map(stem);
 function hasTerm(name,term){
@@ -1251,10 +1263,10 @@ function lbHTML(){
 Object.assign(act,{
   fgadd:()=>{const el=$("#fg-in");if(!el)return;const v=el.value;el.value="";el.blur();addFrigo(v)},
   fgsug:d=>addFrigo(d.v),
-  fgdel:d=>{S.frigo=S.frigo.filter(t=>t!==d.v);lsSet("carnet-frigo",S.frigo);render()},
-  fgclear:()=>{S.frigo=[];lsSet("carnet-frigo",S.frigo);render()},
-  panadd:()=>{const el=$("#pan-in");if(!el)return;const v=el.value;el.value="";el.blur();String(v).split(/[,;\n]/).map(s=>s.trim()).filter(Boolean).forEach(t=>{if(!S.pantry.includes(t))S.pantry.push(t)});lsSet("carnet-placard",S.pantry);render()},
-  pandel:d=>{S.pantry=S.pantry.filter(t=>t!==d.v);lsSet("carnet-placard",S.pantry);render()},
+  fgdel:d=>{S.frigo=S.frigo.filter(t=>t!==d.v);saveFrigo();render()},
+  fgclear:()=>{S.frigo=[];saveFrigo();render()},
+  panadd:()=>{const el=$("#pan-in");if(!el)return;const v=el.value;el.value="";el.blur();String(v).split(/[,;\n]/).map(s=>s.trim()).filter(Boolean).forEach(t=>{if(!S.pantry.includes(t))S.pantry.push(t)});saveFrigo();render()},
+  pandel:d=>{S.pantry=S.pantry.filter(t=>t!==d.v);saveFrigo();render()},
   notifon:async()=>{try{await Notification.requestPermission()}catch(e){}render()},
   remhide:()=>{lsSet("carnet-remhide",iso(new Date()));render()},
   eaten:async d=>{if(!db)return;try{await db.doc("cooked/"+d.id).update({eaten:true});toast("C'est noté")}catch(e){toast("Impossible de mettre à jour.")}},
@@ -1275,7 +1287,7 @@ Object.assign(act,{
 });
 function addFrigo(v){
   String(v).split(/[,;\n]/).map(s=>s.trim()).filter(Boolean).forEach(t=>{if(!S.frigo.some(x=>norm(x)===norm(t)))S.frigo.push(t)});
-  lsSet("carnet-frigo",S.frigo);render();
+  saveFrigo();render();
 }
 document.addEventListener("keydown",e=>{
   if(e.key==="Enter"&&e.target&&e.target.id==="fg-in"){e.preventDefault();act.fgadd()}
@@ -1305,6 +1317,7 @@ async function boot(){
     S.loaded.meals=true;render();
   },()=>{S.err=true;render()});
   subscribePlan();
+  subscribeFrigo();
 }
 boot();
 })();
