@@ -6873,6 +6873,459 @@
    "order": 47,
    "addedOn": "2026-10-18",
    "rev": 1
+  },
+  "parmentier-poisson": {
+   "title": "Parmentier de poisson",
+   "origin": "Plat · France",
+   "servings": 4,
+   "hue": "#E5D6A8",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Filet de cabillaud",
+     "q": 500,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      82,
+      18,
+      0,
+      0.7
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Épinards",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      23,
+      2.9,
+      3.6,
+      0.4
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Poireaux",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      31,
+      1.5,
+      6,
+      0.3
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Crème fraîche légère 15 %",
+     "q": 80,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      150,
+      3,
+      4,
+      14
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Pommes de terre",
+     "q": 800,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      77,
+      2,
+      17,
+      0.1
+     ],
+     "g": "Purée"
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 100,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ],
+     "g": "Purée"
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 40,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ],
+     "g": "Gratin"
+    },
+    {
+     "n": "Muscade, sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Cuis les pommes de terre épluchées 20 minutes, puis écrase-les avec le lait, sel et muscade.",
+    "Préchauffe le four à 200 °C. Fais cuire le poisson 6 minutes dans de l'eau frémissante.",
+    "Fais revenir les poireaux, ajoute les épinards et la crème légère.",
+    "Émiette le poisson et mélange avec les légumes.",
+    "Étale le tout au fond d'un plat, recouvre de purée et de fromage.",
+    "Cuis 20 minutes."
+   ],
+   "tip": "Peut aussi se faire avec du saumon ou du colin.",
+   "kcal": 367,
+   "p": 33.5,
+   "c": 42.0,
+   "f": 7.2,
+   "order": 48,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "lentilles-jambon-carottes": {
+   "title": "Lentilles au jambon et aux carottes",
+   "origin": "Plat · France",
+   "servings": 4,
+   "hue": "#8A7A4E",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Lentilles vertes cuites",
+     "q": 520,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      9,
+      16,
+      0.5
+     ],
+     "note": "poids cuit, ≈ 200 g crues"
+    },
+    {
+     "n": "Jambon blanc",
+     "q": 200,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      20,
+      1,
+      3
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 600,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Moutarde",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      66,
+      4,
+      6,
+      4
+     ]
+    },
+    {
+     "n": "Thym, laurier, persil",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Fais revenir l'oignon et les carottes en dés dans l'huile 5 minutes.",
+    "Ajoute les lentilles rincées, l'ail, le bouillon, le thym et le laurier.",
+    "Laisse mijoter 25 minutes.",
+    "Coupe le jambon en dés et ajoute-le 5 minutes avant la fin.",
+    "Rectifie avec la moutarde, sel et poivre.",
+    "Sers parsemé de persil."
+   ],
+   "tip": "Les lentilles vertes ne nécessitent pas de trempage. Se réchauffent très bien.",
+   "kcal": 274,
+   "p": 23.2,
+   "c": 31.1,
+   "f": 5.2,
+   "order": 49,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "clafoutis-fruits-rouges": {
+   "title": "Clafoutis aux fruits rouges",
+   "origin": "Dessert · France",
+   "servings": 6,
+   "hue": "#B04062",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Fruits rouges",
+     "q": 400,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      45,
+      1,
+      9,
+      0.3
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 60,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 250,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 50,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 3,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Beurre",
+     "q": 10,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      740,
+      0.7,
+      0.5,
+      82
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C. Beurre un plat à gratin.",
+    "Dispose les fruits rouges dans le plat.",
+    "Fouette œufs et sucre, ajoute la farine puis le lait et la vanille.",
+    "Verse la pâte sur les fruits.",
+    "Cuis 30 à 35 minutes jusqu'à ce que le dessus soit doré.",
+    "Sers tiède ou froid."
+   ],
+   "tip": "Fruits surgelés possibles, sans les décongeler.",
+   "kcal": 161,
+   "p": 6.3,
+   "c": 23.9,
+   "f": 4.2,
+   "order": 50,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "riz-au-lait-vanille": {
+   "title": "Riz au lait vanille",
+   "origin": "Dessert · Classique",
+   "servings": 4,
+   "hue": "#EAD9A8",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 40,
+   "ingredients": [
+    {
+     "n": "Riz rond (risotto)",
+     "q": 100,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      7,
+      78,
+      0.6
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 800,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 50,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 5,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Rince le riz.",
+    "Porte le lait à frémissement avec la vanille.",
+    "Ajoute le riz et cuis 30 minutes à feu doux en remuant souvent.",
+    "Ajoute le sucre 5 minutes avant la fin.",
+    "Verse dans des ramequins.",
+    "Place au frais, saupoudre de cannelle."
+   ],
+   "tip": "Pour plus de protéines, remplace une partie du lait par du lait en poudre.",
+   "kcal": 208,
+   "p": 8.8,
+   "c": 42.0,
+   "f": 0.3,
+   "order": 51,
+   "addedOn": "2026-10-18",
+   "rev": 1
   }
  },
  "plans": {
