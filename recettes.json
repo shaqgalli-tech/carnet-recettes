@@ -7326,6 +7326,1588 @@
    "order": 51,
    "addedOn": "2026-10-18",
    "rev": 1
+  },
+  "gaufres-proteinees": {
+   "title": "Gaufres protéinées",
+   "origin": "Petit-déjeuner · Gourmand",
+   "servings": 4,
+   "hue": "#E0B25E",
+   "tags": [
+    "Dessert",
+    "Riche en protéines"
+   ],
+   "min": 20,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 120,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Whey vanille",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 250,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 3,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "n": "Skyr nature",
+     "q": 200,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ],
+     "g": "Garniture"
+    },
+    {
+     "n": "Fruits rouges",
+     "q": 150,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      45,
+      1,
+      9,
+      0.3
+     ],
+     "g": "Garniture"
+    }
+   ],
+   "steps": [
+    "Mélange farine, whey et levure.",
+    "Ajoute les œufs, le lait, l'huile et la vanille. Fouette sans grumeaux.",
+    "Laisse reposer 10 minutes.",
+    "Fais chauffer le gaufrier huilé.",
+    "Cuis les gaufres 3 à 4 minutes.",
+    "Sers avec le skyr et les fruits rouges."
+   ],
+   "tip": "Elles se congèlent et se réchauffent au grille-pain.",
+   "kcal": 283,
+   "p": 21.9,
+   "c": 31.5,
+   "f": 7.5,
+   "order": 52,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "mug-cake-chocolat": {
+   "title": "Mug cake chocolat protéiné",
+   "origin": "Dessert · Express",
+   "servings": 1,
+   "hue": "#4E2E24",
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Rapide"
+   ],
+   "min": 5,
+   "ingredients": [
+    {
+     "n": "Flocons d'avoine",
+     "q": 30,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Whey vanille",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ]
+    },
+    {
+     "n": "Cacao en poudre non sucré",
+     "q": 8,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      330,
+      20,
+      15,
+      21
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 0.5,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 1,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 50,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Chocolat noir 70 %",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      560,
+      8,
+      35,
+      40
+     ]
+    }
+   ],
+   "steps": [
+    "Mélange l'avoine, la whey, le cacao et la levure dans un mug.",
+    "Ajoute l'œuf et le lait.",
+    "Remue jusqu'à obtenir une pâte lisse.",
+    "Ajoute les morceaux de chocolat.",
+    "Cuis 1 minute 15 au micro-ondes.",
+    "Laisse reposer 1 minute."
+   ],
+   "tip": "Surveille la cuisson : trop longue, elle sèche.",
+   "kcal": 362,
+   "p": 29.8,
+   "c": 27.5,
+   "f": 14.0,
+   "order": 53,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "granola-maison": {
+   "title": "Granola maison",
+   "origin": "Petit-déjeuner · Four",
+   "servings": 10,
+   "hue": "#C99A56",
+   "tags": [
+    "Meal prep"
+   ],
+   "min": 35,
+   "ingredients": [
+    {
+     "n": "Flocons d'avoine",
+     "q": 300,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Noix",
+     "q": 50,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      650,
+      15,
+      14,
+      65
+     ]
+    },
+    {
+     "n": "Amandes",
+     "q": 50,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      600,
+      21,
+      6,
+      53
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 60,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": 3,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      247,
+      4,
+      81,
+      1.2
+     ]
+    },
+    {
+     "n": "Sel",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 160 °C.",
+    "Mélange l'avoine, les noix, les amandes concassées, la cannelle et une pincée de sel.",
+    "Chauffe le miel avec l'huile et verse sur le mélange.",
+    "Étale sur une plaque avec du papier cuisson.",
+    "Cuis 25 minutes en remuant à mi-cuisson.",
+    "Laisse refroidir complètement : il durcit en refroidissant."
+   ],
+   "tip": "Se conserve 3 semaines en bocal. Mélange-le avec du skyr.",
+   "kcal": 220,
+   "p": 5.7,
+   "c": 24.0,
+   "f": 11.0,
+   "order": 54,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "muffins-sales-jambon-fromage": {
+   "title": "Muffins salés jambon-fromage",
+   "origin": "Collation · Salé",
+   "servings": 6,
+   "hue": "#D8B05A",
+   "tags": [
+    "Riche en protéines",
+    "Meal prep"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 120,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 2,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Jambon blanc",
+     "q": 100,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      20,
+      1,
+      3
+     ]
+    },
+    {
+     "n": "Emmental râpé",
+     "q": 60,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      380,
+      28,
+      0,
+      29
+     ]
+    },
+    {
+     "n": "Petits pois",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      80,
+      5,
+      12,
+      0.4
+     ]
+    },
+    {
+     "n": "Sel, poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange la farine et la levure.",
+    "Ajoute les œufs, le yaourt et l'huile.",
+    "Incorpore le jambon coupé, l'emmental râpé et les petits pois.",
+    "Répartis dans 6 moules à muffins.",
+    "Cuis 20 à 25 minutes."
+   ],
+   "tip": "Parfaits dans une lunchbox. Se congèlent.",
+   "kcal": 219,
+   "p": 11.7,
+   "c": 17.7,
+   "f": 11.0,
+   "order": 55,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "risotto-potiron": {
+   "title": "Risotto léger au potiron et au poulet",
+   "origin": "Plat · Italie",
+   "servings": 4,
+   "hue": "#E39A3B",
+   "tags": [
+    "Plat",
+    "Léger",
+    "Riche en protéines"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Riz rond (risotto)",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      7,
+      78,
+      0.6
+     ],
+     "part": "side"
+    },
+    {
+     "n": "Potiron ou butternut",
+     "q": 500,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      45,
+      1,
+      10,
+      0.1
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 900,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 30,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Sauge, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Blanc de poulet",
+     "q": 300,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      23,
+      0,
+      1.5
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Coupe le potiron en dés et cuis-le 15 minutes dans le bouillon. Garde le bouillon chaud.",
+    "Fais revenir l'oignon dans l'huile, ajoute le riz et nacre-le 2 minutes.",
+    "Ajoute le bouillon louche par louche pendant 18 minutes.",
+    "Écrase la moitié du potiron et ajoute-le avec le reste.",
+    "Ajoute le parmesan, sel et poivre.",
+    "Fais dorer le poulet à part et ajoute-le si tu veux plus de protéines."
+   ],
+   "tip": "Version allégée : moins de riz et de matière grasse, plus de potiron qui apporte le crémeux. Le poulet garde les protéines.",
+   "kcal": 399,
+   "p": 25.6,
+   "c": 54.9,
+   "f": 7.9,
+   "order": 56,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "minestrone": {
+   "title": "Minestrone",
+   "origin": "Plat · Italie",
+   "servings": 4,
+   "hue": "#B04A3A",
+   "tags": [
+    "Plat",
+    "Meal prep",
+    "Léger"
+   ],
+   "min": 45,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Carottes",
+     "q": 200,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      41,
+      0.9,
+      10,
+      0.2
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Pois chiches cuits",
+     "q": 250,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      120,
+      8,
+      17,
+      2.5
+     ]
+    },
+    {
+     "n": "Pâtes sèches",
+     "q": 100,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ]
+    },
+    {
+     "n": "Bouillon de volaille",
+     "q": 900,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0.3,
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Parmesan râpé",
+     "q": 30,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      400,
+      36,
+      0,
+      28
+     ]
+    },
+    {
+     "n": "Basilic, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    }
+   ],
+   "steps": [
+    "Coupe tous les légumes en petits dés.",
+    "Fais revenir l'oignon et la carotte dans l'huile 5 minutes.",
+    "Ajoute les courgettes, les tomates et le bouillon.",
+    "Laisse mijoter 20 minutes.",
+    "Ajoute les pois chiches et les pâtes, cuis 10 minutes.",
+    "Sers avec le parmesan et le basilic."
+   ],
+   "tip": "Un bon moyen d'utiliser les légumes du frigo.",
+   "kcal": 293,
+   "p": 14.1,
+   "c": 42.7,
+   "f": 7.5,
+   "order": 57,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "galettes-courgette-feta": {
+   "title": "Galettes de courgette et feta",
+   "origin": "Plat · Rapide",
+   "servings": 4,
+   "hue": "#8FB05A",
+   "tags": [
+    "Plat",
+    "Rapide"
+   ],
+   "min": 25,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 600,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Feta",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      260,
+      14,
+      1,
+      22
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Menthe, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 150,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ],
+     "g": "Accompagnement"
+    },
+    {
+     "n": "Salade verte",
+     "q": 100,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Râpe les courgettes, sale-les et presse-les dans un torchon.",
+    "Mélange-les avec les œufs, la farine et la feta émiettée.",
+    "Ajoute la menthe, le poivre.",
+    "Fais chauffer l'huile dans une poêle antiadhésive.",
+    "Cuis des petites galettes 3 minutes de chaque côté.",
+    "Sers avec le yaourt et la salade."
+   ],
+   "tip": "Presse bien les courgettes pour des galettes croustillantes.",
+   "kcal": 248,
+   "p": 13.1,
+   "c": 15.8,
+   "f": 14.8,
+   "order": 58,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "cake-sale-thon-olives": {
+   "title": "Cake salé thon, tomate et olives",
+   "origin": "Plat · Pique-nique",
+   "servings": 6,
+   "hue": "#D9B25A",
+   "tags": [
+    "Plat",
+    "Meal prep"
+   ],
+   "min": 50,
+   "ingredients": [
+    {
+     "n": "Farine",
+     "q": 180,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 125,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Thon au naturel égoutté",
+     "q": 200,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      110,
+      25,
+      0,
+      1
+     ]
+    },
+    {
+     "n": "Tomates",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      18,
+      0.9,
+      3.5,
+      0.2
+     ]
+    },
+    {
+     "n": "Olives noires",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      0.8,
+      6,
+      11
+     ]
+    },
+    {
+     "n": "Basilic, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Salade verte",
+     "q": 150,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      15,
+      1.4,
+      2,
+      0.2
+     ],
+     "g": "Accompagnement"
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C.",
+    "Mélange la farine et la levure.",
+    "Ajoute les œufs, le yaourt et l'huile.",
+    "Incorpore le thon émietté, la tomate en dés et les olives.",
+    "Verse dans un moule à cake chemisé.",
+    "Cuis 40 minutes. Sers avec la salade."
+   ],
+   "tip": "Se mange chaud ou froid, parfait en pique-nique.",
+   "kcal": 269,
+   "p": 16.0,
+   "c": 25.2,
+   "f": 11.5,
+   "order": 59,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "cookie-dough-proteine": {
+   "title": "Cookie dough protéiné sans cuisson",
+   "origin": "Collation · Sans cuisson",
+   "servings": 4,
+   "hue": "#C9A06A",
+   "tags": [
+    "Riche en protéines",
+    "Rapide"
+   ],
+   "min": 10,
+   "ingredients": [
+    {
+     "n": "Pois chiches cuits",
+     "q": 200,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      120,
+      8,
+      17,
+      2.5
+     ]
+    },
+    {
+     "n": "Whey vanille",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      385,
+      77,
+      7,
+      6
+     ]
+    },
+    {
+     "n": "Flocons d'avoine",
+     "q": 40,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      370,
+      13,
+      60,
+      7
+     ]
+    },
+    {
+     "n": "Beurre de cacahuète",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      600,
+      25,
+      12,
+      50
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 30,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Chocolat noir 70 %",
+     "q": 40,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      560,
+      8,
+      35,
+      40
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 3,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Rince et égoutte les pois chiches.",
+    "Mixe-les avec la whey, le beurre de cacahuète, le miel et la vanille jusqu'à obtenir une pâte lisse.",
+    "Ajoute l'avoine et mélange.",
+    "Incorpore les pépites de chocolat.",
+    "Place 30 minutes au frais.",
+    "Sers à la cuillère."
+   ],
+   "tip": "Le goût de pois chiches disparaît totalement. Se garde 4 jours au frigo.",
+   "kcal": 276,
+   "p": 16.3,
+   "c": 25.9,
+   "f": 11.6,
+   "order": 60,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "pudding-chocolat-skyr": {
+   "title": "Pudding chocolat-skyr",
+   "origin": "Dessert · Express",
+   "servings": 2,
+   "hue": "#4F2E22",
+   "tags": [
+    "Dessert",
+    "Riche en protéines",
+    "Léger",
+    "Rapide"
+   ],
+   "min": 5,
+   "ingredients": [
+    {
+     "n": "Skyr nature",
+     "q": 300,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      11,
+      4,
+      0.2
+     ]
+    },
+    {
+     "n": "Cacao en poudre non sucré",
+     "q": 15,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      330,
+      20,
+      15,
+      21
+     ]
+    },
+    {
+     "n": "Miel",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      320,
+      0.3,
+      80,
+      0
+     ]
+    },
+    {
+     "n": "Graines de chia",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      490,
+      17,
+      8,
+      31
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 50,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    }
+   ],
+   "steps": [
+    "Mélange le skyr avec le cacao, le miel et le lait.",
+    "Ajoute les graines de chia.",
+    "Remue bien.",
+    "Répartis dans 2 verrines.",
+    "Place au frais 2 heures.",
+    "Décore avec du cacao."
+   ],
+   "tip": "Prêt en 5 minutes. Le chia épaissit la texture.",
+   "kcal": 180,
+   "p": 19.8,
+   "c": 16.8,
+   "f": 3.4,
+   "order": 61,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "tarte-pommes-sans-pate": {
+   "title": "Tarte aux pommes sans pâte",
+   "origin": "Dessert · Gâteau",
+   "servings": 6,
+   "hue": "#D6A860",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 55,
+   "ingredients": [
+    {
+     "n": "Pommes",
+     "q": 700,
+     "u": "g",
+     "cat": "Fruits & fruits secs",
+     "m": [
+      52,
+      0.3,
+      13.8,
+      0.2
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 60,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Lait écrémé",
+     "q": 200,
+     "u": "ml",
+     "cat": "Crèmerie",
+     "m": [
+      35,
+      3.5,
+      5,
+      0.1
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 50,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Cannelle",
+     "q": 2,
+     "u": "g",
+     "cat": "Épices & assaisonnements",
+     "m": [
+      247,
+      4,
+      81,
+      1.2
+     ]
+    },
+    {
+     "n": "Arôme vanille",
+     "q": 3,
+     "u": "ml",
+     "cat": "Épicerie",
+     "m": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C. Épluche les pommes et coupe-les en fines lamelles.",
+    "Fouette œufs et sucre, ajoute la farine, le lait, la cannelle et la vanille.",
+    "Dispose les pommes dans un moule beurré.",
+    "Verse l'appareil dessus.",
+    "Cuis 40 minutes jusqu'à ce que le dessus soit doré.",
+    "Laisse tiédir avant de démouler."
+   ],
+   "tip": "Un flan aux pommes très léger, sans pâte.",
+   "kcal": 177,
+   "p": 5.7,
+   "c": 33.9,
+   "f": 2.9,
+   "order": 62,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "gateau-chocolat-courgette": {
+   "title": "Gâteau au chocolat et à la courgette",
+   "origin": "Dessert · Gâteau",
+   "servings": 8,
+   "hue": "#4F3025",
+   "tags": [
+    "Dessert"
+   ],
+   "min": 50,
+   "ingredients": [
+    {
+     "n": "Courgettes",
+     "q": 250,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      17,
+      1.2,
+      2.5,
+      0.3
+     ]
+    },
+    {
+     "n": "Chocolat noir 70 %",
+     "q": 100,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      560,
+      8,
+      35,
+      40
+     ]
+    },
+    {
+     "n": "Cacao en poudre non sucré",
+     "q": 20,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      330,
+      20,
+      15,
+      21
+     ]
+    },
+    {
+     "n": "Œufs",
+     "q": 3,
+     "cat": "Crèmerie",
+     "m": [
+      72,
+      6.3,
+      0.4,
+      5
+     ]
+    },
+    {
+     "n": "Farine",
+     "q": 120,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      350,
+      10,
+      73,
+      1.2
+     ]
+    },
+    {
+     "n": "Sucre",
+     "q": 80,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      400,
+      0,
+      100,
+      0
+     ]
+    },
+    {
+     "n": "Yaourt nature",
+     "q": 100,
+     "u": "g",
+     "cat": "Crèmerie",
+     "m": [
+      60,
+      4,
+      5,
+      3
+     ]
+    },
+    {
+     "n": "Levure chimique",
+     "q": 1,
+     "u": "sachet",
+     "cat": "Épicerie",
+     "m": [
+      5,
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "steps": [
+    "Préchauffe le four à 180 °C. Râpe la courgette et presse-la.",
+    "Fais fondre le chocolat.",
+    "Fouette les œufs avec le sucre, ajoute le yaourt et le chocolat fondu.",
+    "Ajoute la farine, le cacao et la levure.",
+    "Incorpore la courgette.",
+    "Verse dans un moule chemisé et cuis 35 minutes."
+   ],
+   "tip": "On ne sent pas du tout la courgette : elle rend le gâteau très moelleux.",
+   "kcal": 211,
+   "p": 6.2,
+   "c": 27.4,
+   "f": 8.0,
+   "order": 63,
+   "addedOn": "2026-10-18",
+   "rev": 1
+  },
+  "cabillaud-tomate-olives-semoule": {
+   "title": "Cabillaud, tomates-olives et semoule",
+   "origin": "Plat · Méditerranée",
+   "servings": 4,
+   "hue": "#E0A06A",
+   "tags": [
+    "Plat",
+    "Riche en protéines",
+    "Léger"
+   ],
+   "min": 30,
+   "ingredients": [
+    {
+     "n": "Filet de cabillaud",
+     "q": 600,
+     "u": "g",
+     "cat": "Viandes",
+     "m": [
+      82,
+      18,
+      0,
+      0.7
+     ]
+    },
+    {
+     "n": "Tomates concassées",
+     "q": 400,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      25,
+      1.3,
+      4.2,
+      0.2
+     ]
+    },
+    {
+     "n": "Olives noires",
+     "q": 50,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      115,
+      0.8,
+      6,
+      11
+     ]
+    },
+    {
+     "n": "Ail",
+     "q": 2,
+     "u": "gousse",
+     "cat": "Légumes & herbes",
+     "m": [
+      4,
+      0.2,
+      0.9,
+      0
+     ]
+    },
+    {
+     "n": "Oignon",
+     "q": 80,
+     "u": "g",
+     "cat": "Légumes & herbes",
+     "m": [
+      40,
+      1.1,
+      9,
+      0.1
+     ]
+    },
+    {
+     "n": "Huile d'olive",
+     "q": 10,
+     "u": "g",
+     "cat": "Épicerie",
+     "m": [
+      900,
+      0,
+      0,
+      100
+     ]
+    },
+    {
+     "n": "Origan, persil, sel et poivre",
+     "q": null,
+     "cat": "Épices & assaisonnements",
+     "note": "au goût"
+    },
+    {
+     "n": "Semoule de couscous",
+     "q": 240,
+     "u": "g",
+     "cat": "Féculents & conserves",
+     "m": [
+      360,
+      12.5,
+      73,
+      1.5
+     ],
+     "g": "Accompagnement",
+     "part": "side",
+     "mc": [
+      112,
+      3.8,
+      23,
+      0.2
+     ]
+    }
+   ],
+   "steps": [
+    "Fais revenir l'oignon et l'ail dans l'huile 4 minutes.",
+    "Ajoute les tomates, les olives et l'origan, laisse mijoter 10 minutes.",
+    "Dépose les filets de cabillaud dans la sauce.",
+    "Couvre et cuis 8 à 10 minutes à feu doux.",
+    "Prépare la semoule.",
+    "Sers avec le persil."
+   ],
+   "tip": "Le poisson cuit dans la sauce reste très moelleux.",
+   "kcal": 411,
+   "p": 36.2,
+   "c": 51.0,
+   "f": 6.0,
+   "order": 64,
+   "addedOn": "2026-10-18",
+   "rev": 1
   }
  },
  "plans": {
