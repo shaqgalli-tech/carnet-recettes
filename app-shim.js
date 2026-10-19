@@ -46,9 +46,14 @@
     try{var r=await fetch("recettes.json?"+Date.now(),{cache:"no-store"});if(!r.ok)return;data=await r.json()}catch(e){return}
     try{var s=await ms.get({source:"server"});if(s.exists)revs=(s.data()||{}).revs||{};var i=await mi.get({source:"server"});first=!i.exists}catch(e){return}
     var batch=fs.batch(),n=0,rv=Object.assign({},revs),changed=false;
-    Object.keys(data.recipes||{}).forEach(function(id){var d=data.recipes[id],rev=d.rev||1;if(!(id in revs)||revs[id]<rev){batch.set(fs.doc("recipes/"+id),d);rv[id]=rev;n++}});
+    var upd=[];
+    Object.keys(data.recipes||{}).forEach(function(id){var d=data.recipes[id],rev=d.rev||1;if(!(id in revs)){batch.set(fs.doc("recipes/"+id),d);rv[id]=rev;n++}else if(revs[id]<rev)upd.push(id)});
+    /* mise à jour d'une recette déjà présente : on garde tes favoris / notes / réglages, et une recette que tu as supprimée ne revient pas */
+    for(var ui=0;ui<upd.length;ui++){var uid=upd[ui],ud=data.recipes[uid],ex=true;try{var us=await fs.doc("recipes/"+uid).get();ex=!!(us&&us.exists)}catch(e){ex=true}
+      if(ex){batch.set(fs.doc("recipes/"+uid),ud,{merge:true});n++}rv[uid]=ud.rev||1}
     if(first){Object.keys(data.plans||{}).forEach(function(id){batch.set(fs.doc("plans/"+id),data.plans[id]);n++});batch.set(mi,{at:Date.now()})}
-    if(n||first){await batch.commit();changed=true}
+    if(n||first){await batch.commit()}
+    if(n||first||upd.length)changed=true
     /* correctifs ponctuels : ajoute des champs à une recette déjà présente, une seule fois (sans toucher au reste) */
     for(var pi=0;pi<(data.patches||[]).length;pi++){var pt=data.patches[pi];if(rv[pt.key])continue;try{await fs.doc("recipes/"+pt.id).update(pt.set);rv[pt.key]=1;changed=true}catch(e){}}
     if(changed)await ms.set({revs:rv,at:Date.now()});
