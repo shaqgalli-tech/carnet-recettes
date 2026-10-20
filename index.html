@@ -238,6 +238,13 @@ input[type="date"]{font:inherit;color:var(--ink);background:var(--surface);borde
 .mxrow label{min-width:0}
 .mxrow small{color:var(--muted)}
 .mxrow .hint{display:block;color:var(--muted);font-size:12.5px}
+.mxcur{display:flex;justify-content:space-between;gap:10px;align-items:center;background:color-mix(in srgb,var(--hue,#4F6E4A) 14%,var(--surface));border-radius:14px;padding:10px 14px;margin-bottom:8px}
+.mxcur b{font-family:var(--font-display);font-size:17px}.mxcur span{color:var(--muted);font-size:13px;white-space:nowrap}
+#mx-q{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px;width:100%}
+.mxh{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
+.mxopt{display:flex;justify-content:space-between;gap:10px;align-items:center;width:100%;text-align:left;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-height:46px;margin-top:6px;cursor:pointer}
+.mxopt:hover,.mxopt:focus-visible{border-color:var(--hue,#4F6E4A)}.mxopt small{color:var(--muted);white-space:nowrap}
+.mxlist{max-height:340px;overflow:auto;margin-top:2px}
 .mxres{margin-top:16px;background:color-mix(in srgb,var(--hue,#4F6E4A) 12%,var(--surface));border-radius:16px;padding:14px}
 .mxlines{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:4px;font-size:14px}
 .mxlines li{display:flex;justify-content:space-between;gap:12px}
@@ -744,6 +751,23 @@ function mxRow(key,label,hint,unit){
   const v=S.mx.vals[key];
   return '<div class="mxrow"><label for="mx-'+key+'">'+esc(label)+(hint?'<span class="hint">'+esc(hint)+'</span>':'')+'</label><input type="number" inputmode="decimal" min="0" step="any" id="mx-'+key+'" data-mx="'+key+'" value="'+(v==null?"":esc(v))+'" placeholder="0"><small>'+(unit||"g")+'</small></div>';
 }
+function mxOpt(x,star){return '<button class="mxopt" data-act="mxpick" data-id="'+esc(x.id)+'"><span>'+(star&&x.fav?"★ ":"")+esc(x.title)+'</span><small>'+Math.round(x.kcal||0)+' kcal · P '+Math.round(x.p||0)+' g</small></button>'}
+function mxList(){
+  const q=norm(String(S.mx.q||"").trim());
+  if(!q){
+    const seen=new Set(),rec=[];
+    S.meals.forEach(m=>{if(rec.length<6&&!seen.has(m.r)){const r=recipeById(m.r);if(r){seen.add(m.r);rec.push(r)}}});
+    const fav=S.recipes.filter(r=>r.fav&&!seen.has(r.id)).slice(0,8);
+    return (rec.length?'<div class="mxh">Mangées récemment</div>'+rec.map(r=>mxOpt(r)).join(""):"")+
+      (fav.length?'<div class="mxh">Favoris</div>'+fav.map(r=>mxOpt(r,1)).join(""):"")+
+      (!rec.length&&!fav.length?'<p class="note" style="margin:8px 0 0">Tape quelques lettres : titre, ingrédient ou catégorie (ex. « poulet », « riz », « dessert »).</p>':'');
+  }
+  const ws=q.split(/\s+/).filter(Boolean);
+  const hit=S.recipes.map(r=>{const t=norm(r.title||""),h=t+" "+(r.tags||[]).map(norm).join(" ")+" "+(r.ingredients||[]).map(i=>norm(i.n)).join(" ");
+    if(!ws.every(w=>h.includes(w)))return null;
+    const sc=(ws.every(w=>t.includes(w))?0:10)+(t.startsWith(ws[0])?0:3)+(r.fav?-1:0);return {r,sc}}).filter(Boolean).sort((a,b)=>a.sc-b.sc||String(a.r.title).localeCompare(String(b.r.title),"fr")).slice(0,10);
+  return hit.length?hit.map(o=>mxOpt(o.r,1)).join(""):'<p class="note" style="margin:8px 0 0">Aucune recette trouvée.</p>';
+}
 function macrosView(){
   const head=pageHead("Macros","Ce que j'ai mangé","Choisis une recette, pèse ton assiette, les macros se calculent.",'<div class="tools2"><input type="date" id="mx-date" aria-label="Jour du repas" value="'+esc(S.mx.date)+'"></div>');
   const g=gate();if(g)return head+g;
@@ -766,7 +790,8 @@ function macrosView(){
   const chip=(act,v,l,on)=>'<button class="chip" data-act="'+act+'" data-v="'+v+'" aria-pressed="'+on+'">'+l+'</button>';
   const builder='<section class="panel" style="--hue:'+hueOf(r)+'"><h3>Ajouter un repas</h3>'+
     '<div class="chips" role="group" aria-label="Moment du repas" style="margin-bottom:0">'+SLOTS.map(x=>chip("mxslot",x[0],x[1],S.mx.slot===x[0])).join("")+'</div>'+
-    '<label class="lbl" for="mx-r">Recette</label><select id="mx-r">'+S.recipes.map(x=>'<option value="'+esc(x.id)+'"'+(x.id===r.id?" selected":"")+'>'+esc(x.title)+'</option>').join("")+'</select>'+
+    '<label class="lbl" for="mx-q">Recette</label><div class="mxcur"><b>'+esc(r.title)+'</b><span>'+Math.round(r.kcal||0)+' kcal · P '+Math.round(r.p||0)+' g</span></div>'+
+    '<input type="search" id="mx-q" data-mxq="1" placeholder="Changer de recette : tape un nom, un ingrédient…" autocomplete="off" value="'+esc(S.mx.q||"")+'"><div class="mxlist" id="mxlist">'+mxList()+'</div>'+
     '<div class="chips" role="group" aria-label="Mode de saisie" style="margin:14px 0 4px">'+chip("mxmode","plat","Par plat",mode==="plat")+chip("mxmode","ing","Par ingrédient",mode==="ing")+'</div>'+
     rows+'<div class="mxres" id="mxres">'+mxResult()+'</div>'+
     '<div style="margin-top:14px"><button class="solid" data-act="mxadd">Ajouter à '+esc(dayLbl)+'</button></div></section>';
@@ -963,6 +988,7 @@ const act={
   },
   pdf:d=>{const r=recipeById(d.id);if(r)savePdf([{r,p:+d.p||(r.servings||4)}],slug(r.title))},
   pdfweek:()=>{const l=portionsByRecipe().map(x=>({r:x.r,p:x.p}));if(l.length)savePdf(l,"Recettes-semaine-"+S.week)},
+  mxpick:d=>{if(!recipeById(d.id))return;S.mx.r=d.id;S.mx.q="";S.mx.vals={};render()},
   mxslot:d=>{S.mx.slot=d.v;render()},
   mxmode:d=>{S.mx.mode=d.v;S.mx.vals={};render()},
   mxday:d=>{S.mx.date=d.d;render();window.scrollTo(0,0)},
@@ -1121,10 +1147,12 @@ function liveMacros(){
 document.addEventListener("input",e=>{
   const t=e.target;
   if(t&&t.dataset&&t.dataset.search!==undefined){S.q=t.value;const el=$("#rlist");if(el)el.innerHTML=recipeCards();return}
+  if(t&&t.dataset&&t.dataset.mxq!==undefined){S.mx.q=t.value;const el=$("#mxlist");if(el)el.innerHTML=mxList();return}
   if(t&&t.dataset&&t.dataset.mx!==undefined){S.mx.vals[t.dataset.mx]=t.value;const el=$("#mxres");if(el)el.innerHTML=mxResult();return}
   if(S.edit&&t&&t.dataset&&t.dataset.q!==undefined){const v=parseFloat(String(t.value).replace(",","."));S.edit.ing[+t.dataset.q].q=isFinite(v)&&v>=0?v:0;liveMacros()}
 });
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&S.picker){S.picker=null;render()}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&S.picker){S.picker=null;render()}
+  if(e.key==="Enter"&&e.target&&e.target.id==="mx-q"){const b=$("#mxlist .mxopt");if(b){e.preventDefault();b.click()}}});
 $("#app").addEventListener("change",async e=>{
   const t=e.target;
   if(t.dataset.fsel){const k=t.dataset.fsel;if(k==="filter")S.filter=t.value;else if(k==="tag")S.tag=t.value;else S.tmax=+t.value||0;render()}
